@@ -1,0 +1,33 @@
+.menuItemDiv{
+	width: 100%;
+	padding: 0 16px;
+	font-size: 14px;
+	margin-top: 4px;
+  margin-bottom: 4px;
+	line-height: 40px;
+  height: 40px;
+	width: calc(100% + 1px);
+	cursor: pointer;
+	transition: .2s, border .1s;
+	color: #120000;
+}
+.menuItemDiv:hover{
+	color: #1890ff;
+}
+
+.selectedMenuItem{
+	background-color: #e6f7ff;
+	border-right: 3px solid #1890ff;
+}
+
+.menuItemDiv a {
+	text-decoration: none;
+	color: #120000;
+	transition: .2s;
+}
+.menuItemDiv a:hover{
+	color: #1890ff;
+}
+.menuItemDiv:hover a{
+	color: #1890ff;
+}

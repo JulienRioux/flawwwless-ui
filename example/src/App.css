@@ -1,0 +1,36 @@
+.App {
+
+}
+
+.componentBlock{
+  padding: 4rem 0;
+}
+
+.buttonBlock button{
+	margin-right: .7rem;
+}
+.componentBlock button:last-child {
+	margin-right: 0;
+}
+
+.componentTitle {
+	margin-top: 0;
+	font-size: 2rem;
+}
+
+.componentDescr{
+	color: #595959;
+	margin-bottom: 2rem;
+}
+
+.noBorderCard{
+	background-color: #f0f2f5;
+  padding: 2rem 0 4rem;
+	margin-bottom: -4rem;
+}
+
+.bottomRightCardBtn{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: .5rem;
+}

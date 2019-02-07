@@ -1,0 +1,45 @@
+.card {
+	background-color: #fff;
+	border-radius: 2px;
+	color: #000000a6;
+	line-height: 1.5;
+	border: 1px solid #e8e8e8;
+}
+
+.cardHead{
+	border-bottom: 1px solid #e8e8e8;
+	padding: 0 1.8rem;
+	font-size: 1.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cardHeadTitle{
+	padding: 1.1rem 0;
+	font-weight: 500;
+	margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #000000d9;
+}
+
+.cardBody{
+	padding: 1.2rem 1.8rem;
+	border-radius: 2px 2px 0 0;
+}
+
+.noBorderCard{
+	border: none;
+}
+
+.cardShadow {
+	border: none;
+  box-shadow: 0 10px 48px rgba(22, 30, 42, 0.15);
+}
+
+.topRightBtn{
+	display: flex;
+	align-items: center;
+}

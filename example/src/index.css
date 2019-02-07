@@ -1,5 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  /* font-family: 'Sarabun', sans-serif; */
+	font-family: 'Heebo', sans-serif;
+	/* background-color: #f0f2f5; */
+}
+
+
+a {
+	color: #1890ff;
+	background-color: transparent;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
 }

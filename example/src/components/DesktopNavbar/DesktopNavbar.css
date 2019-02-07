@@ -1,0 +1,17 @@
+.navLogo{
+	color: #000c;
+	text-decoration: none;
+	font-size: 1.2rem;
+	transition: .15s;
+	height: 64px;
+	line-height: 64px;
+	display: flex;
+	align-items: center;
+}
+.navLogo:hover{
+	opacity: .7;
+}
+
+.flawwwlessLogo{
+	height: 1.1rem;
+}
