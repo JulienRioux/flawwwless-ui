@@ -1,6 +1,6 @@
 {
   "name": "flawwwless-library",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Flawwwless UI library for React.js.",
   "author": "JulienRioux",
   "license": "MIT",
@@ -57,5 +57,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "react-router-dom": "^4.3.1"
+  }
 }
