@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import "./App.css";
-
+import { Link } from "react-router-dom";
 import { Button, Card, Modal, Menu } from 'flawwwless-library'
 
 import Buttons from "./components/Buttons";
 import Cards from "./components/Cards";
 import DesktopNavbar from "./components/DesktopNavbar";
 import Modals from "./components/Modals";
+import Icons from "./components/Icons";
+import Messages from "./components/Messages";
 
 
 export default class App extends Component {
@@ -15,9 +17,11 @@ export default class App extends Component {
     return (
       <div className="App">
 				<DesktopNavbar />
+				<Messages />
 				<Buttons />
 			  <Cards />
 				<Modals />
+				<Icons />
 
 				<div className="container">
 					<div className="componentBlock">
@@ -28,12 +32,16 @@ export default class App extends Component {
 							defaultSelectedItem={ "3" }>
 						  <Menu.Item
 							  uniqueKey= "1">
-								<a href="/">Menu item 1</a>
+								<Link to="/1">Menu item 1</Link>
 							</Menu.Item>
 							<Menu.Item
-							  uniqueKey={ "2" }>Menu item 2</Menu.Item>
+							  uniqueKey={ "2" }>
+								<Link to="/2">Menu item 2</Link>
+							</Menu.Item>
 							<Menu.Item
-							  uniqueKey={ "3" }>Menu item 3</Menu.Item>
+							  uniqueKey={ "3" }>
+								<button onClick={ () => console.log("BUTTON") }>Menu item 3</button>
+							</Menu.Item>
 							<Menu.Item
 							  uniqueKey={ "4" }>Menu item 4</Menu.Item>
 							<Menu.Item

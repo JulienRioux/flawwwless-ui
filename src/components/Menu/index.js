@@ -19,7 +19,6 @@ class Menu extends Component {
 	static Item = Item;
 
 	render(){
-		// console.log(this.state.selectedItem);
 		const { children } = this.props;
 		const { selectedItem } = this.state;
 		// Pass props to children

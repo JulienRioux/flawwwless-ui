@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+
+.btn {
+	background: none;
+	font-size: .875rem;
+	color: #5f6368;
+	background-color: #eaeaeb;
+	height: 36px;
+	padding: 0 16px;
+	font-weight: 500;
+	cursor: pointer;
+	border-radius: 3px;
+	border: none;
+	letter-spacing: .25px;
+	transition: .15s;
+	min-width: 100px;
+	outline: none;
+}
+.btn:hover,
+.btn:focus{
+	background-color: #5f636833;
+	border: none;
+}
+.btn:focus{
+	background-color: #eaeaeb;
+	box-shadow: 0 0 0px 2px #d6d6d6;
+}
+.btn:active{
+	background-color: #eaeaeb;
+}
+
+
+@mixin btn-style($backgroundColor, $textColor) {
+	background-color: $backgroundColor;
+	color: $textColor;
+  &:hover {
+		background-color: lighten($backgroundColor, 5%);
+		border: none;
+  }
+	&:focus{
+		background-color: $backgroundColor;
+		box-shadow: 0 0 0 2px rgba($backgroundColor, .3);
+	}
+  &:active {
+    background:darken($backgroundColor, 5%);
+  }
+}
+
+
+.btnPrimary {
+	@include btn-style($primaryColor, #fff);
+}
+
+.btnSuccess{
+	@include btn-style($successColor, #fff);
+}
+
+
+.btnDanger {
+	@include btn-style($dangerColor, #fff);
+}
+
+.btnRounded{
+	border-radius: 2rem;
+}

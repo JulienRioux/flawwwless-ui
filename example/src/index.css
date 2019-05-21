@@ -13,4 +13,5 @@ a {
 	text-decoration: none;
 	outline: none;
 	cursor: pointer;
+	transition: .2s;
 }

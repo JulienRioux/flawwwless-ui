@@ -10,8 +10,13 @@ export class MenuItem extends Component {
 
 	componentDidMount(){
 		// Add an event listener when a Link is clicked inside the MenuItem so the link work when the user click on the entire menuItem div
-		document.querySelector(`.${ styles.menuItemDiv }`).addEventListener("click", () => {
-			document.querySelector(`.${ styles.menuItemDiv } a`).click();
+		const allMenuItems = document.querySelectorAll(`.${ styles.menuItemDiv }`);
+		allMenuItems.forEach(item => {
+			item.addEventListener("click", () => {
+				if(item.firstElementChild){
+					item.firstElementChild.click();
+				}
+			})
 		})
 	}
 

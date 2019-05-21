@@ -5,9 +5,11 @@ import Card from "./components/Card";
 import Navbar from "./components/Navbar";
 import Modal from "./components/Modal";
 import Menu from "./components/Menu";
+import Icon from "./components/Icon";
+import message from "./components/Message";
 
 
-import styles from './styles.css'
+import './styles.scss'
 
 export default class ExampleComponent extends Component {
   static propTypes = {
@@ -18,11 +20,11 @@ export default class ExampleComponent extends Component {
     const { text } = this.props;
 
     return (
-      <div className={ styles.test }>
+			<div className={ styles.test }>
         Example Component: { text }
       </div>
     )
   }
 }
 
-export { Button, Card, Navbar, Modal, Menu };
+export { Button, Card, Navbar, Modal, Menu, Icon, message };
