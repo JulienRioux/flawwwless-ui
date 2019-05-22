@@ -23,7 +23,7 @@
 }
 .btn:focus{
 	background-color: #eaeaeb;
-	box-shadow: 0 0 0px 2px #d6d6d6;
+	box-shadow: 0 0 0px 3px #d6d6d6;
 }
 .btn:active{
 	background-color: #eaeaeb;
@@ -34,18 +34,17 @@
 	background-color: $backgroundColor;
 	color: $textColor;
   &:hover {
-		background-color: lighten($backgroundColor, 5%);
+		background-color: lighten($backgroundColor, 5%) !important;
 		border: none;
   }
 	&:focus{
 		background-color: $backgroundColor;
-		box-shadow: 0 0 0 2px rgba($backgroundColor, .3);
+		box-shadow: 0 0 0 2.5px rgba($backgroundColor, .3);
 	}
   &:active {
     background:darken($backgroundColor, 5%);
   }
 }
-
 
 .btnPrimary {
 	@include btn-style($primaryColor, #fff);
@@ -62,4 +61,49 @@
 
 .btnRounded{
 	border-radius: 2rem;
+}
+
+
+
+@mixin btn-style-outlined($textColor) {
+	color: $textColor;
+	border: 2px solid !important;
+	background: none;
+  &:hover {
+		color: darken($textColor, 5%);
+		background-color: rgba($textColor, .05) !important;
+  }
+	&:focus{
+		background: none;
+		box-shadow: 0 0 0 2.5px rgba($textColor, .2);
+	}
+  &:active {
+		background: rgba($textColor, .2);
+  }
+}
+
+.btnOutlinedPrimary{
+	@include btn-style-outlined($primaryColor);
+}
+
+.btnOutlinedSuccess{
+	@include btn-style-outlined($successColor);
+}
+
+.btnOutlinedDanger{
+	@include btn-style-outlined($dangerColor);
+}
+
+.btnOutlined{
+	@include btn-style-outlined($defaultColor);
+}
+
+
+.loadingBtn {
+	opacity: .7;
+	pointer-events: none;
+}
+
+.loadingBtn:focus{
+	box-shadow: none !important;
 }

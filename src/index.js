@@ -7,6 +7,9 @@ import Modal from "./components/Modal";
 import Menu from "./components/Menu";
 import Icon from "./components/Icon";
 import message from "./components/Message";
+import Input from "./components/Input";
+import TextArea from "./components/Input/TextArea";
+
 
 
 import './styles.scss'
@@ -27,4 +30,14 @@ export default class ExampleComponent extends Component {
   }
 }
 
-export { Button, Card, Navbar, Modal, Menu, Icon, message };
+export {
+	Button,
+	Card,
+	Navbar,
+	Modal,
+	Menu,
+	Icon,
+	message,
+	Input,
+	TextArea
+};

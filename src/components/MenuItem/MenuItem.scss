@@ -1,0 +1,49 @@
+@import "../../styles/variables.scss";
+
+$menuItemBG: #e2f7ff;
+
+.menuItemDiv{
+	padding: 0 15px;
+	font-size: 14px;
+	margin-top: 4px;
+  margin-bottom: 4px;
+	line-height: 40px;
+  height: 40px;
+	cursor: pointer;
+	transition: .2s, border .1s;
+	color: #120000;
+  margin: 2px 1rem;
+	border-radius: 4px;
+}
+.menuItemDiv:hover{
+	// background-color: $menuItemBG;
+	background-color: lighten($primaryColor, 45%);
+}
+.menuItemDiv:active{
+	// background-color: darken($menuItemBG, 2%);
+	background-color: rgba($primaryColor, .2) !important;
+}
+
+.selectedMenuItem{
+	// background-color: $menuItemBG !important;
+	background-color: rgba($primaryColor, .1) !important;
+	color: $primaryColor;
+}
+
+.menuItemDiv a,
+.menuItemDiv button {
+	text-decoration: none;
+	color: #120000;
+	transition: .2s;
+	border: none;
+	background: none;
+	font-size: 14px;
+	padding: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+.selectedMenuItem a,
+.selectedMenuItem button{
+	color: $primaryColor;
+}

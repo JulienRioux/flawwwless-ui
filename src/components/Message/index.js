@@ -3,47 +3,24 @@ import ReactDOM from "react-dom";
 import PropTypes from 'prop-types';
 import styles from "./Messages.scss";
 import CheckMark from "../Icon/Icons/iconsSvg/CheckMarkGreen.svg";
+import Stop from "../Icon/Icons/iconsSvg/StopRed.svg";
+import Exclamation from "../Icon/Icons/iconsSvg/ExclamationBlue.svg";
+import Question from "../Icon/Icons/iconsSvg/QuestionGray.svg";
 
 
-const message = (text, type, time=2500) => {
+const message = (text, type, time=2.5) => {
+	// Transfert the time in milliseconds
+	time = time * 1000;
 	// Add an animation delay of 0.2s
 	const animationDelay = 200;
-	// Remove the alert from the dom
-	// const elem = document.querySelectorAll(`.${ styles.messageWrapper }`);
-	// if(elem[0]){
-	// 	console.log(elem);
-	// 	elem.forEach((item) => {
-	// 		item.parentNode.removeChild(item);
-	// 	})
-	// }
-
-
-	// const elem = document.querySelectorAll(`.${ styles.messageWrapper }`);
-	// if(elem[0]){
-	// 	if(elem[0].firstChild){
-	// 		// elem[0].removeChild(elem[0].firstChild)
-	// 		elem.forEach(item => {
-	// 			console.log(item.firstChild);
-	// 			item.removeChild(item.firstChild);
-	// 		})
-	// 	}
-	// }
-
-	const elem = document.querySelector(`.${ styles.messageWrapper }`);
-	// console.log(elem);
-	if(elem){
-		while(elem.firstChild){
-			console.log("ELEM", elem.firstChild);
-		  elem.removeChild(elem.firstChild);
-		}
-		// if(elem.firstChild){
-		// 	elem.removeChild(elem.firstChild)
-		// 	// elem[0].removeChild(elem[0].firstChild)
-		// 	// elem.forEach(item => {
-		// 	// 	console.log(item.firstChild);
-		// 	// 	item.removeChild(item.firstChild);
-		// 	// })
-		// }
+	// Remove the message from the dom if still there
+	const elem = document.querySelectorAll(`.${ styles.messageWrapper }`);
+	if(elem[0]){
+		// Put the display to none if there is already some messages
+		elem.forEach((item) => {
+			console.log(item);
+			item.style.display = "none";
+		})
 	}
 
 	// Create the outer div of the message (used to center the message)
@@ -54,12 +31,20 @@ const message = (text, type, time=2500) => {
 	node.className = styles.messageDiv;
 
 	// Check the message type to show the right icon
-	if(type){
-		clearTimeout(endAnim);
-		clearTimeout(removeMess);
+	if(type !== "noIcon"){
 		const domImg = document.createElement("img");
 		if(type === "success"){
 			domImg.src = CheckMark;
+		}
+		else if(type === "error"){
+			domImg.src = Stop;
+		}
+		else if(type === "question"){
+			domImg.src = Question;
+		}
+		else {
+			domImg.src = Exclamation;
+			console.log("Exclamation");
 		}
 		domImg.className = styles.msgIcon;
 		node.appendChild(domImg);

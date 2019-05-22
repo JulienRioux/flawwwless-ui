@@ -14,7 +14,7 @@
 
 .modal.hide {
   opacity: 0;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 .modalOverlay{
@@ -37,8 +37,8 @@
 
 .closeModal{
 	position: absolute;
-	top: 1rem;
-	right: 1rem;
+	top: .8rem;
+	right: .8rem;
   background: none;
   border: none;
   outline: none;
@@ -50,7 +50,39 @@
 	opacity: .6;
 }
 
-.closeIcon{
-	height: 25px;
-	width: 25px;
+
+.modalAnimationIn {
+  animation: fadeInModal .2s;
+}
+@keyframes fadeInModal{
+  from {
+		transform: translateY(15px) scale(.98);
+		opacity: 0;
+	}
+  to {
+		transform: translateY(0) scale(1);
+		opacity: 1;
+	}
+}
+
+.modal{
+	composes: modalAnimationIn;
+}
+
+.modalAnimationOut {
+  animation: fadeOutModal .2s forwards;
+}
+@keyframes fadeOutModal{
+  from {
+		transform: translateY(0) scale(1);
+		opacity: 1;
+	}
+  to {
+		transform: translateY(15px) scale(.98);
+		opacity: 0;
+	}
+}
+
+.hideModal{
+	composes: modalAnimationOut;
 }

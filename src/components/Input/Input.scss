@@ -1,0 +1,49 @@
+@import "../../styles/variables.scss";
+
+.inputWrapper{
+	position: relative;
+}
+
+.inputIcon{
+	position: absolute;
+	position: absolute;
+	left: 0;
+  padding: 2.5px 4px 0;
+	opacity: .3;
+}
+
+.inputWithIcon{
+	padding-left: 28px;
+}
+
+
+@mixin input-style($textColor, $shadowColor) {
+	outline: none;
+	font-size: 1rem;
+	padding: .3rem .6rem;
+	border-radius: 4px;
+	border: 1px solid lighten($textColor, 45%);
+	transition: .2s;
+	width: 100%;
+  &:hover {
+		border-color: lighten($textColor, 20%);
+  }
+	&:focus{
+		border-color: rgba($shadowColor, .7);
+		box-shadow: 0 0 0 3px rgba($shadowColor, .3);;
+	}
+  &:active {
+    border-color: $shadowColor;
+  }
+	&::placeholder{
+		color: lighten($textColor, 30%);
+	}
+}
+
+input{
+	@include input-style($defaultColor, $primaryColor);
+}
+
+textArea{
+	@include input-style($defaultColor, $primaryColor);
+}

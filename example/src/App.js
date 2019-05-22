@@ -9,6 +9,7 @@ import DesktopNavbar from "./components/DesktopNavbar";
 import Modals from "./components/Modals";
 import Icons from "./components/Icons";
 import Messages from "./components/Messages";
+import Inputs from "./components/Inputs";
 
 
 export default class App extends Component {
@@ -17,10 +18,12 @@ export default class App extends Component {
     return (
       <div className="App">
 				<DesktopNavbar />
+
+				<Inputs />
+			  <Modals />
 				<Messages />
 				<Buttons />
 			  <Cards />
-				<Modals />
 				<Icons />
 
 				<div className="container">
