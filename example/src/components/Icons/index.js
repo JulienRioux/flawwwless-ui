@@ -5,6 +5,27 @@ import { Icon } from 'flawwwless-library'
 const Icons = props => {
 	return (
 		<div className="container">
+			<h1 style={{ margin: "4rem 0", color: "red" }}>
+				<Icon type="star" />
+				Hello World
+				<Icon type="time" />
+				<Icon type="user" />
+				<Icon type="hand" />
+			</h1>
+
+			<div style={{ margin: "4rem 0"}}>
+				<Icon type="user" />
+				username
+			</div>
+
+			<h6 style={{ margin: "4rem 0"}}>
+				<Icon type="star" />
+				Hello World
+				<Icon type="time" />
+				<Icon type="user" />
+				<Icon type="hand" />
+			</h6>
+
 			<div className="componentBlock">
 				<h3 className="componentTitle">Icon</h3>
 				<p className="componentDescr">Semantic vector graphics.</p>

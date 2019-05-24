@@ -38,7 +38,7 @@ class Menu extends Component {
 
 		);
 		return (
-			<div style={ this.props.style } className={ styles.menuDiv } >
+			<div { ...this.props } className={ styles.menuDiv } >
 			  { childrenWithProps }
 			</div>
 		)

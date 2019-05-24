@@ -16,9 +16,27 @@ class Inputs extends Component {
 							<div className="col-lg-4 col-md-8">
 
 								<Input
+									icon="search"
+									type="text"
+									style={{ fontSize: ".8rem" }}
+									placeholder="Search something" />
+
+								<Input
+									icon="search"
+									type="text"
+									placeholder="Search something" />
+
+								<Input
 									icon="user"
 									type="text"
-									placeholder="Enter your name" />
+									style={{ fontSize: "1.5rem" }}
+									placeholder="Search something" />
+
+								<Input
+									icon="globe"
+									type="text"
+									style={{ fontSize: "2rem" }}
+									placeholder="Search something" />
 
 								<Input type="text" placeholder="This is a text input" />
 								<Input type="number" placeholder="This is a number input" />

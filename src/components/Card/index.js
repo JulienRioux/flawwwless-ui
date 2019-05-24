@@ -8,10 +8,11 @@ export default class Card extends Component {
 		children: PropTypes.node.isRequired,
 		border: PropTypes.string,
 		extra: PropTypes.node,
+		className: PropTypes.string,
 	}
 
 	render(){
-		const { border, title, children, extra } = this.props;
+		let { border, title, children, extra, className } = this.props;
 
 		let borderStyle = "";
 		if(border === "none"){
@@ -30,11 +31,15 @@ export default class Card extends Component {
 				<span className={`${ styles.topRightBtn }`}>{ topRightBtn && (topRightBtn)}</span>
 			</div>) : null;
 
+		className = className ? className : "";
 
 		return (
-			<div className={`${ styles.card } ${  borderStyle }`}>
+			<div
+				className={`${ styles.card } ${  borderStyle } ${ className }`}>
 				{ cardHeader }
-				<div className={`${ styles.cardBody }`}>
+				<div
+					{ ...this.props }
+					className={`${ styles.cardBody }`}>
 					{ children }
 				</div>
 			</div>

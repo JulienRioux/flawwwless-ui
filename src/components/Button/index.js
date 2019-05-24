@@ -32,7 +32,6 @@ class Button extends Component {
 		}
 
 		if(outlined){
-			console.log("OUTLINED");
 			if(type === "primary"){
 				typeStyle = styles.btnOutlinedPrimary;
 			} else if(type === "success"){
@@ -57,10 +56,13 @@ class Button extends Component {
 			<button
 			  onClick={ this.buttonClicked }
 			  className={`${ styles.btn } ${ typeStyle } ${ roundedClass } ${ loadingBtn }`}>
-				{ loading ? (
-					<Icon color={ loadingIconColor } size="1.5rem" type="loader" />
-				) : (
-					children
+				<span style={{ opacity: loading ? 0 : 1 }}>
+					{ children }
+				</span>
+				{ loading && (
+					<span className={ styles.loadingBtnIcon }>
+						<Icon type="loader" />
+					</span>
 				) }
 			</button>
 		)

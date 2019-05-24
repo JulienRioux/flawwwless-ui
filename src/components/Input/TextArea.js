@@ -17,10 +17,12 @@ class TextArea extends Component {
 		const className = "";
 
 		return (
-			<textarea
-				{ ...this.props }
-				className={ `${ styles.textInput } ${ className }` }
-			/>
+			<span className={ styles.inputWrapper }>
+				<textarea
+					{ ...this.props }
+					className={ `${ styles.textInput } ${ className }` }
+				/>
+			</span>
 		)
 	}
 }
