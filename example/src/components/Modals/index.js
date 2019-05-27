@@ -23,17 +23,16 @@ class Modals extends Component {
 					<h3 className="componentTitle">Modal</h3>
 					<p className="componentDescr">Do something else.</p>
 
-					<span style={{ marginRight: ".5rem"}}><Button type="success" onClick={ this.toggleModal1 }>Modal without title</Button></span>
-					<Button onClick={ this.toggleModal1 }>Modal with title</Button>
+					<span style={{ marginRight: ".5rem"}}><Button type="success" onClick={ this.toggleModal1 }>Modal with title</Button></span>
+					<Button onClick={ this.toggleModal2 }>Modal without title</Button>
 
 					<Modal
-						title="Modal title"
+						title="This is a modal with a title!"
 						isVisible={ this.state.hideModal1 }
 						toggleModal={ this.toggleModal1 }>
 						<div>
-							<h3 style={{ marginTop: 0}}>This is a modal!</h3>
-							<p>aute quem fore labore dolor noster quorum quid summis quae anim anim cillum dolor labore tempor culpa anim enim velit</p>
-							<p>minim culpa quae eram tamen magna aliqua sint veniam fore quis tempor export
+							<p>Aute quem fore labore dolor noster quorum quid summis quae anim anim cillum dolor labore tempor culpa anim enim velit</p>
+							<p>Minim culpa quae eram tamen magna aliqua sint veniam fore quis tempor export
 								aliqua summis quem summis aliqua dolore export sint tempor malis elit quae</p>
 							<div className="bottomRightCardBtn">
 								<Button onClick={ this.toggleModal1 } type="primary" round="true">OK</Button>

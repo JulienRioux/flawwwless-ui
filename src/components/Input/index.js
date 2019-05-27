@@ -59,7 +59,7 @@ class Input extends Component {
 			<span
 				style={{
 					fontSize: specifiedFontSize,
-					// opacity: iconIsReady ? 1 : 0, 
+					// opacity: iconIsReady ? 1 : 0,
 				}}
 				className={ styles.inputWrapper }>
 				<input

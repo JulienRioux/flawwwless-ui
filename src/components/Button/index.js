@@ -44,12 +44,8 @@ class Button extends Component {
 		}
 
 		let loadingBtn = "";
-		let loadingIconColor = "#fff";
 		if(loading){
 			loadingBtn = styles.loadingBtn;
-			if(!type){
-				loadingIconColor = "#5f6368";
-			}
 		}
 
 		return (

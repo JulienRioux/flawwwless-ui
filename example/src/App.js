@@ -10,6 +10,7 @@ import Modals from "./components/Modals";
 import Icons from "./components/Icons";
 import Messages from "./components/Messages";
 import Inputs from "./components/Inputs";
+import Tables from "./components/Tables";
 
 
 export default class App extends Component {
@@ -19,8 +20,9 @@ export default class App extends Component {
       <div className="App">
 				<DesktopNavbar />
 
+				<Tables />
+			  <Inputs />
 				<Icons />
-				<Inputs />
 			  <Modals />
 				<Messages />
 				<Buttons />

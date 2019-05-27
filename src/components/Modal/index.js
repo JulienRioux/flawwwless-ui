@@ -69,9 +69,7 @@ class Modal extends Component {
 		const { border, children, isVisible } = this.props;
 		let { extra, title } = this.props;
 
-		// const display = isVisible ? "block" : "none";
-		// const display = this.state.isVisible ? "block" : "none";
-		// console.log(this.state.isVisible);
+		console.log("TITLE:", this.props);
 
 		return(
 			<div>
@@ -122,6 +120,7 @@ class ModalWrapper extends Component {
 			this.state.isVisible ? (
 				<div>
 					<Modal
+						title={ this.props.title }
 						onRef={ref => (this.child = ref)}
 						isVisible={ this.props.isVisible }
 						toggleModal={ this.props.toggleModal }>
