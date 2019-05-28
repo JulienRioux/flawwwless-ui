@@ -50,6 +50,7 @@ class Button extends Component {
 
 		return (
 			<button
+				{ ...this.props }
 			  onClick={ this.buttonClicked }
 			  className={`${ styles.btn } ${ typeStyle } ${ roundedClass } ${ loadingBtn }`}>
 				<span style={{ opacity: loading ? 0 : 1 }}>

@@ -10,6 +10,8 @@ import message from "./components/Message";
 import Input from "./components/Input";
 import TextArea from "./components/Input/TextArea";
 import Table from "./components/Table";
+import Drawer from "./components/Drawer";
+
 
 
 
@@ -42,4 +44,5 @@ export {
 	Input,
 	TextArea,
 	Table,
+	Drawer,
 };

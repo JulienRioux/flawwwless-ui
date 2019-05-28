@@ -1,26 +1,27 @@
 import React from 'react';
-import { Table, Icon } from 'flawwwless-library'
+import { Table, Icon, Button } from 'flawwwless-library';
+import { Link } from "react-router-dom";
 
 const Tables = props => {
 
 
 	const tableData = {
-	  columns: ['Service', 'Cost/Unit', 'Unit', 'Units Requested'],
+	  columns: ['Service', 'Cost per Unit', 'Unit', 'Unit sold'],
 	  rows: [{
-	    'Service': 'Veterinary Assitance',
-	    'Cost/Unit': 50,
-	    'Unit': '1 Hour',
-	    'Units Requested': 12
+	    'Service': 'Web Design',
+	    'Cost per Unit': 40,
+	    'Unit': <Link to="/web-design">1 hour</Link>,
+	    'Unit sold': 10,
 	  },{
-	    'Service': 'Veterinary Assitance 2',
-	    'Cost/Unit': 50,
-	    'Unit': '1 Hour',
-	    'Units Requested': 12
+	    'Service': 'Front End Development',
+	    'Cost per Unit': 50,
+	    'Unit': <Link to="/front-end-dev">1 hour</Link>,
+	    'Unit sold': 25,
 	  },{
-	    'Service': 'Veterinary Assitance 3',
-	    'Cost/Unit': 50,
-	    'Unit': <span>Hello <Icon type="hand" /></span>,
-	    'Units Requested': 12
+	    'Service': 'Back End Development',
+	    'Cost per Unit': 50,
+	    'Unit': <Link to="/back-end-dev">1 hour</Link>,
+	    'Unit sold': 25,
 	  }]
 	}
 

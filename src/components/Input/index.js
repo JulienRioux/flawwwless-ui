@@ -49,8 +49,6 @@ class Input extends Component {
 		if(icon){
 			if(this.props.style){
 				specifiedFontSize = this.props.style.fontSize;
-				console.log("=>", specifiedFontSize);
-				console.log("*>", fontSize);
 			}
 		}
 

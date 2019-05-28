@@ -20,8 +20,8 @@ class Table extends Component {
 					<thead>
 						<tr>
 							{
-								this.props.columns.map((column) => (
-									<th>{ column }</th>
+								this.props.columns.map((column, i) => (
+									<th key={ i }>{ column }</th>
 								))
 							}
 						</tr>
@@ -29,11 +29,11 @@ class Table extends Component {
 
 					<tbody>
 						{
-							this.props.rows.map((row) => (
-								<tr>
+							this.props.rows.map((row, i) => (
+								<tr key={ i }>
 									{
-										this.props.columns.map((column) => (
-											<td>{ row[column] }</td>
+										this.props.columns.map((column, j) => (
+											<td key={ j }>{ row[column] }</td>
 										))
 									}
 								</tr>

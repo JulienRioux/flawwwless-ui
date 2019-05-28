@@ -1,0 +1,153 @@
+.drawer{
+	position: relative;
+	height: 100%;
+	width: 300px;
+	background-color: #fff;
+	z-index: 9999;
+	padding: 1rem;
+	box-shadow: 0 0 10px 10px #0001;
+	padding-top: 2.6rem;
+}
+
+.drawerWrapper{
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.drawerWrapperRight{
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.drawerOverlay{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: #0003;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
+	cursor: pointer;
+}
+
+.closeDrawer{
+	background: none;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	outline: none;
+	transition: .2s;
+}
+.closeDrawer:hover{
+	opacity: .6;
+}
+
+// .drawerWrapperRight .closeDrawer{
+// 	left: 1rem;
+// }
+
+@keyframes slideIn {
+	0%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+.drawerAnimationIn{
+	animation: slideIn .3s forwards;
+}
+.drawer{
+	composes: drawerAnimationIn;
+}
+
+
+@keyframes slideOut {
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(-100%);
+	}
+}
+.drawerAnimationOut{
+	animation: slideOut .3s forwards;
+}
+.drawerOut{
+	composes: drawerAnimationOut;
+}
+
+
+
+@keyframes slideInRight {
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+.drawerAnimationRightIn{
+	animation: slideInRight .3s forwards;
+}
+.drawerRight{
+	composes: drawerAnimationRightIn;
+}
+
+@keyframes slideOutRight {
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(100%);
+	}
+}
+.drawerAnimationOutRight{
+	animation: slideOutRight .3s forwards;
+}
+.drawerOutRight{
+	composes: drawerAnimationOutRight;
+}
+
+
+
+
+@keyframes fadeIn {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.drawerOverlayAnimIn{
+	animation: fadeIn .3s forwards;
+}
+.drawerOverlay {
+	composes: drawerOverlayAnimIn;
+}
+
+@keyframes fadeOut {
+	0%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+.drawerOverlayAnimOut{
+	animation: fadeOut .3s forwards;
+}
+.drawerOverlayOut {
+	composes: drawerOverlayAnimOut;
+}

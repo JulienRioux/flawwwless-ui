@@ -5,6 +5,17 @@
 	border: 1px solid #e8e8e8;
 }
 
+.tableWrapper .table th,
+.tableWrapper .table td {
+  border-bottom: 1px solid #e8e8e8;
+	// border-right: 1px solid #e8e8e8;
+}
+
+.tableWrapper .table td:last-child,
+.tableWrapper .table th:last-child {
+	border-right: none;
+}
+
 .table{
 	width: 100%;
 	// border: 1px solid #e8e8e8;
