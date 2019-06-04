@@ -22,7 +22,6 @@
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
-  color: #000000d9;
 }
 
 .cardBody{
@@ -32,11 +31,6 @@
 
 .noBorderCard{
 	border: none;
-}
-
-.cardShadow {
-	border: none;
-  box-shadow: 0 10px 48px rgba(22, 30, 42, 0.15);
 }
 
 .topRightBtn{

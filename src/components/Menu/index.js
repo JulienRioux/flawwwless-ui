@@ -8,15 +8,22 @@ class Menu extends Component {
 		children: PropTypes.node.isRequired,
 		style: PropTypes.object
 	}
+	static Item = Item;
+
 	state = {
-		selectedItem: this.props.defaultSelectedItem
+		selectedItem: this.props.selectedItem
 	}
 
 	changeState = (uniqueKey) => {
 		this.setState({ selectedItem: uniqueKey });
 	}
 
-	static Item = Item;
+	componentDidUpdate(prevProps){
+		// Chenge the selected item if it have changed in the app state
+		if(this.props.selectedItem !== prevProps.selectedItem){
+			this.setState({ selectedItem: this.props.selectedItem });
+		}
+	}
 
 	render(){
 		const { children } = this.props;

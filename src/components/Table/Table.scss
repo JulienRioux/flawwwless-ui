@@ -1,5 +1,9 @@
 @import "../../styles/variables.scss";
 
+.tableScroll{
+	overflow: scroll;
+}
+
 .tableWrapper{
 	border-radius: 4px;
 	border: 1px solid #e8e8e8;
@@ -8,7 +12,7 @@
 .tableWrapper .table th,
 .tableWrapper .table td {
   border-bottom: 1px solid #e8e8e8;
-	// border-right: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
 }
 
 .tableWrapper .table td:last-child,

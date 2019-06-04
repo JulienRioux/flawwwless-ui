@@ -17,6 +17,19 @@ class Drawer extends Component {
 		drawerOverlayId: `drawerOverlay_${ uid(10) }`,
 	}
 
+	closeDrawer = () => {
+		const { showDrawer } = this.props;
+		setTimeout(() => {
+			this.setState({ showDrawer });
+		}, 300);
+		if(this.props.position === "right"){
+			document.querySelector(`#${ this.state.drawerId }`).className = `${ styles.drawer } ${ styles.drawerOutRight }`;
+		} else {
+			document.querySelector(`#${ this.state.drawerId }`).className = `${ styles.drawer } ${ styles.drawerOut }`;
+		}
+		document.querySelector(`#${ this.state.drawerOverlayId }`).className = `${ styles.drawerOverlay } ${ styles.drawerOverlayOut }`;
+	}
+
 	componentDidMount(){
 		const { showDrawer } = this.props;
 		this.setState({ showDrawer });
@@ -25,17 +38,9 @@ class Drawer extends Component {
 	componentDidUpdate(prevProps){
 		const { showDrawer } = this.props;
 		// Add an animation to the drawer
-		if(this.props.showDrawer !== prevProps.showDrawer){
-			if(!this.props.showDrawer){
-				setTimeout(() => {
-					this.setState({ showDrawer });
-				}, 300);
-				if(this.props.position === "right"){
-					document.querySelector(`#${ this.state.drawerId }`).className = `${ styles.drawer } ${ styles.drawerOutRight }`;
-				} else {
-					document.querySelector(`#${ this.state.drawerId }`).className = `${ styles.drawer } ${ styles.drawerOut }`;
-				}
-				document.querySelector(`#${ this.state.drawerOverlayId }`).className = `${ styles.drawerOverlay } ${ styles.drawerOverlayOut }`;
+		if(showDrawer !== prevProps.showDrawer){
+			if(!showDrawer){
+				this.closeDrawer();
 			} else {
 				this.setState({ showDrawer });
 			}

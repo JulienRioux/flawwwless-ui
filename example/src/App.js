@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./App.css";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import { Button, Card, Modal, Menu } from 'flawwwless-library'
 
 import Buttons from "./components/Buttons";
@@ -15,13 +15,25 @@ import Drawers from "./components/Drawers";
 
 
 
-export default class App extends Component {
+class App extends Component {
+	state = {
+		selectedItem: window.location.pathname.split("/")[1],
+	}
+
+	componentDidUpdate(prevProps) {
+		if(this.props.location !== prevProps.location) {
+			// Get the right selected item for the actual path
+			this.setState({ selectedItem: window.location.pathname.split("/")[1] });
+		}
+	}
+
 
   render () {
     return (
       <div className="App">
 				<DesktopNavbar />
 
+			  <Cards />
 			  <Drawers />
 				<Tables />
 			  <Inputs />
@@ -29,7 +41,6 @@ export default class App extends Component {
 			  <Modals />
 				<Messages />
 				<Buttons />
-			  <Cards />
 
 				<div className="container">
 					<div className="componentBlock">
@@ -39,7 +50,8 @@ export default class App extends Component {
 					  <Card style={{ padding: 0 }}>
 							<Menu
 							  style={{ width: 250, padding: "1.2rem 0" }}
-								defaultSelectedItem={ "3" }>
+								selectedItem={ this.state.selectedItem }
+							>
 							  <Menu.Item
 								  uniqueKey= "1">
 									<Link to="/1">Menu item 1</Link>
@@ -50,12 +62,16 @@ export default class App extends Component {
 								</Menu.Item>
 								<Menu.Item
 								  uniqueKey={ "3" }>
-									<button onClick={ () => console.log("BUTTON") }>Menu item 3</button>
+									<Link to="/3">Menu item 3</Link>
 								</Menu.Item>
 								<Menu.Item
-								  uniqueKey={ "4" }>Menu item 4</Menu.Item>
+								  uniqueKey={ "4" }>
+									<Link to="/4">Menu item 4</Link>
+								</Menu.Item>
 								<Menu.Item
-								  uniqueKey={ "5" }>Menu item 5</Menu.Item>
+								  uniqueKey={ "5" }>
+									<Link to="/5">Menu item 5</Link>
+								</Menu.Item>
 							</Menu>
 						</Card>
 					</div>
@@ -64,3 +80,6 @@ export default class App extends Component {
     )
   }
 }
+
+
+export default withRouter(App);

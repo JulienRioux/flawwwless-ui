@@ -16,7 +16,7 @@ const Cards = props => {
 						</Card>
 					</div>
 					<div className="col-md-6">
-						<Card>
+						<Card border="none" padding="2rem 4rem 1.8rem" style={{ boxShadow: "0 6px 20px #0002" }}>
 							<h3 style={{ marginTop: ".5rem" }}>I don't have title!</h3>
 							<p>Illum sint quorum multos tempor quis esse duis sint irure summis esse</p>
 							<div className="bottomRightCardBtn">

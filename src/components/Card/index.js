@@ -7,38 +7,34 @@ export default class Card extends Component {
 		title: PropTypes.string,
 		children: PropTypes.node.isRequired,
 		border: PropTypes.string,
-		extra: PropTypes.node,
 		className: PropTypes.string,
+		padding: PropTypes.string,
 	}
 
 	render(){
-		let { border, title, children, extra, className } = this.props;
+		let { border, title, children, className, padding } = this.props;
 
 		let borderStyle = "";
 		if(border === "none"){
 			borderStyle = styles.noBorderCard;
-		} else if(border === "shadow"){
-			borderStyle = styles.cardShadow;
 		}
-
-		const topRightBtn = extra;
 
 		const cardHeader = this.props.title ? (
 			<div className={`${ styles.cardHead }`}>
 				<div className={`${ styles.cardHeadTitle }`}>
 					<span>{ title }</span>
 				</div>
-				<span className={`${ styles.topRightBtn }`}>{ topRightBtn && (topRightBtn)}</span>
 			</div>) : null;
 
 		className = className ? className : "";
 
 		return (
 			<div
+				{ ...this.props }
 				className={`${ styles.card } ${  borderStyle } ${ className }`}>
 				{ cardHeader }
 				<div
-					{ ...this.props }
+					style={ padding && { padding }}
 					className={`${ styles.cardBody }`}>
 					{ children }
 				</div>
