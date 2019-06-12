@@ -2,10 +2,26 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styles from "./MenuItem.scss";
 import Menu from "../Menu";
+import styled from "styled-components";
+import { primaryColor } from "../../styles";
+
+import ThemeContext from "../../context/themeContext";
 
 export class MenuItem extends Component {
 	static propTypes = {
 		children: PropTypes.node.isRequired
+	}
+
+	state = {
+		isHovered: false,
+	}
+
+	handleHoverOn = () => {
+		this.setState({ isHovered: true });
+	}
+
+	handleHoverOff = () => {
+		this.setState({ isHovered: false });
 	}
 
 	componentDidMount(){
@@ -20,15 +36,60 @@ export class MenuItem extends Component {
 		})
 	}
 
+
 	render(){
-		const { isSelected } = this.props;
+		const { isSelected, mainColor } = this.props;
 		const isSelectClass = isSelected ? styles.selectedMenuItem : "";
-		return(
-			<div
-			  className={ `${ styles.menuItemDiv } ${ styles[".menuItemDiv a"] } ${ isSelectClass }` }
-				onClick={ () => this.props.changeState(this.props.uniqueKey) }>
-				{ this.props.children }
-			</div>
+
+		return (
+			<ThemeContext.Consumer>
+				{
+					context => {
+						// Get the right bg color for the menu
+						let mainColor = primaryColor;
+						if(context){
+							mainColor = context.primaryColor;
+						}
+
+						let menuItemStyle;
+						if(isSelected){
+							menuItemStyle = {
+								backgroundColor: mainColor + "33",
+								color: mainColor,
+							}
+						}
+
+						// Create the hover style object
+						const hoverStyle = this.state.isHovered ? {
+							backgroundColor: mainColor + "22"
+						} : {};
+
+						// Change the color of the children if it's the item selected
+						const childCopy = isSelected ? React.cloneElement(this.props.children, {
+							style: {
+								color: mainColor
+								// animation: styles
+							}
+            }) : this.props.children;
+
+						if(isSelected){
+							console.log(childCopy);
+						}
+
+						return (
+							<div
+								className={ `${ styles.menuItemDiv } ${ styles[".menuItemDiv a"] } ${ isSelectClass }` }
+								style={{ ...menuItemStyle, ...hoverStyle }}
+								onClick={ () => this.props.changeState(this.props.uniqueKey) }
+								onMouseEnter={ this.handleHoverOn }
+								onMouseLeave={ this.handleHoverOff }
+								>
+									<span className={ styles.menuItemWrapper }>{ childCopy }</span>
+							</div>
+						)
+					}
+				}
+			</ThemeContext.Consumer>
 		)
 	}
 }

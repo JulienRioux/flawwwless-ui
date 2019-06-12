@@ -20,8 +20,8 @@ const Cards = props => {
 							<h3 style={{ marginTop: ".5rem" }}>I don't have title!</h3>
 							<p>Illum sint quorum multos tempor quis esse duis sint irure summis esse</p>
 							<div className="bottomRightCardBtn">
-							  <span  style={{ marginRight: ".5rem" }}><Button>Go back</Button></span>
-							  <Button type="success">Submit</Button>
+							  <span style={{ marginRight: ".5rem" }}><Button outlined type="primary">Go back</Button></span>
+							  <Button type="primary">Submit</Button>
 							</div>
 						</Card>
 					</div>

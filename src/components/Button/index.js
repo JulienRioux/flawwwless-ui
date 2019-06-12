@@ -1,7 +1,11 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 import styles from "./Button.scss";
 import Icon from "../Icon";
+import getBtnStyle from "./getBtnStyle";
+
+import ThemeContext from "../../context/themeContext";
+
 
 class Button extends Component {
 	static propTypes = {
@@ -10,13 +14,15 @@ class Button extends Component {
 		round: PropTypes.boolean,
 	}
 
+
 	buttonClicked = (e) => {
 		e.persist();
 		this.props.onClick && this.props.onClick();
 	}
 
 	render(){
-		const { children, type, round, outlined, loading } = this.props;
+		const { children, type, round, outlined, loading, colors } = this.props;
+
 		let typeStyle = "";
 		if(type === "primary"){
 			typeStyle = styles.btnPrimary;
@@ -49,19 +55,28 @@ class Button extends Component {
 		}
 
 		return (
-			<button
-				{ ...this.props }
-			  onClick={ this.buttonClicked }
-			  className={`${ styles.btn } ${ typeStyle } ${ roundedClass } ${ loadingBtn }`}>
-				<span style={{ opacity: loading ? 0 : 1 }}>
-					{ children }
-				</span>
-				{ loading && (
-					<span className={ styles.loadingBtnIcon }>
-						<Icon type="loader" />
-					</span>
-				) }
-			</button>
+				<ThemeContext.Consumer>
+					{ context => {
+						// Get the right style for the button
+						const CustomButton = getBtnStyle(type, outlined, context, colors);
+
+						return (
+							<CustomButton
+								{ ...this.props }
+								onClick={ this.buttonClicked }
+								className={`${ styles.btn } ${ typeStyle } ${ roundedClass } ${ loadingBtn }`}>
+								<span style={{ opacity: loading ? 0 : 1 }}>
+									{ children }
+								</span>
+								{ loading && (
+									<span className={ styles.loadingBtnIcon }>
+										<Icon type="loader" />
+									</span>
+								) }
+							</CustomButton>
+						)
+					} }
+				</ThemeContext.Consumer>
 		)
 	}
 }

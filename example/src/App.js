@@ -72,6 +72,10 @@ class App extends Component {
 								  uniqueKey={ "5" }>
 									<Link to="/5">Menu item 5</Link>
 								</Menu.Item>
+								<Menu.Item
+								  uniqueKey={ "6" }>
+									<button>Menu item 6</button>
+								</Menu.Item>
 							</Menu>
 						</Card>
 					</div>

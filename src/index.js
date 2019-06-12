@@ -11,11 +11,7 @@ import Input from "./components/Input";
 import TextArea from "./components/Input/TextArea";
 import Table from "./components/Table";
 import Drawer from "./components/Drawer";
-
-// overrideColors function to change the main colors
-// import overrideColors
-
-
+import ThemeProvider from "./components/ThemeProvider";
 
 
 import './styles.scss'
@@ -48,4 +44,5 @@ export {
 	TextArea,
 	Table,
 	Drawer,
+	ThemeProvider,
 };

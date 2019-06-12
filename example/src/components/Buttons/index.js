@@ -37,7 +37,11 @@ class Buttons extends Component {
 							<Button
 								type="success">Success</Button>
 							<Button type="danger">Danger</Button>
-						  <Button type="primary" loading>Loading</Button>
+							<Button
+								colors={{
+									mainColor: "#e056fd",
+									secondColor: "#fff",
+								}}>Custom</Button>
 						</div>
 					</Card>
 
@@ -49,6 +53,11 @@ class Buttons extends Component {
 							<Button type="primary" round>Primary</Button>
 							<Button type="success" round>Success</Button>
 							<Button type="danger" round>Danger</Button>
+							<Button
+								colors={{
+									mainColor: "#00BCD4",
+									secondColor: "#fff",
+								}} round>Custom</Button>
 						</div>
 					</Card>
 
@@ -56,9 +65,16 @@ class Buttons extends Component {
 					<Card>
 						<div style={{ margin: ".5rem 0" }} className="buttonBlock">
 							<Button outlined >Default</Button>
-							<Button loading outlined type="primary">Primary</Button>
+							<Button outlined type="primary">Primary</Button>
 							<Button outlined type="success" round>Success</Button>
 							<Button outlined type="danger" round>Danger</Button>
+								<Button
+									round
+									outlined
+									colors={{
+										mainColor: "#151515",
+										secondColor: "#ffffff",
+									}} round>Custom</Button>
 						</div>
 					</Card>
 				</div>

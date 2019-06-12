@@ -18,7 +18,7 @@
 }
 .btn:hover,
 .btn:focus{
-	background-color: #5f636833;
+	// background-color: #5f636833;
 	border: none;
 }
 .btn:focus{
@@ -34,15 +34,15 @@
 	background-color: $backgroundColor;
 	color: $textColor;
   &:hover {
-		background-color: lighten($backgroundColor, 5%) !important;
+		// background-color: lighten($backgroundColor, 5%) !important;
 		border: none;
   }
 	&:focus{
-		background-color: $backgroundColor;
-		box-shadow: 0 0 0 2.5px rgba($backgroundColor, .3);
+		// background-color: $backgroundColor;
+		// box-shadow: 0 0 0 2.5px rgba($backgroundColor, .3);
 	}
   &:active {
-    background:darken($backgroundColor, 5%);
+    // background:darken($backgroundColor, 5%);
   }
 }
 
@@ -66,19 +66,19 @@
 
 
 @mixin btn-style-outlined($textColor) {
-	color: $textColor;
+	// color: $textColor;
 	border: 2px solid !important;
 	background: none;
   &:hover {
-		color: darken($textColor, 5%);
-		background-color: rgba($textColor, .05) !important;
+		// color: darken($textColor, 5%);
+		// background-color: rgba($textColor, .05) !important;
   }
 	&:focus{
 		background: none;
-		box-shadow: 0 0 0 2.5px rgba($textColor, .2);
+		// box-shadow: 0 0 0 2.5px rgba($textColor, .2);
 	}
   &:active {
-		background: rgba($textColor, .2);
+		// background: rgba($textColor, .2);
   }
 }
 

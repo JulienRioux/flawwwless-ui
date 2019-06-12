@@ -16,18 +16,17 @@ $menuItemBG: #e2f7ff;
 	border-radius: 4px;
 }
 .menuItemDiv:hover{
-	// background-color: $menuItemBG;
-	background-color: lighten($primaryColor, 45%);
+	// background-color: lighten($primaryColor, 45%);
 }
 .menuItemDiv:active{
 	// background-color: darken($menuItemBG, 2%);
-	background-color: rgba($primaryColor, .2) !important;
+	// background-color: rgba($primaryColor, .2) !important;
 }
 
 .selectedMenuItem{
 	// background-color: $menuItemBG !important;
-	background-color: rgba($primaryColor, .1) !important;
-	color: $primaryColor;
+	// background-color: rgba($primaryColor, .1) !important;
+	// color: $primaryColor;
 }
 
 .menuItemDiv a,
@@ -41,9 +40,26 @@ $menuItemBG: #e2f7ff;
 	padding: 0;
 	outline: none;
 	cursor: pointer;
+	height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.menuItemDiv:hover a,
+.menuItemDiv:hover button {
+	text-decoration: none;
+	color: #120000;
 }
 
 .selectedMenuItem a,
 .selectedMenuItem button{
-	color: $primaryColor;
+	// color: $primaryColor;
+}
+
+.menuItemWrapper{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }

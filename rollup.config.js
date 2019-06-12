@@ -35,5 +35,7 @@ export default {
     }),
     resolve(),
     commonjs()
-  ]
+  ],
+	external: ['styled-components'],
+	globals: { 'styled-components': 'styled' },
 }

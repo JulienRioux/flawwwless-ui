@@ -3,6 +3,10 @@ import PropTypes from 'prop-types';
 import styles from "./Input.scss";
 import Icon from "../Icon";
 import uid from "uid";
+import styled from "styled-components";
+import { primaryColor } from "../../styles";
+
+import ThemeContext from "../../context/themeContext";
 
 
 class Input extends Component {
@@ -54,37 +58,62 @@ class Input extends Component {
 
 
 		return (
-			<span
-				style={{
-					fontSize: specifiedFontSize,
-					// opacity: iconIsReady ? 1 : 0,
-				}}
-				className={ styles.inputWrapper }>
-				<input
-					{ ...this.props }
-					id={ this.state.inputId }
-					className={ `${ className } ${ inputWithIcon }` }
-					style={{
-						...this.props.style,
-						paddingLeft: `${ `calc(${ fontSize } * 1.5)` }`,
-					}}
-				/>
+			<ThemeContext.Consumer>
+				{ context => {
+					// Get the right style for the input
+					let mainColor = primaryColor;
 
-				{
-					icon && (
+					// Check if there is an existing context (custom theming)
+					if(context){
+						mainColor = context.primaryColor;
+					}
+
+					// Get the right style for the button
+					const CustomInput = styled.input`
+						:focus {
+							border-color: ${ mainColor }bb !important;
+							box-shadow: 0 0 0 3px ${ mainColor }40  !important;
+						}
+						:active {
+							border-color: ${ mainColor } !important;
+						}
+					`;
+
+					return (
 						<span
 							style={{
-								paddingTop: `${ `calc(${ fontSize } * 0)` }`,
-								fontSize: fontSize,
+								fontSize: specifiedFontSize,
+								// opacity: iconIsReady ? 1 : 0,
 							}}
-							className={ styles.inputIcon }>
-							<Icon
-								type={ icon }
+							className={ styles.inputWrapper }>
+							<CustomInput
+								{ ...this.props }
+								id={ this.state.inputId }
+								className={ `${ className } ${ inputWithIcon }` }
+								style={{
+									...this.props.style,
+									paddingLeft: `${ `calc(${ fontSize } * 1.5)` }`,
+								}}
 							/>
+
+							{
+								icon && (
+									<span
+										style={{
+											paddingTop: `${ `calc(${ fontSize } * 0)` }`,
+											fontSize: fontSize,
+										}}
+										className={ styles.inputIcon }>
+										<Icon
+											type={ icon }
+										/>
+									</span>
+								)
+							}
 						</span>
 					)
-				}
-			</span>
+				} }
+			</ThemeContext.Consumer>
 		)
 	}
 }
