@@ -19,7 +19,8 @@ class Modal extends Component {
 	}
 
 	// Make the opacity disseapear before closing the modal
-	closeModal = (fromWrapper=false) => {
+	closeModal = (fromWrapper = false) => {
+		this.setState({ isClosing: true });
 		setTimeout(() => {
 			this.props.toggleModal();
 			// document.querySelector("#modalOverlay").className = `${ styles.modalOverlay } ${ styles.hide }`;
@@ -33,11 +34,12 @@ class Modal extends Component {
 		document.querySelector("#modal").className = `${ styles.modal } ${ styles.hideModal }`;
 	}
 
-	escFunction = (e) => {
-    if(e.keyCode === 27) {
-      this.closeModal();
-    }
-  }
+	// escFunction = (e) => {
+	// 	// prevent if the user is clicking and pressing on esc button
+	// 	if(e.keyCode === 27){
+	// 		this.closeModal();
+	// 	}
+  // }
 
 	componentDidMount(){
 
@@ -48,7 +50,7 @@ class Modal extends Component {
 			document.querySelector("#modal").className = styles.modal;
 		}, 10);
 		// Add escape key event to close the modal
-		document.addEventListener("keydown", this.escFunction, false);
+		// document.addEventListener("keydown", this.escFunction, false);
 		this.setState({ isVisible: this.props.isVisible });
 	}
 
@@ -60,7 +62,7 @@ class Modal extends Component {
 	}
 
 	componentWillUnmount(){
-    document.removeEventListener("keydown", this.escFunction, false);
+    // document.removeEventListener("keydown", this.escFunction, false);
 		this.props.onRef(undefined);
   }
 
@@ -68,7 +70,6 @@ class Modal extends Component {
 		const { border, children, isVisible } = this.props;
 		let { extra, title } = this.props;
 
-		console.log("TITLE:", this.props);
 
 		return(
 			<div>

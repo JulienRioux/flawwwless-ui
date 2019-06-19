@@ -33,12 +33,12 @@ class App extends Component {
       <div className="App">
 				<DesktopNavbar />
 
+			  <Modals />
 			  <Cards />
 			  <Drawers />
 				<Tables />
 			  <Inputs />
 				<Icons />
-			  <Modals />
 				<Messages />
 				<Buttons />
 
