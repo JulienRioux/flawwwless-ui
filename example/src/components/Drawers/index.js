@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Drawer, Button, Menu } from 'flawwwless-library';
+import { Drawer, Button, Menu } from "flwww";
 
 class Drawers extends Component {
 	state = {

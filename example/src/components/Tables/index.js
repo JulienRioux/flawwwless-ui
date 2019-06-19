@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Icon, Button } from 'flawwwless-library';
+import { Table, Icon, Button } from "flwww";
 import { Link } from "react-router-dom";
 
 const Tables = props => {

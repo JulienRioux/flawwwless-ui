@@ -12,9 +12,10 @@ import TextArea from "./components/Input/TextArea";
 import Table from "./components/Table";
 import Drawer from "./components/Drawer";
 import ThemeProvider from "./components/ThemeProvider";
+import { Row, Container, Col } from "./components/Layout";
 
+import styles from "./styles.scss";
 
-import './styles.scss'
 
 export default class ExampleComponent extends Component {
   static propTypes = {
@@ -45,4 +46,7 @@ export {
 	Table,
 	Drawer,
 	ThemeProvider,
+	Container,
+	Row,
+	Col,
 };

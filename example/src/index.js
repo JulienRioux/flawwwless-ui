@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from "react-router-dom";
-import { ThemeProvider } from "flawwwless-library";
+import { ThemeProvider } from "flwww";
 
 import './index.css';
 import App from './App';

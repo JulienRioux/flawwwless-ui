@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from 'flawwwless-library'
+import { Icon } from "flwww";
 
 
 const Icons = props => {

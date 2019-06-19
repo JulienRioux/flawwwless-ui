@@ -49,3 +49,31 @@
 	justify-content: space-between;
 	font-size: 2.5rem;
 }
+
+.displayCol,
+.displayBgCol{
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: .3rem 0;
+	color: #fff;
+	font-size: 1.1rem;
+}
+
+.displayBgCol{
+	background-color: #0001;
+	border-radius: 0;
+}
+
+.displayCol{
+	background-color: #07bbffbb;
+	border-radius: .2rem;
+}
+
+.rowOverlay{
+  position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}

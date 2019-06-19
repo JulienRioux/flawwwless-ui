@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card } from 'flawwwless-library'
+import { Button, Card } from "flwww";
 
 
 const Cards = props => {

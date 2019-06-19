@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Card, message } from 'flawwwless-library';
+import { Button, Card, message } from "flwww";
 
 
 class Messages extends Component {

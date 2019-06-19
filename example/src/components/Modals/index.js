@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Modal, Button } from 'flawwwless-library'
+import { Modal, Button } from "flwww";
 
 
 class Modals extends Component {

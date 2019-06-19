@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Card, Input, TextArea } from 'flawwwless-library';
+import { Button, Card, Input, TextArea } from "flwww";
 import "./Input.css";
 
 

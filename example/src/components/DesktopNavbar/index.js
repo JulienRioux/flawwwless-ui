@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Navbar } from 'flawwwless-library';
+import { Button, Navbar } from "flwww";
 import "./DesktopNavbar.css";
 import { Link } from "react-router-dom";
 import flawwwlessIcon from "../../img/Flawwwless-ui-logo.png";
