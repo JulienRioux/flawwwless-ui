@@ -13,8 +13,8 @@ class Drawer extends Component {
 
 	state = {
 		showDrawer: false,
-		drawerId: `drawer_${ uid(10) }`,
-		drawerOverlayId: `drawerOverlay_${ uid(10) }`,
+		drawerId: "drawer_" + uid(10),
+		drawerOverlayId: "drawerOverlay_" + uid(10),
 	}
 
 	closeDrawer = () => {
