@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import ReactDOM from "react-dom";
 import PropTypes from 'prop-types';
 import styles from "./Drawer.scss";
 import Icon from "../Icon";
 import uid from "uid";
 
 
-class Drawer extends Component {
+class DrawerPortal extends Component {
 	static propTypes = {
 		columns: PropTypes.array,
 		rows: PropTypes.array,
@@ -87,8 +88,25 @@ class Drawer extends Component {
 	}
 }
 
-Drawer.defaultProps = {
+DrawerPortal.defaultProps = {
 	isClosable: true,
+}
+
+
+const Drawer = (props) => {
+	// Check if the portal-root div exist
+	let portalRoot = document.getElementById("portal-root");
+	// if not, add it to the body
+	if(!portalRoot){
+		const portalRoot = document.createElement("div");
+		portalRoot.id = "portal-root";
+		document.body.appendChild(portalRoot);
+	}
+	// Create a portal
+	return ReactDOM.createPortal(
+		<DrawerPortal {...props} />,
+		document.getElementById("portal-root")
+	)
 }
 
 export default Drawer;

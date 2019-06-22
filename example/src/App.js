@@ -22,11 +22,11 @@ class App extends Component {
       <div>
 				<DesktopNavbar />
 
+				<Drawers />
 				<Layouts />
 				<Menus />
 			  <Modals />
 			  <Cards />
-			  <Drawers />
 				<Tables />
 			  <Inputs />
 				<Icons />
