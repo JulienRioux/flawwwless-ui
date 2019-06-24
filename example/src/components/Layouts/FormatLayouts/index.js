@@ -4,8 +4,8 @@ import { Container, Row, Col } from "flwww";
 const FormatLayouts = (props) => {
 	return (
 		<div>
-			<Container>
-				<div style={{ position: "relative" }}>
+			<div style={{ position: "relative" }}>
+				<Container>
 					<Row>
 						{
 							[1,1,1,1,1,1,1,1,1,1,1,1].map(col => (
@@ -15,8 +15,10 @@ const FormatLayouts = (props) => {
 							))
 						}
 					</Row>
+				</Container>
 
-					<div className="rowOverlay">
+				<div className="rowOverlay">
+					<Container>
 						<Row>
 							{
 								props.gridArray.map(col => (
@@ -26,9 +28,9 @@ const FormatLayouts = (props) => {
 								))
 							}
 						</Row>
-					</div>
+					</Container>
 				</div>
-			</Container>
+			</div>
 		</div>
 	)
 }

@@ -4,12 +4,16 @@ import formatColStyle from "./formatColStyle";
 
 const Col = (props) => {
 
+
+	// Pass the gutter size to the row and the col component
+	const { gutterSize } = props;
+
 	// Default styling for any col
 	const colStyle = `
 		position: relative;
 	  width: 100%;
-	  padding-right: 10px;
-	  padding-left: 10px;
+	  padding-right: ${ gutterSize };
+	  padding-left: ${ gutterSize };
 	`;
 
 	// Format the right width for the cols
@@ -71,7 +75,7 @@ const Col = (props) => {
 	`;
 
 	return (
-		<CustomCol>
+		<CustomCol { ...props }>
 			{ props.children }
 		</CustomCol>
 	)

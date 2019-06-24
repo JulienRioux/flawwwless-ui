@@ -6,19 +6,22 @@ const Container = (props) => {
 	// Setup the container => i.e. full width or normal one
 	let CustomContainer;
 
+	// Pass the gutter size to the row and the col component
+	const gutterSize = "6px";
+
 	if(props.full){
 		CustomContainer = styled.div`
 			width: 100%;
-		  padding-right: 10px;
-		  padding-left: 10px;
+		  padding-right: ${ gutterSize };
+		  padding-left: ${ gutterSize };
 		  margin-right: auto;
 		  margin-left: auto;
 		`;
 	} else {
 		CustomContainer = styled.div`
 		  width: 100%;
-		  padding-right: 10px;
-		  padding-left: 10px;
+		  padding-right: ${ gutterSize };
+		  padding-left: ${ gutterSize };
 		  margin-right: auto;
 		  margin-left: auto;
 
@@ -40,45 +43,18 @@ const Container = (props) => {
 	  `;
 	}
 
+	// Copy all the children and pass the props (gutterSize)
+	const childrenWithProps = React.Children.map(props.children, child => (
+		React.cloneElement(child, { gutterSize })
+	));
+
 
 
 	return (
-		<CustomContainer>
-		  { props.children }
+		<CustomContainer { ...props }>
+			{ childrenWithProps }
 		</CustomContainer>
 	)
 }
 
 export default Container;
-
-// .container {
-  // width: 100%;
-  // padding-right: 15px;
-  // padding-left: 15px;
-  // margin-right: auto;
-  // margin-left: auto;
-// }
-//
-// @media (min-width: 576px) {
-//   .container {
-//     max-width: 540px;
-//   }
-// }
-//
-// @media (min-width: 768px) {
-//   .container {
-//     max-width: 720px;
-//   }
-// }
-//
-// @media (min-width: 992px) {
-//   .container {
-//     max-width: 960px;
-//   }
-// }
-//
-// @media (min-width: 1200px) {
-//   .container {
-//     max-width: 1140px;
-//   }
-// }

@@ -20,6 +20,7 @@ class DrawerPortal extends Component {
 
 	closeDrawer = () => {
 		const { showDrawer } = this.props;
+		// add animation depending if it's a right or left drawer
 		setTimeout(() => {
 			this.setState({ showDrawer });
 		}, 300);
@@ -102,7 +103,7 @@ const Drawer = (props) => {
 		portalRoot.id = "portal-root";
 		document.body.appendChild(portalRoot);
 	}
-	// Create a portal
+	// Create a portal to attach the drawer
 	return ReactDOM.createPortal(
 		<DrawerPortal {...props} />,
 		document.getElementById("portal-root")

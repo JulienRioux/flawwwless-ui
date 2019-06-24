@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Drawer, Button, Menu } from "flwww";
+import { Drawer, Button, Menu, Container } from "flwww";
 
 class Drawers extends Component {
 	state = {
@@ -16,13 +16,14 @@ class Drawers extends Component {
 	toggleRightDrawer = () => {
 		this.setState(prevState => ({
 			showRightDrawer: !prevState.showRightDrawer
-		}))
+		}));
 	}
+
 
 	render(){
 		const { showDrawer, showRightDrawer } = this.state;
 		return (
-			<div className="container">
+			<Container>
 				<div className="componentBlock">
 					<h3 className="componentTitle">Drawers</h3>
 					<p className="componentDescr">Display dataset inside table.</p>
@@ -35,6 +36,7 @@ class Drawers extends Component {
 						style={{ marginLeft: ".5rem" }}
 						onClick={ this.toggleRightDrawer }
 						type="primary">Show Right Drawer</Button>
+
 
 					<Drawer
 						showDrawer={ this.state.showDrawer }
@@ -54,7 +56,7 @@ class Drawers extends Component {
 						<p>This is a right position drawer</p>
 					</Drawer>
 				</div>
-			</div>
+			</Container>
 		)
 	}
 }
