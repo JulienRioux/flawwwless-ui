@@ -17,7 +17,9 @@
 ```
 yarn add flwww
 ```
-or
+
+<p align="center">or</p>
+
 ```
 npm install flwww --save
 ```
