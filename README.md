@@ -4,7 +4,7 @@ Helping you during the process of creating entreprise applications that provide 
 
 [![NPM](https://img.shields.io/npm/v/flawwwless-library.svg)](https://www.npmjs.com/package/flawwwless-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-[![Flawwwless ui logo](/images/flawwwless-ui.png)]
+![Flawwwless ui logo](/images/flawwwless-ui.png =250x)
 
 ## Install
 
