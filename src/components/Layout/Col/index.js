@@ -4,9 +4,12 @@ import formatColStyle from "./formatColStyle";
 
 const Col = (props) => {
 
+	// This have been removed but may be added in the futur...
+	// // Pass the gutter size to the row and the col component
+	// const { gutterSize } = props;
 
-	// Pass the gutter size to the row and the col component
-	const { gutterSize } = props;
+	const gutterSize = "12px";
+
 
 	// Default styling for any col
 	const colStyle = `
