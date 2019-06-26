@@ -13,7 +13,7 @@
 
 ## Usage
 
-<p>Visit <a href="ui.flawwwless.com">ui.flawwwless.com</a> for full documentation.</p>
+<p>Visit <a href="http://ui.flawwwless.com/">ui.flawwwless.com</a> for full documentation.</p>
 
 
 ## Install
