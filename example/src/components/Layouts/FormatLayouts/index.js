@@ -8,8 +8,8 @@ const FormatLayouts = (props) => {
 				<Container>
 					<Row>
 						{
-							[1,1,1,1,1,1,1,1,1,1,1,1].map(col => (
-								<Col grid={ `${ col }` }>
+							[1,1,1,1,1,1,1,1,1,1,1,1].map((col, i) => (
+								<Col key={ i } grid={ `${ col }` }>
 									<div className="displayBgCol"></div>
 								</Col>
 							))
@@ -21,8 +21,8 @@ const FormatLayouts = (props) => {
 					<Container>
 						<Row>
 							{
-								props.gridArray.map(col => (
-									<Col grid={ `${ col }` }>
+								props.gridArray.map((col, i) => (
+									<Col key={ i } grid={ `${ col }` }>
 										<div className="displayCol">col-{ col }</div>
 									</Col>
 								))

@@ -11,7 +11,7 @@ class Button extends Component {
 	static propTypes = {
 		children: PropTypes.string,
 		type: PropTypes.string,
-		round: PropTypes.boolean,
+		// round: PropTypes.boolean,
 	}
 
 	buttonClicked = (e) => {

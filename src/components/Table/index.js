@@ -34,8 +34,8 @@ class Table extends Component {
 
 					return (
 						<div
-						  { ...this.props }
-						  className={ `${ this.props.bordered && styles.tableWrapper } ${ styles.tableScroll }` }>
+						  style={ this.props.style }
+						  className={ `${ this.props.bordered && styles.tableWrapper } ${ styles.tableScroll } ${ this.props.className }` }>
 							<table className={ styles.table }>
 								<thead>
 									<tr>

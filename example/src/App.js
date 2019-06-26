@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./App.css";
-import { Link, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 import Buttons from "./components/Buttons";
 import Cards from "./components/Cards";

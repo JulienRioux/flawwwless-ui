@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button, Navbar } from "flwww";
+import { Navbar } from "flwww";
 import "./DesktopNavbar.css";
 import { Link } from "react-router-dom";
-import flawwwlessIcon from "../../img/Flawwwless-ui-logo.png";
+// import flawwwlessIcon from "../../img/Flawwwless-ui-logo.png";
 
 const DesktopNavbar = props => {
 	return (

@@ -74,7 +74,7 @@ class Buttons extends Component {
 									colors={{
 										mainColor: "#151515",
 										secondColor: "#ffffff",
-									}} round>Custom</Button>
+									}} >Custom</Button>
 						</div>
 					</Card>
 				</div>

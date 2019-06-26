@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Drawer, Button, Menu, Container } from "flwww";
+import { Drawer, Button, Container } from "flwww";
 
 class Drawers extends Component {
 	state = {
@@ -39,7 +39,7 @@ class Drawers extends Component {
 
 
 					<Drawer
-						showDrawer={ this.state.showDrawer }
+						showDrawer={ showDrawer }
 						toggleDrawer={ this.toggleDrawer }
 					>
 						<div>Drawer</div>
@@ -48,7 +48,7 @@ class Drawers extends Component {
 
 
 					<Drawer
-						showDrawer={ this.state.showRightDrawer }
+						showDrawer={ showRightDrawer }
 						toggleDrawer={ this.toggleRightDrawer }
 						position="right"
 					>

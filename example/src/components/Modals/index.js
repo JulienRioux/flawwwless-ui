@@ -23,7 +23,11 @@ class Modals extends Component {
 					<h3 className="componentTitle">Modal</h3>
 					<p className="componentDescr">Do something else.</p>
 
-					<span style={{ marginRight: ".5rem"}}><Button type="success" onClick={ this.toggleModal1 }>Modal with title</Button></span>
+					<Button
+						type="success"
+						onClick={ this.toggleModal1 }
+						style={{ marginRight: ".5rem"}}>Modal with title</Button>
+
 					<Button onClick={ this.toggleModal2 }>Modal without title</Button>
 
 					<Modal
@@ -35,7 +39,7 @@ class Modals extends Component {
 							<p>Minim culpa quae eram tamen magna aliqua sint veniam fore quis tempor export
 								aliqua summis quem summis aliqua dolore export sint tempor malis elit quae</p>
 							<div className="bottomRightCardBtn">
-								<Button onClick={ this.toggleModal1 } type="primary" round="true">OK</Button>
+								<Button onClick={ this.toggleModal1 } type="primary" round>OK</Button>
 							</div>
 						</div>
 					</Modal>
@@ -49,7 +53,7 @@ class Modals extends Component {
 							<p>minim culpa quae eram tamen magna aliqua sint veniam fore quis tempor export
 								aliqua summis quem summis aliqua dolore export sint tempor malis elit quae</p>
 							<div className="bottomRightCardBtn">
-								<Button onClick={ this.toggleModal2 } type="primary" round="true">OK</Button>
+								<Button onClick={ this.toggleModal2 } type="primary" round>OK</Button>
 							</div>
 						</div>
 					</Modal>

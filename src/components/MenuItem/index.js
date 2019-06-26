@@ -74,10 +74,6 @@ export class MenuItem extends Component {
 							}
             }) : this.props.children;
 
-						if(isSelected){
-							console.log(childCopy);
-						}
-
 						return (
 							<div
 								className={ `${ styles.menuItemDiv } ${ styles[".menuItemDiv a"] } ${ isSelectClass }` }

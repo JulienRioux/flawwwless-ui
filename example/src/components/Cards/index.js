@@ -34,7 +34,7 @@ const Cards = props => {
 					<div className="row">
 						<div className="col-md-6">
 							<Card
-								extra={ <a href="#">more</a> }
+								extra={ <a href="google.ca">more</a> }
 								title="Title of the card"
 								border="none">
 								<p>Legam minim aliqua labore elit labore multos quae irure tamen export legam duis
@@ -71,7 +71,7 @@ const Cards = props => {
 
 					<div className="col-md-6">
 						<Card
-							extra={ <a href="#">menu</a> }
+							extra={ <a href="google.ca">menu</a> }
 							title="Title of the card"
 							border="shadow">
 							<p>Legam minim aliqua labore elit labore multos quae irure tamen export legam duis

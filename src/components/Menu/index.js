@@ -47,8 +47,8 @@ class Menu extends Component {
 		);
 		return (
 			<div
-				{ ...this.props }
-				className={ styles.menuDiv } >
+				style={ this.props.style }
+				className={ `${ styles.menuDiv } ${ this.props.className }` } >
 			  { childrenWithProps }
 			</div>
 		)

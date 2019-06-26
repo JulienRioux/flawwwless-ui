@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { Button, Card, Modal, Menu } from "flwww";
+import { Card, Menu } from "flwww";
 
 class Menus extends Component {
 	state = {
