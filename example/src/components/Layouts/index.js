@@ -1,5 +1,6 @@
 import React from 'react';
 import FormatLayouts from "./FormatLayouts";
+import { Container, Row, Col } from "flwww";
 
 
 const Layouts = (props) => {
@@ -20,6 +21,14 @@ const Layouts = (props) => {
 			<FormatLayouts gridArray={ [2, 9] } />
 
 			<FormatLayouts gridArray={ [] } />
+
+		  <Container>
+				<Row>
+					<Col grid="6 offset-lg-6">
+						<div style={{ background: "#f33" }} className="displayBgCol">test</div>
+					</Col>
+				</Row>
+			</Container>
 		</div>
 	)
 }

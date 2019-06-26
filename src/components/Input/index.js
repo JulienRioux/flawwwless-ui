@@ -88,7 +88,7 @@ class Input extends Component {
 							<CustomInput
 								{ ...this.props }
 								id={ this.state.inputId }
-								className={ `${ className } ${ inputWithIcon }` }
+								className={ `${ className } ${ inputWithIcon } ${ styles.input }` }
 								style={{
 									...this.props.style,
 									paddingLeft: `${ `calc(${ fontSize } * 1.5)` }`,
