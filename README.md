@@ -1,30 +1,24 @@
-# flawwwless-library
+# Flawwwless ui
 
-> Flawwwless UI library for React.js.
+Helping you during the process of creating entreprise applications that provide meaningful and relevant experiences to your users.
 
 [![NPM](https://img.shields.io/npm/v/flawwwless-library.svg)](https://www.npmjs.com/package/flawwwless-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+[![Flawwwless ui logo](/images/flawwwless-ui.png)]
+
 ## Install
 
-```bash
-npm install --save flawwwless-library
+```
+yarn add flwww
+```
+or
+```
+npm install flwww --save
 ```
 
 ## Usage
 
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'flawwwless-library'
-
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
-```
+Visit ui.flawwwless.com for full documentation.
 
 ## License
 
