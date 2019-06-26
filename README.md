@@ -26,7 +26,7 @@ npm install flwww --save
 
 ## Usage
 
-Visit ui.flawwwless.com for full documentation.
+<p>Visit <a href="ui.flawwwless.com">ui.flawwwless.com</a> for full documentation.</p>
 
 ## License
 
