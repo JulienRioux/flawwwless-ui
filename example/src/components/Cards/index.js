@@ -28,7 +28,6 @@ const Cards = props => {
 				</div>
 			</div>
 
-
 			<div className="noBorderCard">
 				<div className="container">
 					<p className="componentDescr">No border Card.</p>

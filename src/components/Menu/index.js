@@ -15,11 +15,12 @@ class Menu extends Component {
 	}
 
 	changeState = (uniqueKey) => {
+		// Change the selectedItem in the state
 		this.setState({ selectedItem: uniqueKey });
 	}
 
 	componentDidUpdate(prevProps){
-		// Chenge the selected item if it have changed in the app state
+		// Change the selected item if it have changed in the app state!
 		if(this.props.selectedItem !== prevProps.selectedItem){
 			this.setState({ selectedItem: this.props.selectedItem });
 		}
@@ -30,7 +31,7 @@ class Menu extends Component {
 		const { selectedItem } = this.state;
 		// Pass props to children
 		const childrenWithProps = React.Children.map(children, child => {
-			// Check if its the selected menu item
+			// Check if its the selected menu item or not to create the component
 			if(child.props.uniqueKey === selectedItem){
 				return React.cloneElement(child, {
 					changeState: this.changeState,

@@ -120,9 +120,10 @@ const getBtnStyle = (type, outlined, context, colors) => {
 }
 
 const lightenDarkenColor = (col, amt) => {
+	// Darken or lighten color function
+	// To add the darker on hover, just multiply amt by -1!!!
 	var colr = new Colr();
-
-	var colr = colr.fromHex(col).lighten(amt).toHex();
+	colr = colr.fromHex(col).lighten(amt).toHex();
 
 	return colr;
 }

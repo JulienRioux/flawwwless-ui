@@ -39,7 +39,7 @@ class DrawerPortal extends Component {
 
 	componentDidUpdate(prevProps){
 		const { showDrawer } = this.props;
-		// Add an animation to the drawer
+		// Add an animation to the drawer on close
 		if(showDrawer !== prevProps.showDrawer){
 			if(!showDrawer){
 				this.closeDrawer();
@@ -94,6 +94,7 @@ DrawerPortal.defaultProps = {
 }
 
 
+// Create a portal to hook the Drawer into
 const Drawer = (props) => {
 	// Check if the portal-root div exist
 	let portalRoot = document.getElementById("portal-root");

@@ -13,19 +13,20 @@ export default class Card extends Component {
 
 	render(){
 		let { border, title, children, className, padding } = this.props;
-
+		// Get the border style
 		let borderStyle = "";
 		if(border === "none"){
 			borderStyle = styles.noBorderCard;
 		}
-
+		// Check if there is a title
 		const cardHeader = this.props.title ? (
 			<div className={`${ styles.cardHead }`}>
 				<div className={`${ styles.cardHeadTitle }`}>
 					<span>{ title }</span>
 				</div>
-			</div>) : null;
-
+			</div>
+		) : null;
+		// Add the className if necessary
 		className = className ? className : "";
 
 		return (

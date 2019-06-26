@@ -14,8 +14,8 @@ class Button extends Component {
 		round: PropTypes.boolean,
 	}
 
-
 	buttonClicked = (e) => {
+		// Get the button onClick action done
 		e.persist();
 		this.props.onClick && this.props.onClick();
 	}
@@ -23,30 +23,16 @@ class Button extends Component {
 	render(){
 		const { children, type, round, outlined, loading, colors } = this.props;
 
+		// Get the button style (rounded, outlined or loading)
 		let typeStyle = "";
-		if(type === "primary"){
-			typeStyle = styles.btnPrimary;
-		} else if(type === "success"){
-			typeStyle= styles.btnSuccess;
-		} else if(type === "danger"){
-			typeStyle= styles.btnDanger;
-		}
-
 		let roundedClass = "";
+
 		if(round){
 			roundedClass = styles.btnRounded
 		}
 
 		if(outlined){
-			if(type === "primary"){
-				typeStyle = styles.btnOutlinedPrimary;
-			} else if(type === "success"){
-				typeStyle = styles.btnOutlinedSuccess;
-			} else if(type === "danger"){
-				typeStyle= styles.btnOutlinedDanger;
-			} else {
-				typeStyle= styles.btnOutlined;
-			}
+			typeStyle= styles.btnOutlined;
 		}
 
 		let loadingBtn = "";
@@ -57,7 +43,7 @@ class Button extends Component {
 		return (
 				<ThemeContext.Consumer>
 					{ context => {
-						// Get the right style for the button
+						// Get the right style for the button (Check if it's a custom theme)
 						const CustomButton = getBtnStyle(type, outlined, context, colors);
 
 						return (

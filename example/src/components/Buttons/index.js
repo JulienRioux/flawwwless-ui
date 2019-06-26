@@ -50,7 +50,7 @@ class Buttons extends Component {
 						<div style={{ margin: ".5rem 0" }} className="buttonBlock">
 							<Button
 								onClick={ () => alert("Button clicked!") } round>Default</Button>
-							<Button type="primary" round>Primary</Button>
+							<Button loading type="primary" round>Primary</Button>
 							<Button type="success" round>Success</Button>
 							<Button type="danger" round>Danger</Button>
 							<Button

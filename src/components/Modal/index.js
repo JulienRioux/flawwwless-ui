@@ -16,8 +16,8 @@ class ModalPortal extends Component {
 	}
 
 	componentDidUpdate(prevProps){
+		// Check if the modal visibility changed and add animation on close
 		if(this.props.isVisible !== prevProps.isVisible){
-
 			if(this.props.isVisible){
 				this.setState({ isVisible: true });
 			} else {
@@ -46,6 +46,8 @@ class ModalPortal extends Component {
 	}
 }
 
+
+// Create the modal portal to hook up to the page
 const Modal = (props) => {
 	// Check if the portal-root div exist
 	let portalRoot = document.getElementById("portal-root");

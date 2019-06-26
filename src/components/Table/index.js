@@ -8,7 +8,6 @@ import { primaryColor } from "../../styles";
 import ThemeContext from "../../context/themeContext";
 
 
-
 class Table extends Component {
 	static propTypes = {
 		columns: PropTypes.array,

@@ -1,15 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import formatColStyle from "./formatColStyle";
+import { gutterSize } from "../layoutParams";
 
 const Col = (props) => {
-
-	// This have been removed but may be added in the futur...
-	// // Pass the gutter size to the row and the col component
-	// const { gutterSize } = props;
-
-	const gutterSize = "12px";
-
 
 	// Default styling for any col
 	const colStyle = `

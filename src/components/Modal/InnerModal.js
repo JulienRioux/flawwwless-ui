@@ -19,12 +19,11 @@ class InnerModal extends Component {
 
 	// Make the opacity disseapear before closing the modal
 	closeModal = (fromWrapper = false) => {
+		// Add animation on close
 		this.setState({ isClosing: true });
 		setTimeout(() => {
 			this.props.toggleModal();
-			// document.querySelector("#modalOverlay").className = `${ styles.modalOverlay } ${ styles.hide }`;
 		}, 300);
-		// this.props.toggleModal();
 		this.addCloseAnimation();
 	}
 
@@ -33,6 +32,8 @@ class InnerModal extends Component {
 		document.querySelector("#modal").className = `${ styles.modal } ${ styles.hideModal }`;
 	}
 
+
+	// This could be added later if fixing the problem => A bug happen when you click on close and you push on the esc button while the animation of the modal closing is finished !!!!!
 	// escFunction = (e) => {
 	// 	// prevent if the user is clicking and pressing on esc button
 	// 	if(e.keyCode === 27){
@@ -43,7 +44,6 @@ class InnerModal extends Component {
 	componentDidMount(){
 
 		this.props.onRef(this);
-
 		setTimeout(() => {
 			document.querySelector("#modalOverlay").className = styles.modalOverlay;
 			document.querySelector("#modal").className = styles.modal;
@@ -54,7 +54,7 @@ class InnerModal extends Component {
 	}
 
 	componentDidUpdate(prevProps){
-		// console.log(this.props.isVisible, prevProps.isVisible);
+		// Check if the modal visibility changed
 		if(this.props.isVisible !== prevProps.isVisible){
 			this.setState({ isVisible: this.props.isVisible });
 		}
@@ -68,7 +68,6 @@ class InnerModal extends Component {
 	render(){
 		const { border, children, isVisible } = this.props;
 		let { extra, title } = this.props;
-
 
 		return(
 			<div>

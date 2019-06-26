@@ -17,10 +17,12 @@ export class MenuItem extends Component {
 	}
 
 	handleHoverOn = () => {
+		// Handle menuItem hoover on
 		this.setState({ isHovered: true });
 	}
 
 	handleHoverOff = () => {
+		// Handle menuItem hoover off
 		this.setState({ isHovered: false });
 	}
 
@@ -45,7 +47,7 @@ export class MenuItem extends Component {
 			<ThemeContext.Consumer>
 				{
 					context => {
-						// Get the right bg color for the menu
+						// Get the right bg color for the menu (if custom theming)
 						let mainColor = primaryColor;
 						if(context){
 							mainColor = context.primaryColor;

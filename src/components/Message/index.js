@@ -9,6 +9,9 @@ import Question from "../Icon/Icons/iconsSvg/QuestionGray.svg";
 
 
 const message = (text, type, time=2.5) => {
+	// This could be modified using React Portal!!!!
+
+
 	// Transfert the time in milliseconds
 	time = time * 1000;
 	// Add an animation delay of 0.2s
@@ -18,7 +21,6 @@ const message = (text, type, time=2.5) => {
 	if(elem[0]){
 		// Put the display to none if there is already some messages
 		elem.forEach((item) => {
-			console.log(item);
 			item.style.display = "none";
 		})
 	}
@@ -44,7 +46,6 @@ const message = (text, type, time=2.5) => {
 		}
 		else {
 			domImg.src = Exclamation;
-			console.log("Exclamation");
 		}
 		domImg.className = styles.msgIcon;
 		node.appendChild(domImg);

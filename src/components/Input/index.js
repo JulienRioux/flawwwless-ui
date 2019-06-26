@@ -19,7 +19,7 @@ class Input extends Component {
 	}
 
 	state = {
-		inputId: `input_${ uid(10) }`,
+		inputId: "input_" + uid(10),
 		fontSize: null,
 		iconIsReady: false,
 	}
@@ -43,9 +43,9 @@ class Input extends Component {
 	render(){
 		let { placeholder, type, className, icon } = this.props;
 		const { fontSize, iconIsReady } = this.state;
-
+		// Add the classNAme to the icon
 		className = className ? className : "";
-
+		// Check if it's an input with icon and add style if its the case
 		const inputWithIcon = icon ? styles.inputWithIcon : "";
 
 		// // Check if there is a specified font size (to have the right icon size)
@@ -56,14 +56,13 @@ class Input extends Component {
 			}
 		}
 
-
 		return (
 			<ThemeContext.Consumer>
 				{ context => {
 					// Get the right style for the input
 					let mainColor = primaryColor;
 
-					// Check if there is an existing context (custom theming)
+					// Check if there is an existing custom theming in the context
 					if(context){
 						mainColor = context.primaryColor;
 					}

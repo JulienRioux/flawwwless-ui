@@ -26,8 +26,8 @@ export default class ExampleComponent extends Component {
     const { text } = this.props;
 
     return (
-			<div className={ styles.test }>
-        Example Component: { text }
+			<div>
+        Hello World!
       </div>
     )
   }
