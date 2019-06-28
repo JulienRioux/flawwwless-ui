@@ -22,6 +22,7 @@ class App extends Component {
       <div>
 				<DesktopNavbar />
 
+			  <Icons />
 				<Layouts />
 				<Menus />
 			  <Modals />
@@ -29,7 +30,6 @@ class App extends Component {
 			  <Cards />
 				<Tables />
 			  <Inputs />
-				<Icons />
 				<Messages />
 				<Buttons />
 

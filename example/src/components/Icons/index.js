@@ -9,11 +9,11 @@ const Icons = props => {
 	return (
 		<div className="container">
 			<h1 style={{ margin: "4rem 0", color: "#0008" }}>
-				<Icon type="star" />
-				Hello World
-				<Icon type="time" />
-				<Icon type="user" />
-				<Icon type="hand" />
+				<Icon
+					color="red"
+					type="starOutlined"
+					size="5rem" />
+
 			</h1>
 
 			<div style={{ margin: "4rem 0"}}>
