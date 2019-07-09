@@ -7,6 +7,7 @@ import Icon from "../Icon";
 class InnerModal extends Component {
 	state = {
 		isVisible: false,
+		isClosing: false,
 	}
 
 	// Make the opacity disseapear before closing the modal
@@ -42,13 +43,15 @@ class InnerModal extends Component {
 		}, 10);
 		// Add escape key event to close the modal
 		// document.addEventListener("keydown", this.escFunction, false);
-		this.setState({ isVisible: this.props.isVisible });
+		this.setState({
+			isVisible: this.props.isVisible
+		});
 	}
 
 	componentDidUpdate(prevProps){
 		// Check if the modal visibility changed
 		if(this.props.isVisible !== prevProps.isVisible){
-			this.setState({ isVisible: this.props.isVisible });
+			this.closeModal();
 		}
 	}
 
