@@ -23,8 +23,10 @@ class App extends Component {
       <div>
 				<DesktopNavbar />
 
+			  <Messages />
+
 			  <Drawers />
-				
+
 		  	<Modals />
 
 			  <Testing />
@@ -35,7 +37,6 @@ class App extends Component {
 			  <Cards />
 				<Tables />
 			  <Inputs />
-				<Messages />
 				<Buttons />
 
 

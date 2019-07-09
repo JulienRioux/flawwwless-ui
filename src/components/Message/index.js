@@ -32,6 +32,10 @@ const message = (text, type, time=2.5) => {
 	const node = document.createElement("div");
 	node.className = styles.messageDiv;
 
+	// create the messageWrapperDiv
+	const messageWrapperDiv = document.createElement("div");
+	messageWrapperDiv.className = styles.messageWrapperDiv;
+
 	// Check the message type to show the right icon
 	if(type !== "noIcon"){
 		const domImg = document.createElement("img");
@@ -55,7 +59,8 @@ const message = (text, type, time=2.5) => {
 	const textnode = document.createTextNode(text);
 	node.appendChild(textnode);
 	outerNode.appendChild(node);
-	document.body.appendChild(outerNode);
+	messageWrapperDiv.appendChild(outerNode)
+	document.body.appendChild(messageWrapperDiv);
 
 	// Set a timeout to remove the message
 	const removeMess = setTimeout(() => {

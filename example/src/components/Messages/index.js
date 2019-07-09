@@ -10,7 +10,7 @@ class Messages extends Component {
 	}
 
 	showSuccessMessage = () => {
-		const msg = message("This is a success message.", "success");
+		const msg = message("This is a success message.", "success", 1000000);
 		return msg;
 	}
 
