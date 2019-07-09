@@ -7,6 +7,14 @@ import InnerModal from "./InnerModal";
 
 
 class ModalPortal extends Component {
+	static propTypes = {
+		title: PropTypes.string,
+		isVisible: PropTypes.boolean,
+		children: PropTypes.node.isRequired,
+		border: PropTypes.string,
+		extra: PropTypes.node,
+	}
+
 	state = {
 		isVisible: false,
 	}
@@ -49,6 +57,7 @@ class ModalPortal extends Component {
 
 // Create the modal portal to hook up to the page
 const Modal = (props) => {
+
 	// Check if the portal-root div exist
 	let portalRoot = document.getElementById("portal-root");
 	// if not, add it to the body

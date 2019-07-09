@@ -21,7 +21,7 @@ class Inputs extends Component {
 					<h3 className="componentTitle">Input</h3>
 					<p className="componentDescr">A basic widget for getting the user input is a text field. Keyboard and mouse can be used for providing or changing data.</p>
 
-					<Card>
+					<Card style={{ margin: "1rem 0"}}>
 						<div style={{ margin: ".5rem 0" }} className="buttonBlock">
 							<div className="col-lg-4 col-md-8">
 								<Input
@@ -29,6 +29,20 @@ class Inputs extends Component {
 									name="input1"
 									onChange={ this.handleChange }
 									icon="search"
+									type="text"
+									placeholder="Search something" />
+							</div>
+						</div>
+					</Card>
+
+					<Card style={{ margin: "1rem 0"}}>
+						<div style={{ margin: ".5rem 0" }} className="buttonBlock">
+							<div className="col-lg-4 col-md-8">
+								<Input
+									error={ true }
+									value={ this.state.input1 }
+									name="input1"
+									onChange={ this.handleChange }
 									type="text"
 									placeholder="Search something" />
 							</div>

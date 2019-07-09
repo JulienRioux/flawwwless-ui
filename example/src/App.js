@@ -13,6 +13,7 @@ import Tables from "./components/Tables";
 import Drawers from "./components/Drawers";
 import Menus from "./components/Menus";
 import Layouts from "./components/Layouts";
+import Testing from "./components/Testing";
 
 
 class App extends Component {
@@ -21,6 +22,8 @@ class App extends Component {
     return (
       <div>
 				<DesktopNavbar />
+
+			  <Testing />
 
 			  <Icons />
 				<Layouts />

@@ -17,7 +17,7 @@ const theme = {
 	dangerTextColor: "#262626",
 };
 
-const useTheming = false;
+const useTheming = true;
 
 if(useTheming){
 	ReactDOM.render(

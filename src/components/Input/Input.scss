@@ -50,3 +50,9 @@
 .inputWrapper > textArea{
 	@include input-style($defaultColor, $primaryColor);
 }
+
+
+.inputError{
+	box-shadow: 0 0 0 3px #ff000040 !important;
+	border-color: #ff0000 !important;
+}

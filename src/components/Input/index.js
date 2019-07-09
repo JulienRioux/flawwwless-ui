@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 import styles from "./Input.scss";
 import Icon from "../Icon";
 import uid from "uid";
-import styled from "styled-components";
 import { primaryColor } from "../../styles";
 
 import ThemeContext from "../../context/themeContext";
+
+const errorColor = "#ff2a2a";
 
 
 class Input extends Component {
@@ -25,9 +26,10 @@ class Input extends Component {
 	}
 
 	componentDidMount(){
+		const element = document.getElementById(this.state.inputId);
 		// Get the necessary padding if the input have an icon
 		if(this.props.icon){
-			const element = document.getElementById(this.state.inputId);
+			// const element = document.getElementById(this.state.inputId);
 			const elementStyle = getComputedStyle(element);
 			// Get the font size if there is no size specified
 			const fontSize = elementStyle["font-size"];
@@ -38,10 +40,27 @@ class Input extends Component {
 		} else {
 			this.setState({ iconIsReady: true });
 		}
+
+		// Add a box styling on focus
+		element.addEventListener("focus", (e) => {
+			e.target.style.boxShadow = `0 0 0 3px ${ this.props.mainColor }40`;
+			e.target.style.borderColor = this.props.mainColor;
+		});
+		// Remove the styling when the user doesn't focus anymore
+		element.addEventListener("blur", (e) => {
+		  e.target.style.boxShadow = "";
+			e.target.style.borderColor = "";
+		});
+
+		if(this.props.autoFocus){
+			// Make work the autoFocus properly
+			element.style.boxShadow = `0 0 0 3px ${ this.props.mainColor }40`;
+			element.style.borderColor = this.props.mainColor;
+		}
 	}
 
 	render(){
-		let { placeholder, type, className, icon } = this.props;
+		let { placeholder, type, className, icon, error } = this.props;
 		const { fontSize, iconIsReady } = this.state;
 		// Add the classNAme to the icon
 		className = className ? className : "";
@@ -56,65 +75,68 @@ class Input extends Component {
 			}
 		}
 
+		// Change the styling if it receive the error props
+		let errorClass = this.props.error ? styles.inputError : "";
+
+
 		return (
-			<ThemeContext.Consumer>
-				{ context => {
-					// Get the right style for the input
-					let mainColor = primaryColor;
+			<span
+				style={{
+					fontSize: specifiedFontSize,
+					// opacity: iconIsReady ? 1 : 0,
+				}}
+				className={ styles.inputWrapper }>
+				<input
+					{ ...this.props }
+					id={ this.state.inputId }
+					className={ `${ className } ${ inputWithIcon } ${ styles.input } ${ errorClass }` }
+					style={{
+						...this.props.style,
+						paddingLeft: `${ `calc(${ fontSize } * 1.5)` }`,
+					}}
+				/>
 
-					// Check if there is an existing custom theming in the context
-					if(context){
-						mainColor = context.primaryColor;
-					}
-
-					// Get the right style for the button
-					const CustomInput = styled.input`
-						:focus {
-							border-color: ${ mainColor }bb !important;
-							box-shadow: 0 0 0 3px ${ mainColor }40  !important;
-						}
-						:active {
-							border-color: ${ mainColor } !important;
-						}
-					`;
-
-					return (
+				{
+					icon && (
 						<span
 							style={{
-								fontSize: specifiedFontSize,
-								// opacity: iconIsReady ? 1 : 0,
+								paddingTop: `${ `calc(${ fontSize } * 0)` }`,
+								fontSize: fontSize,
 							}}
-							className={ styles.inputWrapper }>
-							<CustomInput
-								{ ...this.props }
-								id={ this.state.inputId }
-								className={ `${ className } ${ inputWithIcon } ${ styles.input }` }
-								style={{
-									...this.props.style,
-									paddingLeft: `${ `calc(${ fontSize } * 1.5)` }`,
-								}}
+							className={ styles.inputIcon }>
+							<Icon
+								type={ icon }
 							/>
-
-							{
-								icon && (
-									<span
-										style={{
-											paddingTop: `${ `calc(${ fontSize } * 0)` }`,
-											fontSize: fontSize,
-										}}
-										className={ styles.inputIcon }>
-										<Icon
-											type={ icon }
-										/>
-									</span>
-								)
-							}
 						</span>
 					)
-				} }
-			</ThemeContext.Consumer>
+				}
+			</span>
 		)
 	}
 }
 
-export default Input;
+
+const InputWrapper = (props) => {
+	// Wrap the input to pass easily the right color depending on whether the developer is using a custom theme or not
+	return (
+		<ThemeContext.Consumer>
+			{ context => {
+				// Get the right style for the input
+				let mainColor = primaryColor;
+
+				// Check if there is an existing custom theming in the context
+				if(context){
+					mainColor = context.primaryColor;
+				}
+
+				return (
+					<Input
+						mainColor={ mainColor }
+						{ ...props } />
+				)
+			}}
+		</ThemeContext.Consumer>
+	)
+}
+
+export default InputWrapper;
