@@ -16,20 +16,33 @@ class DrawerPortal extends Component {
 		showDrawer: false,
 		drawerId: "drawer_" + uid(10),
 		drawerOverlayId: "drawerOverlay_" + uid(10),
+		isClosing: false,
 	}
 
-	closeDrawer = () => {
+	closeDrawer = async () => {
 		const { showDrawer } = this.props;
-		// add animation depending if it's a right or left drawer
-		setTimeout(() => {
-			this.setState({ showDrawer });
-		}, 300);
-		if(this.props.position === "right"){
-			document.querySelector(`#${ this.state.drawerId }`).className = `${ styles.drawer } ${ styles.drawerOutRight }`;
-		} else {
-			document.querySelector(`#${ this.state.drawerId }`).className = `${ styles.drawer } ${ styles.drawerOut }`;
+
+		if(!this.state.isClosing){
+			// Check if the drawer is already closing
+			await this.setState({ isClosing: true });
+			// add animation depending if it's a right or left drawer
+			setTimeout(async () => {
+				await this.setState({
+					showDrawer,
+				  isClosing: false,
+			  });
+			}, 300);
+
+			const selectedDrawer = document.querySelector(`#${ this.state.drawerId }`);
+			if(selectedDrawer){
+				if(this.props.position === "right"){
+					selectedDrawer.className = `${ styles.drawer } ${ styles.drawerOutRight }`;
+				} else {
+					selectedDrawer.className = `${ styles.drawer } ${ styles.drawerOut }`;
+				}
+				document.querySelector(`#${ this.state.drawerOverlayId }`).className = `${ styles.drawerOverlay } ${ styles.drawerOverlayOut }`;
+			}
 		}
-		document.querySelector(`#${ this.state.drawerOverlayId }`).className = `${ styles.drawerOverlay } ${ styles.drawerOverlayOut }`;
 	}
 
 	componentDidMount(){
@@ -56,33 +69,37 @@ class DrawerPortal extends Component {
 
 		return (
 			this.state.showDrawer && (
-				<div
-					className={ drawerPositionClass }
-				>
+				<div>
 					<div
-						id={ this.state.drawerId }
-						style={ this.props.style }
-						className={ drawerClass } >
-						{
-							this.props.isClosable && (
-								<button
-									className={ styles.closeDrawer }
-									onClick={ this.props.toggleDrawer }>
-									<Icon
-										type="close"
-										size="1.6rem"
-										className={ styles.closeDrawerIcon } />
-								</button>
-							)
-						}
+						className={ drawerPositionClass }
+					>
+						<div
+							id={ this.state.drawerId }
+							style={ this.props.style }
+							className={ drawerClass } >
+							{
+								this.props.isClosable && (
+									<button
+										className={ styles.closeDrawer }
+										onClick={ this.props.toggleDrawer }>
+										<Icon
+											type="close"
+											size="1.6rem"
+											className={ styles.closeDrawerIcon } />
+									</button>
+								)
+							}
 
-						{ this.props.children }
+							{ this.props.children }
+						</div>
+
+					  <div
+							id={ this.state.drawerOverlayId }
+							onClick={ this.props.toggleDrawer }
+							className={ styles.drawerOverlay }></div>
 					</div>
 
-				  <div
-						id={ this.state.drawerOverlayId }
-						onClick={ this.props.toggleDrawer }
-						className={ styles.drawerOverlay }></div>
+					<div className={ styles.drawerBlockClick }></div>
 				</div>
 			)
 		)

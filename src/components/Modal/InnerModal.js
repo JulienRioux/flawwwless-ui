@@ -15,6 +15,7 @@ class InnerModal extends Component {
 		this.setState({ isClosing: true });
 		setTimeout(() => {
 			this.props.toggleModal();
+			this.props.finishedClose();
 		}, 300);
 		this.addCloseAnimation();
 	}
@@ -34,7 +35,6 @@ class InnerModal extends Component {
   // }
 
 	componentDidMount(){
-
 		this.props.onRef(this);
 		setTimeout(() => {
 			document.querySelector("#modalOverlay").className = styles.modalOverlay;
@@ -64,10 +64,11 @@ class InnerModal extends Component {
 		return(
 			<div>
 			  <div id="modalOverlay" onClick={ this.closeModal } className={ `${ styles.modalOverlay } ${ styles.hide }` }></div>
+
 				<div id="modal" className={ styles.modal }>
 					<Card
-					  title={ title }
-					  border="shadow">
+						title={ title }
+						border="none">
 						<button onClick={ this.closeModal } className={ styles.closeModal }>
 							<Icon
 								type="close"

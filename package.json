@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
-	"homepage": "http://ui.flawwwless.com/",
+  "homepage": "http://ui.flawwwless.com/",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -60,6 +60,7 @@
     "dist"
   ],
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "colr": "^1.2.2",
     "hex-rgb": "^4.1.0",
     "node-sass": "^4.12.0",

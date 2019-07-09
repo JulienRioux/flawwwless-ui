@@ -23,13 +23,15 @@ class App extends Component {
       <div>
 				<DesktopNavbar />
 
+			  <Drawers />
+				
+		  	<Modals />
+
 			  <Testing />
 
 			  <Icons />
 				<Layouts />
 				<Menus />
-			  <Modals />
-				<Drawers />
 			  <Cards />
 				<Tables />
 			  <Inputs />

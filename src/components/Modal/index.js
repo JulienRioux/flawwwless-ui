@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Button from "../Button";
 import styles from "./Modal.scss";
 import InnerModal from "./InnerModal";
+import "babel-polyfill";
 
 
 class ModalPortal extends Component {
@@ -17,6 +18,7 @@ class ModalPortal extends Component {
 
 	state = {
 		isVisible: false,
+		isClosing: false,
 	}
 
 	componentDidMount(){
@@ -26,15 +28,27 @@ class ModalPortal extends Component {
 	componentDidUpdate(prevProps){
 		// Check if the modal visibility changed and add animation on close
 		if(this.props.isVisible !== prevProps.isVisible){
+			this.handleVisible();
+		}
+	}
+
+	handleVisible = async () => {
+		// Do nothing if the modal is already closing
+		if(!this.state.isClosing){
 			if(this.props.isVisible){
 				this.setState({ isVisible: true });
-			} else {
+			} else if(this.child) {
+				await this.setState({ isClosing: true });
 				this.child.addCloseAnimation();
 				setTimeout(() => {
 					this.setState({ isVisible: false });
 				}, 300);
 			}
 		}
+	}
+
+	finishedClose = async () => {
+		await this.setState({ isClosing: false });
 	}
 
 	render(){
@@ -45,9 +59,12 @@ class ModalPortal extends Component {
 						title={ this.props.title }
 						onRef={ref => (this.child = ref)}
 						isVisible={ this.props.isVisible }
-						toggleModal={ this.props.toggleModal }>
+						toggleModal={ this.props.toggleModal }
+						finishedClose={ this.finishedClose }>
 						{ this.props.children }
 					</InnerModal>
+
+					<div className={ styles.modalBlockClick }></div>
 				</div>
 			) : null
 		)
