@@ -49,6 +49,8 @@ class Button extends Component {
 						return (
 							<CustomButton
 								{ ...this.props }
+                role="button"
+                tabIndex="0"
 								onClick={ this.buttonClicked }
 								className={`${ styles.btn } ${ typeStyle } ${ roundedClass } ${ loadingBtn }`}>
 								<span style={{ opacity: loading ? 0 : 1 }}>
