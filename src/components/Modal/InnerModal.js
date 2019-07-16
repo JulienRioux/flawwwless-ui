@@ -75,7 +75,7 @@ class InnerModal extends Component {
 						<button onClick={ this.closeModal } className={ styles.closeModal }>
 							<Icon
 								type="close"
-								size="1.6rem"
+								size="24px"
 								className={ styles.closeIcon } />
 						</button>
 						{ children }

@@ -84,7 +84,7 @@ class DrawerPortal extends Component {
 										onClick={ this.props.toggleDrawer }>
 										<Icon
 											type="close"
-											size="1.6rem"
+											size="24px"
 											className={ styles.closeDrawerIcon } />
 									</button>
 								)
