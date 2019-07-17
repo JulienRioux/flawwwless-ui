@@ -80,6 +80,7 @@ const getBtnStyle = (type, outlined, context, colors) => {
 		CustomButton = styled.button`
 			background-color: none;
 			color: ${ mainColor };
+			outline: 0;
 
 			:hover {
 		    background-color: ${ mainColor }15;
@@ -100,6 +101,7 @@ const getBtnStyle = (type, outlined, context, colors) => {
 		CustomButton = styled.button`
 			background-color: ${ mainColor };
 			color: ${ color };
+			outline: 0;
 
 			:hover {
 		    background-color: ${ lightenDarkenColor(mainColor, 7) };

@@ -14,7 +14,7 @@
 	letter-spacing: .25px;
 	transition: .15s;
 	min-width: 100px;
-	outline: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 .btn:hover,
 .btn:focus{
