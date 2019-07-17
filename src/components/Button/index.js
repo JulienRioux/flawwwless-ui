@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import styles from "./Button.scss";
-import Icon from "../Icon";
+import Icon from "../FlwwwIcon";
 import getBtnStyle from "./getBtnStyle";
 
 import ThemeContext from "../../context/themeContext";
@@ -49,8 +49,6 @@ class Button extends Component {
 						return (
 							<CustomButton
 								{ ...this.props }
-                role="button"
-                tabIndex="0"
 								onClick={ this.buttonClicked }
 								className={`${ styles.btn } ${ typeStyle } ${ roundedClass } ${ loadingBtn }`}>
 								<span style={{ opacity: loading ? 0 : 1 }}>

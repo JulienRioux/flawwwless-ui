@@ -15,7 +15,16 @@
 	transition: .15s;
 	min-width: 100px;
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
+
+.btn::-moz-focus-inner {
+  border: 0;
+}
+
 .btn:hover,
 .btn:focus{
 	// background-color: #5f636833;

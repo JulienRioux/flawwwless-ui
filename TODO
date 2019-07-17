@@ -2,10 +2,42 @@ MODAL:
 Prevent scroll
 
 
+
+
 INPUT:
 Add error props to textarea.
 Make autoFocus working properly
 
 
+
+
 CONTAINER:
 add ...props for inline style and className
+
+
+
+
+BUTTON:
+https://www.reddit.com/r/reactjs/comments/ce1hkf/flawwwless_ui/
+
+I only looked at the Button and here are a few things:
+
+type is already an HTML attribute, and you've overridden that semantic standard just to add class names which are purely visible but do not provide semantic meaning (especially with styled-components...). Consider changing this prop to variant or something similar.
+
+if you're going to allow for a loading prop controlled by your component, you should also set aria-busy when loading
+
+therole="button" is extraneous and may conflict on some screenreaders
+
+the role="button" cannot be overridden by the consumer, so I can't change it something else, like role="switch"
+
+buttons are keyboard accessible by default, no need for adding a tabIndex
+
+a previous comment suggested that you remove the outline which you did; but as a follow-up comment also stated, this is an important affordability for keyboard navigation, and shouldn't be removed unless you're defining an equivalent and clearly identifiable outline. On mobile I see an outline that is the same color as the button but slightly more translucent, which could be made more identifiable but this is a bit subjective
+
+you might also investigate the focus-visible standard for a polyfill to display the outline styles only when keyboard navigation is happening.
+
+I'm really surprised to not see any disabled styles, as it's a very common property used on the web. A disabled button would look visually the same as an enabled button.
+
+the .loadingBtn class disables pointer events, but keyboard click events would still be triggered, which may be unintended and undesirable. You could instead use [aria-busy] in your selector instead so that your css is coupled with good accessibility behavior!
+
+the onClick handler does not provide the event to the consumers callback, which I would prefer to have access to as a developer.

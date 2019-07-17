@@ -91,6 +91,11 @@ const getBtnStyle = (type, outlined, context, colors) => {
 				box-shadow: 0 0 0 2.5px ${ mainColor }66;
 			}
 
+			:-moz-focusring {
+				background-color: none;
+				box-shadow: 0 0 0 2.5px ${ mainColor }66;
+			}
+
 			:active {
 				background-color: ${ mainColor }33;
 			}
@@ -109,6 +114,11 @@ const getBtnStyle = (type, outlined, context, colors) => {
 
 			:focus {
 				background-color: ${ mainColor };
+				box-shadow: 0 0 0 2.5px ${ mainColor }66;
+			}
+
+			:-moz-focusring {
+				background-color: none;
 				box-shadow: 0 0 0 2.5px ${ mainColor }66;
 			}
 

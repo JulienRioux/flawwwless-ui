@@ -1,0 +1,24 @@
+.iconSvg{
+	display: inline-block;
+	// vertical-align: middle;
+	// vertical-align: sub;
+	// vertical-align: top;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.iconAnimation svg {
+  animation: iconSpin infinite 1.3s linear;
+}
+
+@keyframes iconSpin {
+  from {
+		transform: rotate(0deg);
+	}
+  to {
+		transform: rotate(360deg);
+	}
+}
+
+.isSpinning {
+  composes: iconAnimation;
+}

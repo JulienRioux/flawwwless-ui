@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import PropTypes from 'prop-types';
 import styles from "./Messages.scss";
-import CheckMark from "../Icon/Icons/iconsSvg/CheckMarkGreen.svg";
-import Stop from "../Icon/Icons/iconsSvg/StopRed.svg";
-import Exclamation from "../Icon/Icons/iconsSvg/ExclamationBlue.svg";
-import Question from "../Icon/Icons/iconsSvg/QuestionGray.svg";
+import CheckMark from "../FlwwwIcon/Icons/iconsSvg/CheckMarkGreen.svg";
+import Stop from "../FlwwwIcon/Icons/iconsSvg/StopRed.svg";
+import Exclamation from "../FlwwwIcon/Icons/iconsSvg/ExclamationBlue.svg";
+import Question from "../FlwwwIcon/Icons/iconsSvg/QuestionGray.svg";
 
 
 const message = (text, type, time=2.5) => {

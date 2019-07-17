@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styles from "./Input.scss";
-import Icon from "../Icon";
+import Icon from "../FlwwwIcon";
 import styled from "styled-components";
 import { primaryColor } from "../../styles";
 

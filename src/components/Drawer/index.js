@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import PropTypes from 'prop-types';
 import styles from "./Drawer.scss";
-import Icon from "../Icon";
+import Icon from "../FlwwwIcon";
 import uid from "uid";
 
 

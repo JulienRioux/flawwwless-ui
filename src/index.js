@@ -5,7 +5,7 @@ import Card from "./components/Card";
 import Navbar from "./components/Navbar";
 import Modal from "./components/Modal";
 import Menu from "./components/Menu";
-import Icon from "./components/Icon";
+import Icon from "./components/FlwwwIcon";
 import message from "./components/Message";
 import Input from "./components/Input";
 import TextArea from "./components/Input/TextArea";

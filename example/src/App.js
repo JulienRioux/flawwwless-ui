@@ -23,6 +23,8 @@ class App extends Component {
       <div>
 				<DesktopNavbar />
 
+			  <Buttons />
+
 			  <Messages />
 
 			  <Drawers />
@@ -37,8 +39,6 @@ class App extends Component {
 			  <Cards />
 				<Tables />
 			  <Inputs />
-				<Buttons />
-
 
       </div>
     )

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styles from "./Table.scss";
-import Icon from "../Icon";
 import styled from "styled-components";
 import { primaryColor } from "../../styles";
 

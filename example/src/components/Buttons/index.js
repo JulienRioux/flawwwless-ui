@@ -34,8 +34,8 @@ class Buttons extends Component {
 								onClick={ this.fakeLoading }
 								loading={ this.state.isLoading }
 								type="primary">Primary</Button>
-							<Button
-								type="success">Success</Button>
+
+							<Button type="success">Success</Button>
 							<Button type="danger">Danger</Button>
 							<Button
 								colors={{

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from "./Modal.scss";
 import PropTypes from 'prop-types';
 import Card from "../Card";
-import Icon from "../Icon";
+import Icon from "../FlwwwIcon";
 
 class InnerModal extends Component {
 	state = {
