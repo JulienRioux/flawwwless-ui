@@ -1,82 +1,36 @@
-import React from "react";
-import styled from "styled-components";
-import formatColStyle from "./formatColStyle";
+import React, { Component } from "react";
 import { gutterSize } from "../layoutParams";
+import styles from "./Col.scss";
 
-const Col = (props) => {
+class Col extends Component {
 
-	// Default styling for any col
-	const colStyle = {
-		position: "relative",
-	  width: "100%",
-	  padding-right: gutterSize,
-	  padding-left: gutterSize,
-	}
 
-	// Format the right width for the cols
-	let colClass;
-	if(props.grid){
-		// Get all the classes inside the grid props
-		colClass = props.grid.split(" ");
-	}
-
-	// Setup some variables for media queries
-	const smallDevice = "576px";
-	const mediumDevice = "768px";
-	const largeDevice = "992px";
-	const xlDevice = "1200px";
-
-	// add the grid style to the div
-	let gridStyle = "";
-	colClass.forEach(cls => {
-		// get the percent or the width
-		const classArray = cls.split("-");
-		const prcntWidth = 100 / 12 * classArray[classArray.length-1];
-
-		// Check if it contain media queries grid
-		// SMALL DEVICES
-		if(cls.split("-").includes("sm")){
-			gridStyle += formatColStyle(cls, smallDevice, prcntWidth);
+	render(){
+		// Format the right width for the cols
+		let colClass;
+		if(this.props.grid){
+			// Get all the classes inside the grid props
+			colClass = this.props.grid.split(" ");
 		}
-		// MEDIUM DEVICE
-		else if(cls.split("-").includes("md")){
-			gridStyle += formatColStyle(cls, mediumDevice, prcntWidth);
-		}
-		// LARGE DEVICE
-		else if(cls.split("-").includes("lg")){
-			gridStyle += formatColStyle(cls, largeDevice, prcntWidth);
-		}
-		// XL DEVICE
-		else if(cls.split("-").includes("xl")){
-			gridStyle += formatColStyle(cls, xlDevice, prcntWidth);
-		}
-		else {
+
+		// init a class list array
+		let classString = styles["col"];
+		// iterate over the array of class and add the right one
+		colClass.forEach(cls => {
 			if(cls.split("-").includes("offset")){
-				gridStyle += `
-				  margin-left: ${ prcntWidth }%;
-				`;
+				classString += ` ${ styles[cls] }`;
 			}
 			else {
-				gridStyle += `
-					max-width: ${ prcntWidth }%;
-					flex: 0 0 ${ prcntWidth }%;
-				`;
+				classString += ` ${ styles[`col-${ cls }`] }`;
 			}
-		}
-	});
+		});
 
-
-
-	const CustomCol = styled.div`
-		${ colStyle }
-		${ gridStyle }
-	`;
-
-	return (
-		<CustomCol { ...props }>
-			{ props.children }
-		</CustomCol>
-	)
+		return (
+			<div className={ classString } { ...this.props }>
+				{ this.props.children }
+			</div>
+		)
+	}
 }
 
 export default Col;
