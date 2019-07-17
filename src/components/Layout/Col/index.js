@@ -6,16 +6,17 @@ import { gutterSize } from "../layoutParams";
 const Col = (props) => {
 
 	// Default styling for any col
-	const colStyle = `
-		position: relative;
-	  width: 100%;
-	  padding-right: ${ gutterSize };
-	  padding-left: ${ gutterSize };
-	`;
+	const colStyle = {
+		position: "relative",
+	  width: "100%",
+	  padding-right: gutterSize,
+	  padding-left: gutterSize,
+	}
 
 	// Format the right width for the cols
 	let colClass;
 	if(props.grid){
+		// Get all the classes inside the grid props
 		colClass = props.grid.split(" ");
 	}
 

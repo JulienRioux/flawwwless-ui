@@ -1,20 +1,19 @@
 import React from "react";
-import styled from "styled-components";
 import { gutterSize } from "../layoutParams";
 
 const Row = (props) => {
 
-	const CustomRow = styled.div`
-		display: flex;
-		flex-wrap: wrap;
-		margin-right: -${ gutterSize };
-		margin-left: -${ gutterSize };
-	`;
+	const rowStyle = {
+		display: "flex",
+		flexWrap: "wrap",
+		marginRight: `-${ gutterSize }`,
+		marginLeft: `-${ gutterSize }`,
+	}
 
 	return (
-		<CustomRow { ...props }>
+		<div style={ rowStyle } { ...props }>
 		  { props.children }
-		</CustomRow>
+		</div>
 	)
 }
 

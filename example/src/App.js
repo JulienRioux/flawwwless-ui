@@ -21,7 +21,11 @@ class App extends Component {
   render () {
     return (
       <div>
-				<DesktopNavbar />
+				{/*<DesktopNavbar />*/}
+
+				<Testing />
+
+			  <Layouts />
 
 			  <Buttons />
 
@@ -31,10 +35,7 @@ class App extends Component {
 
 		  	<Modals />
 
-			  <Testing />
-
 			  <Icons />
-				<Layouts />
 				<Menus />
 			  <Cards />
 				<Tables />

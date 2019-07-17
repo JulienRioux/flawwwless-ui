@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Input, TextArea } from "flwww";
+import { Card, Input, TextArea, Col } from "flwww";
 
 
 class Testing extends Component {
@@ -22,7 +22,7 @@ class Testing extends Component {
 
 					<Card>
 						<div style={{ margin: ".5rem 0" }} className="buttonBlock">
-							<div className="col-lg-4 col-md-8">
+							<Col grid="md-6">
 
 								<Input
 									autoFocus
@@ -31,7 +31,7 @@ class Testing extends Component {
 									onChange={ this.handleChange }
 								  type="text"
 									placeholder="Enter your username" />
-							</div>
+							</Col>
 						</div>
 					</Card>
 				</div>
