@@ -11,7 +11,7 @@ const Row = (props) => {
 	}
 
 	return (
-		<div style={ rowStyle } { ...props }>
+		<div { ...props } style={{ ...rowStyle, ...props.style }}>
 		  { props.children }
 		</div>
 	)
