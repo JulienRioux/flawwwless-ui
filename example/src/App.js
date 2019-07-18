@@ -14,6 +14,8 @@ import Drawers from "./components/Drawers";
 import Menus from "./components/Menus";
 import Layouts from "./components/Layouts";
 import Testing from "./components/Testing";
+import Progress from "./components/Progress";
+import Checkboxs from "./components/Checkboxs";
 
 
 class App extends Component {
@@ -22,6 +24,10 @@ class App extends Component {
     return (
       <div>
 				{/*<DesktopNavbar />*/}
+
+				<Checkboxs />
+
+				<Progress />
 
 				<Testing />
 

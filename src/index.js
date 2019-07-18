@@ -13,6 +13,8 @@ import Table from "./components/Table";
 import Drawer from "./components/Drawer";
 import ThemeProvider from "./components/ThemeProvider";
 import { Row, Container, Col } from "./components/Layout";
+import { RadialProgress, DefaultProgress } from "./components/Progress";
+import Checkbox from "./components/Checkbox";
 
 import styles from "./styles.scss";
 
@@ -49,4 +51,7 @@ export {
 	Container,
 	Row,
 	Col,
+	RadialProgress,
+	DefaultProgress,
+	Checkbox,
 };

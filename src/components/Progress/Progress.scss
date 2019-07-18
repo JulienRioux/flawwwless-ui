@@ -1,0 +1,59 @@
+.progressAnim{
+	animation: progress 1s ease-out forwards;
+}
+
+.progressBG{
+	width: 100%;
+	background: #eee;
+}
+
+.defaultProgress{
+}
+
+.progressBG,
+.defaultProgress{
+	height: 10px;
+	position: absolute;
+	top: 0;
+}
+
+.progressWrapper{
+	position: relative;
+	height: 10px;
+}
+
+.progressMainWrapper{
+	display: flex;
+	align-items: center;
+}
+
+.progressChar{
+	font-size: .7em;
+	opacity: .5;
+	padding: 2px 0 0 4px;
+}
+
+.progressText{
+	padding-left: 8px;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 1.1rem;
+}
+
+.defaultProgressAnim{
+	animation: defaultProgress 1s ease-out forwards;
+}
+
+
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+@keyframes defaultProgress {
+	0% {
+    width: 0%;
+  }
+}

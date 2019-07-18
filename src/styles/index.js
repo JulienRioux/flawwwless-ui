@@ -10,3 +10,20 @@ export const successTextColor = "#ffffff";
 
 export const dangerColor = "#ff2a2a";
 export const dangerTextColor = "#ffffff";
+
+
+const defaultColorSet = {
+	defaultColor,
+	defaultTextColor,
+
+	primaryColor,
+	primaryTextColor,
+
+	successColor,
+	successTextColor,
+
+	dangerColor,
+	dangerTextColor,
+}
+
+export default defaultColorSet;

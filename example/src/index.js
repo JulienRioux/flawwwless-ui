@@ -9,15 +9,15 @@ import App from './App';
 const theme = {
 	defaultColor: "#079992",
 	defaultTextColor: "#262626",
-	primaryColor: "#38ada9",
-	primaryTextColor: "#262626",
+	primaryColor: "#6600ff",
+	// primaryTextColor: "#262626",
 	successColor: "#78e08f",
 	successTextColor: "#262626",
 	dangerColor: "#b71540",
 	dangerTextColor: "#262626",
 };
 
-const useTheming = false;
+const useTheming = true;
 
 if(useTheming){
 	ReactDOM.render(
