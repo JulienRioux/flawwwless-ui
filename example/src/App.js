@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import "./App.css";
 import { withRouter } from "react-router-dom";
+import { Container } from "flwww";
 
 import Buttons from "./components/Buttons";
 import Cards from "./components/Cards";
-import DesktopNavbar from "./components/DesktopNavbar";
 import Modals from "./components/Modals";
 import Icons from "./components/Icons";
 import Messages from "./components/Messages";
@@ -23,29 +23,71 @@ class App extends Component {
   render () {
     return (
       <div>
-				{/*<DesktopNavbar />*/}
 
-				<Checkboxs />
+				<Container>
+					<h1>Flawwwless ui</h1>
+				</Container>
 
-				<Progress />
+				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>Version 2 components (Beta)</h2>
 
-				<Testing />
+				<div style={{ margin: "4rem 0 8rem 0" }}>
+					<Checkboxs />
+				</div>
 
-			  <Layouts />
+				<div style={{ margin: "8rem 0" }}>
+					<Progress />
+				</div>
 
-			  <Buttons />
 
-			  <Messages />
+				<h2 style={{ textAlign: "center", marginTop: "12rem" }}>Version 1 components</h2>
 
-			  <Drawers />
+				<div style={{ margin: "4rem 0 8rem 0" }}>
+					<Testing />
+				</div>
 
-		  	<Modals />
+				<div style={{ margin: "8rem 0" }}>
+					<Layouts />
+				</div>
 
-			  <Icons />
-				<Menus />
-			  <Cards />
-				<Tables />
-			  <Inputs />
+				<div style={{ margin: "8rem 0" }}>
+					<Buttons />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Buttons />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Messages />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Drawers />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Modals />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Icons />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Menus />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Cards />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Tables />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Inputs />
+				</div>
 
       </div>
     )

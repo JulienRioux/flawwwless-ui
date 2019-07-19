@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Drawer, Button, Container } from "flwww";
+import { Drawer, Button, Container, Card } from "flwww";
 
 class Drawers extends Component {
 	state = {
@@ -24,38 +24,40 @@ class Drawers extends Component {
 		const { showDrawer, showRightDrawer } = this.state;
 		return (
 			<Container>
-				<div className="componentBlock">
-					<h3 className="componentTitle">Drawers</h3>
-					<p className="componentDescr">Display dataset inside table.</p>
+				<Card>
+					<div className="componentBlock">
+						<h3 className="componentTitle">Drawers</h3>
+						<p className="componentDescr">Display dataset inside table.</p>
 
-				  <Button
-						onClick={ this.toggleDrawer }
-						type="primary">Show Drawer</Button>
+					  <Button
+							onClick={ this.toggleDrawer }
+							type="primary">Show Drawer</Button>
 
-					<Button
-						style={{ marginLeft: ".5rem" }}
-						onClick={ this.toggleRightDrawer }
-						type="primary">Show Right Drawer</Button>
-
-
-					<Drawer
-						showDrawer={ showDrawer }
-						toggleDrawer={ this.toggleDrawer }
-					>
-						<div>Drawer</div>
-						<p>This is a drawer</p>
-					</Drawer>
+						<Button
+							style={{ marginLeft: ".5rem" }}
+							onClick={ this.toggleRightDrawer }
+							type="primary">Show Right Drawer</Button>
 
 
-					<Drawer
-						showDrawer={ showRightDrawer }
-						toggleDrawer={ this.toggleRightDrawer }
-						position="right"
-					>
-						<div>Drawer</div>
-						<p>This is a right position drawer</p>
-					</Drawer>
-				</div>
+						<Drawer
+							showDrawer={ showDrawer }
+							toggleDrawer={ this.toggleDrawer }
+						>
+							<div>Drawer</div>
+							<p>This is a drawer</p>
+						</Drawer>
+
+
+						<Drawer
+							showDrawer={ showRightDrawer }
+							toggleDrawer={ this.toggleRightDrawer }
+							position="right"
+						>
+							<div>Drawer</div>
+							<p>This is a right position drawer</p>
+						</Drawer>
+					</div>
+				</Card>
 			</Container>
 		)
 	}

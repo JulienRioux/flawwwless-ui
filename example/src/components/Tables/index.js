@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from "flwww";
+import { Table, Container, Card } from "flwww";
 import { Link } from "react-router-dom";
 
 const Tables = props => {
@@ -26,21 +26,23 @@ const Tables = props => {
 	}
 
 	return (
-		<div className="container">
-			<div className="componentBlock">
-				<h3 className="componentTitle">Table</h3>
-				<p className="componentDescr">Display dataset inside table.</p>
-		    <Table
-				  bordered
-				  columns={ tableData.columns }
-					rows={ tableData.rows } />
+		<Container>
+			<Card>
+				<div className="componentBlock">
+					<h3 className="componentTitle">Table</h3>
+					<p className="componentDescr">Display dataset inside table.</p>
+			    <Table
+					  bordered
+					  columns={ tableData.columns }
+						rows={ tableData.rows } />
 
-				<p style={{ paddingTop: "2rem" }} className="componentDescr">Without border.</p>
-		    <Table
-				  columns={ tableData.columns }
-					rows={ tableData.rows } />
-			</div>
-		</div>
+					<p style={{ paddingTop: "2rem" }} className="componentDescr">Without border.</p>
+			    <Table
+					  columns={ tableData.columns }
+						rows={ tableData.rows } />
+				</div>
+			</Card>
+		</Container>
 	)
 }
 

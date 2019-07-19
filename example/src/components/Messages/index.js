@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Card, message } from "flwww";
+import { Button, Card, message, Container } from "flwww";
 
 
 class Messages extends Component {
@@ -31,21 +31,23 @@ class Messages extends Component {
 
 	render(){
 		return (
-			<div className="container">
-				<div className="componentBlock">
-					<h3 className="componentTitle">Messages</h3>
-					<p className="componentDescr">To trigger an message.</p>
-					<Card>
-						<div style={{ margin: ".5rem 0" }} className="buttonBlock">
-							<Button type="primary" onClick={ this.showNormalMessage }>Normal message</Button>
-							<Button type="success" onClick={ this.showSuccessMessage }>Success Message</Button>
-							<Button type="danger" onClick={ this.showErrorMessage }>Error Message</Button>
-							<Button type="question" onClick={ this.showQuestionMessage }>Question Message</Button>
-							<Button outlined type="primary" onClick={ this.showNoIconMessage }>Message without icon</Button>
-						</div>
-					</Card>
-				</div>
-			</div>
+			<Container>
+				<Card>
+					<div className="componentBlock">
+						<h3 className="componentTitle">Messages</h3>
+						<p className="componentDescr">To trigger an message.</p>
+						<Card>
+							<div style={{ margin: ".5rem 0" }} className="buttonBlock">
+								<Button type="primary" onClick={ this.showNormalMessage }>Normal message</Button>
+								<Button type="success" onClick={ this.showSuccessMessage }>Success Message</Button>
+								<Button type="danger" onClick={ this.showErrorMessage }>Error Message</Button>
+								<Button type="question" onClick={ this.showQuestionMessage }>Question Message</Button>
+								<Button outlined type="primary" onClick={ this.showNoIconMessage }>Message without icon</Button>
+							</div>
+						</Card>
+					</div>
+				</Card>
+			</Container>
 		)
 	}
 }

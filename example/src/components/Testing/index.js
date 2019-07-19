@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Input, TextArea, Col, Row, Button } from "flwww";
+import { Card, Input, TextArea, Col, Row, Button, Container } from "flwww";
 
 
 class Testing extends Component {
@@ -16,25 +16,27 @@ class Testing extends Component {
 
 	render(){
 		return (
-			<div className="container">
-				<div className="componentBlock">
-					<h3 className="componentTitle">TESTING</h3>
+			<Container>
+				<Card>
+					<div className="componentBlock">
+						<h3 className="componentTitle">TESTING</h3>
 
-					<Card>
-						<div style={{ margin: ".5rem 0" }} className="buttonBlock">
-							<Col grid="md-6">
+						<Card>
+							<div style={{ margin: ".5rem 0" }} className="buttonBlock">
+								<Col grid="md-6">
 
-								<Input
-									value={ this.state.username }
-									name="username"
-									onChange={ this.handleChange }
-								  type="text"
-									placeholder="Enter your username" />
-							</Col>
-						</div>
-					</Card>
-				</div>
-			</div>
+									<Input
+										value={ this.state.username }
+										name="username"
+										onChange={ this.handleChange }
+									  type="text"
+										placeholder="Enter your username" />
+								</Col>
+							</div>
+						</Card>
+					</div>
+				</Card>
+			</Container>
 		)
 	}
 }
