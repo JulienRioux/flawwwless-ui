@@ -39,8 +39,9 @@ class Table extends Component {
 								<thead>
 									<tr>
 										{
+                      // Custom columns labels, so if you get data from an external source you don't need to map.
 											this.props.columns.map((column, i) => (
-												<th key={ i }>{ column }</th>
+												<th key={ i }>{ column.label || column }</th>
 											))
 										}
 									</tr>
@@ -51,9 +52,14 @@ class Table extends Component {
 										this.props.rows.map((row, i) => (
 											<CustomTR key={ i }>
 												{
-													this.props.columns.map((column, j) => (
-														<td key={ j }>{ row[column] }</td>
-													))
+													this.props.columns.map((column, j) => {
+														const k = column.key || column;
+
+                            // You can now pass components to the row
+                            const item = row[k] instanceof Function ? row[k](row, column) : row[k];
+                            
+                            return <td key={ j }>{ item }</td>
+                          })
 												}
 											</CustomTR>
 										))
