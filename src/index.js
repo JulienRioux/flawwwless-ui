@@ -15,6 +15,7 @@ import ThemeProvider from "./components/ThemeProvider";
 import { Row, Container, Col } from "./components/Layout";
 import { RadialProgress, DefaultProgress } from "./components/Progress";
 import Checkbox from "./components/Checkbox";
+import Tooltip from "./components/Tooltip";
 
 import styles from "./styles.scss";
 
@@ -54,4 +55,5 @@ export {
 	RadialProgress,
 	DefaultProgress,
 	Checkbox,
+	Tooltip,
 };

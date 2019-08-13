@@ -16,6 +16,7 @@ import Layouts from "./components/Layouts";
 import Testing from "./components/Testing";
 import Progress from "./components/Progress";
 import Checkboxs from "./components/Checkboxs";
+import Tooltips from "./components/Tooltips";
 
 
 class App extends Component {
@@ -31,6 +32,10 @@ class App extends Component {
 				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>Version 2 components (Beta)</h2>
 
 				<div style={{ margin: "4rem 0 8rem 0" }}>
+					<Tooltips />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
 					<Checkboxs />
 				</div>
 
