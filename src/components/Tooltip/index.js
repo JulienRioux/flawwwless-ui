@@ -12,7 +12,7 @@ class Tooltip extends Component {
 
 		const tooltipStyle = this.props.dark ? styles.tooltiptextDark : "";
 
-		// Manage the position
+		// Manage the position.
 		let position = "";
 		if(this.props.position === "bottom"){
 			position = styles.bottomTooltip;
