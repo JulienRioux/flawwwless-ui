@@ -35,7 +35,12 @@
 
 .checkmark{
 	transition: .2s;
-	padding-top: 3px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 3px;
 }
 
 .unchecked .checkboxDiv{
