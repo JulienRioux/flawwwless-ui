@@ -4,6 +4,7 @@
 
 .componentBlock{
   padding: 1rem 0;
+	overflow: scroll;
 }
 
 .buttonBlock button{

@@ -25,6 +25,14 @@ class App extends Component {
     return (
       <div>
 
+				<div style={{ margin: "8rem 0" }}>
+					<Drawers />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Modals />
+				</div>
+
 				<Container>
 					<h1>Flawwwless ui</h1>
 				</Container>

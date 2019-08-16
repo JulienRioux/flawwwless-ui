@@ -5,6 +5,7 @@ import Button from "../Button";
 import styles from "./Modal.scss";
 import InnerModal from "./InnerModal";
 import "babel-polyfill";
+import ScrollLock from 'react-scrolllock';
 
 
 class ModalPortal extends Component {
@@ -54,7 +55,7 @@ class ModalPortal extends Component {
 	render(){
 		return (
 			this.state.isVisible ? (
-				<div>
+				<ScrollLock>
 					<InnerModal
 						title={ this.props.title }
 						onRef={ref => (this.child = ref)}
@@ -65,7 +66,7 @@ class ModalPortal extends Component {
 					</InnerModal>
 
 					<div className={ styles.modalBlockClick }></div>
-				</div>
+				</ScrollLock>
 			) : null
 		)
 	}

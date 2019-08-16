@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import styles from "./Drawer.scss";
 import Icon from "../FlwwwIcon";
 import uid from "uid";
+import ScrollLock from 'react-scrolllock';
+
 
 
 class DrawerPortal extends Component {
@@ -69,7 +71,7 @@ class DrawerPortal extends Component {
 
 		return (
 			this.state.showDrawer && (
-				<div>
+				<ScrollLock>
 					<div
 						className={ drawerPositionClass }
 					>
@@ -90,7 +92,9 @@ class DrawerPortal extends Component {
 								)
 							}
 
-							{ this.props.children }
+							<div>
+								{ this.props.children }
+							</div>
 						</div>
 
 					  <div
@@ -100,7 +104,7 @@ class DrawerPortal extends Component {
 					</div>
 
 					<div className={ styles.drawerBlockClick }></div>
-				</div>
+				</ScrollLock>
 			)
 		)
 	}

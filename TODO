@@ -3,7 +3,7 @@ Remove all the styled component!!!
 
 
 MODAL:
-Prevent scroll
+Enable Scroll when tere is a lot of text inside... (Now can't see the bottom...)
 
 
 
