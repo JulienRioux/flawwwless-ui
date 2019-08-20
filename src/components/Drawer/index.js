@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 import styles from "./Drawer.scss";
 import Icon from "../FlwwwIcon";
 import uid from "uid";
-import ScrollLock from 'react-scrolllock';
+// import ScrollLock from 'react-scrolllock';
+import { RemoveScroll } from 'react-remove-scroll';
 
 
 
@@ -56,9 +57,14 @@ class DrawerPortal extends Component {
 		const { showDrawer } = this.props;
 		// Add an animation to the drawer on close
 		if(showDrawer !== prevProps.showDrawer){
+			const body = document.querySelector("body");
 			if(!showDrawer){
+				// Continue the body from scrolling
+				body.setAttribute("style", "overflow: visible;");
 				this.closeDrawer();
 			} else {
+				// Prevent the body from scrolling
+				body.setAttribute("style", "overflow: hidden;");
 				this.setState({ showDrawer });
 			}
 		}
@@ -71,7 +77,7 @@ class DrawerPortal extends Component {
 
 		return (
 			this.state.showDrawer && (
-				<ScrollLock>
+				<div>
 					<div
 						className={ drawerPositionClass }
 					>
@@ -104,7 +110,7 @@ class DrawerPortal extends Component {
 					</div>
 
 					<div className={ styles.drawerBlockClick }></div>
-				</ScrollLock>
+				</div>
 			)
 		)
 	}

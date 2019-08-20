@@ -30,7 +30,7 @@
 }
 
 .checkboxWrapper:hover{
-	border: #555 !important;
+	// border: #555 !important;
 }
 
 .checkmark{
@@ -57,6 +57,11 @@
 	width: fit-content;
 }
 
+.checkboxAndLabel:hover .checkboxDiv{
+	// opacity: .4;
+	border: 2px solid #333 !important;
+	opacity: 1;
+}
 
 .checkboxLabel{
 	padding-left: 8px;
@@ -74,5 +79,11 @@
 }
 
 .disabled .unchecked:hover .checkboxDiv{
+	opacity: .6;
+}
+
+.disabled.checkboxAndLabel:hover .checkboxDiv{
+	// opacity: .4;
+	border: 2px solid #333 !important;
 	opacity: .6;
 }

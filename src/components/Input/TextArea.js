@@ -33,8 +33,7 @@ class TextArea extends Component {
 
 					const CustomTextArea = styled.textarea`
 						:focus {
-							border-color: ${ mainColor }bb !important;
-							box-shadow: 0 0 0 3px ${ mainColor }40  !important;
+							border-color: ${ mainColor } !important;
 						}
 						:active {
 							border-color: ${ mainColor } !important;

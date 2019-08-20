@@ -1,12 +1,36 @@
 @import "../../styles/variables.scss";
 
+// Old button style (smaller button)
+// .btn {
+// 	background: none;
+// 	font-size: .875rem;
+// 	color: #5f6368;
+// 	background-color: #eaeaeb;
+// 	height: 36px;
+// 	padding: 0 16px;
+// 	font-weight: 500;
+// 	cursor: pointer;
+// 	border-radius: 3px;
+// 	border: none;
+// 	letter-spacing: .25px;
+// 	transition: .15s;
+// 	min-width: 100px;
+// 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+// 	-webkit-user-select: none;
+// 	-moz-user-select: none;
+// 	-ms-user-select: none;
+// 	user-select: none;
+// 	white-space: nowrap
+// }
+
+// This is the new style of the button (bigger!!!)
 .btn {
 	background: none;
-	font-size: .875rem;
 	color: #5f6368;
 	background-color: #eaeaeb;
-	height: 36px;
-	padding: 0 16px;
+	height: 42px;
+	font-size: 14px;
+	padding: 0 30px;
 	font-weight: 500;
 	cursor: pointer;
 	border-radius: 3px;
@@ -19,6 +43,7 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	white-space: nowrap
 }
 
 .btn::-moz-focus-inner {

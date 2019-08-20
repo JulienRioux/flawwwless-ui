@@ -20,26 +20,53 @@
 	height: 100%;
 }
 
+// @mixin input-style($textColor, $shadowColor) {
+// 	outline: none;
+// 	font-size: 1rem;
+// 	padding: .3rem .6rem;
+// 	border-radius: 4px;
+// 	border: 1px solid lighten($textColor, 45%);
+// 	transition: all .2s, padding 0s;
+// 	width: 100%;
+//   &:hover {
+// 		border-color: lighten($textColor, 20%);
+//   }
+// 	&:focus{
+// 		// border-color: rgba($shadowColor, .7);
+// 		// box-shadow: 0 0 0 3px rgba($shadowColor, .3);;
+// 	}
+//   &:active {
+//     border-color: $shadowColor;
+//   }
+// 	&::placeholder{
+// 		color: lighten($textColor, 30%);
+// 	}
+// }
+
 @mixin input-style($textColor, $shadowColor) {
 	outline: none;
 	font-size: 1rem;
 	padding: .3rem .6rem;
 	border-radius: 4px;
-	border: 1px solid lighten($textColor, 45%);
+	border: 2px solid #0000;
+	background: #00000008;
 	transition: all .2s, padding 0s;
 	width: 100%;
   &:hover {
-		border-color: lighten($textColor, 20%);
+		// border-color: lighten($textColor, 20%);
+		background: #0000000f;
   }
 	&:focus{
+		background: #0000;
 		// border-color: rgba($shadowColor, .7);
 		// box-shadow: 0 0 0 3px rgba($shadowColor, .3);;
 	}
   &:active {
+		background: #0000;
     border-color: $shadowColor;
   }
 	&::placeholder{
-		color: lighten($textColor, 30%);
+		color: lighten($textColor, 25%);
 	}
 }
 
@@ -53,6 +80,10 @@
 
 
 .inputError{
-	box-shadow: 0 0 0 3px #ff000040 !important;
+	// box-shadow: 0 0 0 3px #ff000040 !important;
 	border-color: #ff0000 !important;
+}
+
+.input{
+	-webkit-appearance: none;
 }

@@ -59,6 +59,7 @@ class Checkbox extends Component {
 				border: "2px solid #333",
 				background: "#ddd",
 				transition: ".2s",
+				// opacity: ".6",
 			}
 		}
 
@@ -67,7 +68,7 @@ class Checkbox extends Component {
 
 		// console.log("primaryColor", primaryColor);
 
-		console.log("==>", this.props.context.primaryColor);
+		// console.log("==>", this.props.context.primaryColor);
 
 
 

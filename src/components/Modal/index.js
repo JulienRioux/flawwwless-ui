@@ -5,7 +5,7 @@ import Button from "../Button";
 import styles from "./Modal.scss";
 import InnerModal from "./InnerModal";
 import "babel-polyfill";
-import ScrollLock from 'react-scrolllock';
+import ScrollLock from "react-scrolllock";
 
 
 class ModalPortal extends Component {

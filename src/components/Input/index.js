@@ -43,19 +43,20 @@ class Input extends Component {
 
 		// Add a box styling on focus
 		element.addEventListener("focus", (e) => {
-			e.target.style.boxShadow = `0 0 0 3px ${ this.props.mainColor }40`;
-			e.target.style.borderColor = this.props.mainColor;
+			// e.target.style.boxShadow = `0 0 0 3px ${ this.props.mainColor }40`;
+			element.style.borderColor = `${ this.props.mainColor }`;
 		});
 		// Remove the styling when the user doesn't focus anymore
 		element.addEventListener("blur", (e) => {
-		  e.target.style.boxShadow = "";
+		  // e.target.style.boxShadow = "";
 			e.target.style.borderColor = "";
+			e.target.style.backgroundColor = "";
 		});
 
 		if(this.props.autoFocus){
 			// Make work the autoFocus properly
-			element.style.boxShadow = `0 0 0 3px ${ this.props.mainColor }40`;
-			element.style.borderColor = this.props.mainColor;
+			// element.style.boxShadow = `0 0 0 3px ${ this.props.mainColor }40`;
+			element.style.borderColor = `${ this.props.mainColor }`;
 		}
 	}
 
