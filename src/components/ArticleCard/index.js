@@ -29,7 +29,7 @@ const ArticleCard = (props) => {
 					</h6>
 
 					<h4
-						// style={{ textDecorationColor : primaryColor }}
+						style={{ textDecorationColor : primaryColor }}
 						className={ `${ styles.title } ${ titleClassName }` }
 					>
 						{ props.title }

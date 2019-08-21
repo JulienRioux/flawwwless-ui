@@ -24,6 +24,7 @@ import TopLoader from "./components/TopLoader";
 import Avatar from "./components/Avatar";
 import Badge from "./components/Badge";
 import Statistic from "./components/Statistic";
+import Tag from "./components/Tag";
 
 import styles from "./styles.scss";
 
@@ -71,4 +72,5 @@ export {
 	Avatar,
 	Badge,
 	Statistic,
+	Tag,
 };
