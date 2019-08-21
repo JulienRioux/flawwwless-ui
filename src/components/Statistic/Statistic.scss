@@ -1,0 +1,71 @@
+.statWrapper{
+	// border: 1px solid #0001;
+}
+
+.statBottomWrapper{
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.mainVal{
+	display: flex;
+}
+
+.title{
+	text-transform: uppercase;
+	opacity: .5;
+	letter-spacing: 1px;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.currency{
+	text-transform: uppercase;
+	opacity: .5;
+	padding-left: 4px;
+}
+
+.value{
+	font-size: 68px;
+	font-weight: bold;
+  line-height: 1;
+	margin-bottom: 5px;
+}
+
+.otherVal{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.prcntChangeDiv{
+	display: flex;
+	align-items: center;
+}
+
+.prevVal{
+	font-size: 12px;
+	opacity: .5;
+	display: flex;
+	align-items: center;
+	// padding-left: 20px;
+}
+
+.prcntChange{
+	font-size: 22px;
+	padding-left: 8px;
+}
+
+.arrow{
+	height: 40px;
+	width: 40px;
+	min-height: 40px;
+	min-width: 40px;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5px;
+	overflow: hidden;
+}

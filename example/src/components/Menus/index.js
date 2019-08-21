@@ -27,10 +27,12 @@ class Menus extends Component {
 								style={{ width: 250, padding: "1.2rem 0" }}
 								selectedItem={ this.state.selectedItem }
 							>
+
 								<Menu.Item
 									uniqueKey= "">
 									<Link to="/">Menu item 1</Link>
 								</Menu.Item>
+
 								<Menu.Item
 									uniqueKey={ "2" }>
 									<Link to="/2">Menu item 2</Link>

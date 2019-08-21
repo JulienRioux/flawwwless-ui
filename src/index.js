@@ -23,6 +23,7 @@ import Dropdown from "./components/Dropdown";
 import TopLoader from "./components/TopLoader";
 import Avatar from "./components/Avatar";
 import Badge from "./components/Badge";
+import Statistic from "./components/Statistic";
 
 import styles from "./styles.scss";
 
@@ -69,4 +70,5 @@ export {
 	TopLoader,
 	Avatar,
 	Badge,
+	Statistic,
 };

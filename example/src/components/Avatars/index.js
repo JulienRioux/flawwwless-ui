@@ -1,12 +1,15 @@
 import React from "react";
-import { Avatar, Container, Card } from "flwww";
+import { Avatar, Container, Card, Badge } from "flwww";
 import "./Avatar.css";
 
 const Avatars = (props) => {
 	return (
 		<Container>
 			<Card>
-			  <h1>Avatar</h1>
+
+
+				<h1>Avatar</h1>
+
 				<div className="avatarWrapper">
 					<Avatar
 						src="https://images.unsplash.com/photo-1553511395-d1ab463dbe1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
@@ -18,12 +21,12 @@ const Avatars = (props) => {
 						style={{ margin: "10px" }} />
 
 					<Avatar
-					  src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
-						size="60px"
+					  src="https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+						size="50px"
 						style={{ margin: "10px", borderRadius: "4px" }} />
 
 					<Avatar
-					  src="https://images.unsplash.com/flagged/photo-1552054814-8c580ce130d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+					  src="https://images.unsplash.com/photo-1527082395-e939b847da0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80"
 						style={{ margin: "10px", borderRadius: "0" }} />
 
 					<Avatar

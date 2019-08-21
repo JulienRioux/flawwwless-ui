@@ -1,0 +1,77 @@
+.badge,
+.dotBadge{
+	font-size: 10px;
+	color: #fff;
+	background-color: #ff2a2a;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	transform: translate(40%, -40%);
+	transform-origin: 100% 0%;
+	opacity: 0;
+	animation: notifIn .2s forwards;
+  overflow: hidden;
+}
+
+.badge{
+	height: 20px;
+	line-height: 20px;
+	min-width: 20px;
+  padding: 0 6px;
+}
+
+.noBadgeClass{
+	animation: notifOut .2s forwards;
+}
+
+.dotBadge{
+	height: 12px;
+	line-height: 12px;
+	min-width: 12px;
+}
+
+.badgeWrapper{
+	position: relative;
+	display: inline-block;
+}
+
+.badgeText{
+	animation: badgeTextAnim .2s forwards;
+}
+
+@keyframes badgeTextAnim {
+	0%{
+		transform: translateY(30px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+@keyframes notifIn {
+	0%{
+		opacity: 0;
+		transform: translate(0%, 0%) scale(0) translate(-20px, 20px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(40%, -40%) scale(1);
+	}
+}
+
+@keyframes notifOut {
+	0%{
+		opacity: 1;
+		transform: translate(40%, -40%) scale(1);
+	}
+	100%{
+		opacity: 0;
+		transform: translate(0%, 0%) scale(0);
+	}
+}

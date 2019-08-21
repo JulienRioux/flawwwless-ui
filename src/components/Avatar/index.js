@@ -6,6 +6,8 @@ const Avatar = (props) => {
 		backgroundImage: `url( ${ props.src })`,
 		height: props.size,
 		width: props.size,
+		minHeight: props.size,
+		minWidth: props.size,
 	};
 
 	// Check the fontSize depending on the length of the initials (1 to 6);

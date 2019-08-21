@@ -23,6 +23,7 @@ import Dropdowns from "./components/Dropdowns";
 import TopLoaders from "./components/TopLoaders";
 import Avatars from "./components/Avatars";
 import Badges from "./components/Badges";
+import Statistics from "./components/Statistics";
 
 
 class App extends Component {
@@ -36,13 +37,18 @@ class App extends Component {
 				</Container>
 
 
-				<div style={{ margin: "8rem 0" }}>
-					<Badges />
-				</div>
 
 
 
 				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>Version 2 components (Beta)</h2>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Statistics />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Badges />
+				</div>
 
 				<div style={{ margin: "8rem 0" }}>
 					<Avatars />

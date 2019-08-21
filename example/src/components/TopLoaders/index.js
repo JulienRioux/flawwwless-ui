@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TopLoader, Container, Button } from "flwww";
+import { TopLoader, Container, Button, Card } from "flwww";
 
 
 class TopLoaders extends Component {
@@ -18,15 +18,16 @@ class TopLoaders extends Component {
 		return(
 			<Container>
 
-			  <div>
+			  <Card>
+					<h1>TopLoader</h1>
 					<Button
-					  type="primary"
-					  disabled={ this.state.loading }
+						type="primary"
+						disabled={ this.state.loading }
 						loading={ this.state.loading }
-					  onClick={ this.fakeLoad }>Click to load</Button>
+						onClick={ this.fakeLoad }>Click to load</Button>
 					<TopLoader
-					  loading={ this.state.loading } />
-				</div>
+						loading={ this.state.loading } />
+				</Card>
 
 			</Container>
 		)
