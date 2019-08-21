@@ -1,0 +1,25 @@
+.ratingDiv{
+	display: flex;
+}
+
+.starButton{
+	opacity: .3;
+	transition: .2s;
+	cursor: pointer;
+	-webkit-filter: brightness(0%);
+  filter: brightness(0%);
+}
+
+.starButton:hover{
+	opacity: .5;
+}
+
+.containRating{
+	-webkit-filter: brightness(100%);
+  filter: brightness(100%);
+	opacity: 1;
+}
+
+.currentRating{
+	opacity: 1 !important;
+}

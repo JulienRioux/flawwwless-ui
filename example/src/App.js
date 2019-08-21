@@ -17,6 +17,12 @@ import Testing from "./components/Testing";
 import Progress from "./components/Progress";
 import Checkboxs from "./components/Checkboxs";
 import Tooltips from "./components/Tooltips";
+import ArticleCards from "./components/ArticleCards";
+import Ratings from "./components/Ratings";
+import Dropdowns from "./components/Dropdowns";
+import TopLoaders from "./components/TopLoaders";
+import Avatars from "./components/Avatars";
+import Badges from "./components/Badges";
 
 
 class App extends Component {
@@ -29,11 +35,34 @@ class App extends Component {
 					<h1>Flawwwless ui</h1>
 				</Container>
 
+
 				<div style={{ margin: "8rem 0" }}>
-					<Drawers />
+					<Badges />
 				</div>
 
+
+
 				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>Version 2 components (Beta)</h2>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Avatars />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<TopLoaders />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Dropdowns />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Ratings />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<ArticleCards />
+				</div>
 
 				<div style={{ margin: "4rem 0 8rem 0" }}>
 					<Tooltips />
@@ -92,6 +121,10 @@ class App extends Component {
 
 				<div style={{ margin: "8rem 0" }}>
 					<Inputs />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Drawers />
 				</div>
 
       </div>

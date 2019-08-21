@@ -28,23 +28,38 @@
 }
 
 .progressChar{
-	font-size: .7em;
+	font-size: 10px;
 	opacity: .5;
-	padding: 2px 0 0 4px;
+	padding: 2px 0 0 1px;
 }
 
 .progressText{
-	padding-left: 8px;
 	display: flex;
-	justify-content: flex-start;
-	font-size: 1.1rem;
+	font-size: 14px;
+	width: 50px;
+	justify-content: center;
+	opacity: 0;
+	animation: fadeIn .7s forwards;
 }
 
 .defaultProgressAnim{
 	animation: defaultProgress 1s ease-out forwards;
 }
 
+.radialText{
+	opacity: 0;
+	animation: fadeIn .7s forwards;
+}
 
+
+@keyframes fadeIn {
+  0% {
+		opacity: 0;
+	}
+  100% {
+		opacity: 1;
+	}
+}
 
 @keyframes progress {
   0% {

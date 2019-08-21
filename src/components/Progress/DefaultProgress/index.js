@@ -13,23 +13,28 @@ const DefaultProgress = props => {
 	const strokeStyle = props.square ? {} : { borderRadius: "5px" }
 
 	return (
-		<div className={ styles.progressMainWrapper }>
+		<div>
 			<div
-			  className={ styles.progressWrapper }
-				style={{ width: "100%" }}>
-				<div style={ strokeStyle } className={ styles.progressBG }>
-				</div>
+				style={{ marginLeft: `calc(${ prcnt }% - 23px)` }}
+				className={ styles.progressText }>
+				{ prcnt }<span className={styles.progressChar }>%</span>
+		  </div>
+			<div className={ styles.progressMainWrapper }>
 				<div
-				  style={{
-						background: strokeColor,
-						width: `${ prcnt }%`,
-						...strokeStyle,
-					}}
-				  className={ `${ styles.defaultProgress } ${ styles.defaultProgressAnim  }` }>
+				  className={ styles.progressWrapper }
+					style={{ width: "100%" }}>
+					<div style={ strokeStyle } className={ styles.progressBG }>
+					</div>
+					<div
+					  style={{
+							background: strokeColor,
+							width: `${ prcnt }%`,
+							...strokeStyle,
+						}}
+					  className={ `${ styles.defaultProgress } ${ styles.defaultProgressAnim  }` }>
+					</div>
 				</div>
 			</div>
-
-			<div className={ styles.progressText }>{ prcnt }<span className={styles.progressChar }>%</span></div>
 		</div>
 	)
 }

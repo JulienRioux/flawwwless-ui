@@ -21,7 +21,7 @@ class Button extends Component {
 	}
 
 	render(){
-		const { children, type, round, outlined, loading, colors } = this.props;
+		const { children, type, round, outlined, loading, colors, disabled } = this.props;
 
 		// Get the button style (rounded, outlined or loading)
 		let typeStyle = "";
@@ -40,6 +40,11 @@ class Button extends Component {
 			loadingBtn = styles.loadingBtn;
 		}
 
+		let disabledBtn = "";
+		if(disabled){
+			disabledBtn = styles.disabledBtn;
+		}
+
 		return (
 				<ThemeContext.Consumer>
 					{ context => {
@@ -50,7 +55,7 @@ class Button extends Component {
 							<CustomButton
 								{ ...this.props }
 								onClick={ this.buttonClicked }
-								className={`${ styles.btn } ${ typeStyle } ${ roundedClass } ${ loadingBtn }`}>
+								className={`${ styles.btn } ${ typeStyle } ${ roundedClass } ${ loadingBtn } ${ disabledBtn }`}>
 								<span style={{ opacity: loading ? 0 : 1 }}>
 									{ children }
 								</span>

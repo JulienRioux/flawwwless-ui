@@ -66,7 +66,7 @@ const RadialProgress = props => {
 					)
 				}
 
-				<g>
+				<g className={ styles.radialText }>
 					<text
 						style={ textStyle }
 						x="17"

@@ -153,3 +153,8 @@
 	align-items: center;
 	justify-content: center;
 }
+
+.disabledBtn{
+	opacity: .7;
+	pointer-events: none;
+}

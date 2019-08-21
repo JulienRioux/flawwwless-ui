@@ -1,0 +1,49 @@
+.loaderDiv{
+	height: 2px;
+	background-color: transparent;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: 1s;
+	z-index: 99999;
+}
+
+.innerLoader{
+	height: 2px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+}
+
+.topLoaderAnim {
+	animation: loadingAnim 1.4s infinite;
+}
+
+@keyframes loadingAnim {
+	0% {
+		opacity: 1;
+		right: 100%;
+	} 20% {
+		right: 100%;
+	} 50% {
+		right: 0%;
+		left: 0%;
+	} 60% {
+		right: 0%;
+		left: 0%;
+	} 90% {
+		left: 100%;
+	} 100% {
+		left: 100%;
+		opacity: 1;
+	}
+}
+
+
+.isLoading{
+	composes: topLoaderAnim;
+}
