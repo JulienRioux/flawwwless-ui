@@ -84,6 +84,7 @@ class Badge extends Component {
 Badge.defaultProps = {
 	count: undefined,
 	dot: undefined,
+	text: "",
 	style: {},
 }
 

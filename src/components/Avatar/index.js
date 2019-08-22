@@ -44,9 +44,11 @@ const Avatar = (props) => {
 }
 
 Avatar.defaultProps = {
+	src: "",
   size: "40px",
 	style: {},
 	className: "",
+	initials: "",
 }
 
 export default Avatar;

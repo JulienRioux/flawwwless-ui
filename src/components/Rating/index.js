@@ -49,6 +49,7 @@ class Rating extends Component {
 
 Rating.defaultProps = {
   size: "33px",
+	handleRatingChange: () => {},
 }
 
 export default GetContext(Rating);

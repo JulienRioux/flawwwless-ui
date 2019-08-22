@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import {  message, Card } from "flwww";
-
-import { Container, Dropdown, Button } from "flwww";
+import { Container, Dropdown, Button, message, Card } from "flwww";
 
 const Dropdowns = (props) => {
 
