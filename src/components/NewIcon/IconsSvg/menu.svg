@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group" transform="translate(310.000000, 420.000000)" stroke="#979797" stroke-width="50">
+            <path d="M0.478395062,400.5 L619.521605,400.5" id="Line"></path>
+            <path d="M1.47839506,200.5 L620.521605,200.5" id="Line"></path>
+            <path d="M1.47839506,0.5 L620.521605,0.5" id="Line"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>erase</title>
+    <desc>Created with Sketch.</desc>
+    <g id="erase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(212.000000, 333.000000)" stroke="#979797" stroke-width="50">
+            <path d="M243.964549,25 L32.1245641,288.004268 L243.936701,550 L756,550 C774.777681,550 790,534.777681 790,516 L790,59 C790,40.2223185 774.777681,25 756,25 L243.964549,25 Z" id="Rectangle"></path>
+            <g id="Group" transform="translate(482.000000, 288.000000) rotate(45.000000) translate(-482.000000, -288.000000) translate(357.000000, 163.000000)" stroke-linecap="round">
+                <path d="M0,124.5 L250,124.5" id="Line"></path>
+                <path d="M0,125 L250,125" id="Line" transform="translate(125.000000, 125.000000) rotate(90.000000) translate(-125.000000, -125.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

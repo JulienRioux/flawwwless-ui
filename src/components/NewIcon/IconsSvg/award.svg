@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>award</title>
+    <desc>Created with Sketch.</desc>
+    <g id="award" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(377.000000, 227.000000)" stroke="#979797" stroke-width="50">
+            <circle id="Oval" cx="243" cy="243" r="243"></circle>
+            <polyline id="Path" stroke-linecap="round" stroke-linejoin="round" points="393 439 413 786 243 690.575 73 786 93 439 93 439"></polyline>
+        </g>
+    </g>
+</svg>

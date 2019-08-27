@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M900,434.300029 L760.275393,277 L463.995999,277 C461.78686,277 459.995999,278.790861 459.995999,281 L459.995999,845.00562 C459.995999,847.214759 461.78686,849.00562 463.995999,849.00562 L896,849.00562 C898.209139,849.00562 900,847.214759 900,845.00562 L900,434.300029 Z" id="Rectangle" stroke="#979797" stroke-width="50"></path>
+        <path d="M900,456 L777,456 C757.117749,456 741,439.882251 741,420 L741,277 L464,277 C461.790861,277 460,278.790861 460,281 L460,845 C460,847.209139 461.790861,849 464,849 L896,849 C898.209139,849 900,847.209139 900,845 L900,456 Z" id="Rectangle" stroke="#979797" stroke-width="50"></path>
+        <path d="M442,397 L379,397 C356.90861,397 339,414.90861 339,437 L339,923 C339,945.091391 356.90861,963 379,963 L710,963 C732.09139,963 750,945.091391 750,923 L750,866" id="Path" stroke="#979797" stroke-width="50" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>

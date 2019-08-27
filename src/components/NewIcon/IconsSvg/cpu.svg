@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>cpu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="cpu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(245.000000, 245.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group-3" transform="translate(700.000000, 375.000000) rotate(90.000000) translate(-700.000000, -375.000000) translate(575.000000, 325.000000)" stroke-linecap="round">
+                <path d="M1,100 L1,0.5" id="Line-4"></path>
+                <path d="M249,100 L249,0.5" id="Line-4"></path>
+            </g>
+            <g id="Group-3" transform="translate(50.000000, 375.000000) rotate(90.000000) translate(-50.000000, -375.000000) translate(-75.000000, 325.000000)" stroke-linecap="round">
+                <path d="M1,100 L1,0.5" id="Line-4"></path>
+                <path d="M249,100 L249,0.5" id="Line-4"></path>
+            </g>
+            <path d="M251,750 L251,650.5" id="Line-4" stroke-linecap="round"></path>
+            <path d="M499,750 L499,650.5" id="Line-4" stroke-linecap="round"></path>
+            <path d="M251,100 L251,0.5" id="Line-4" stroke-linecap="round"></path>
+            <path d="M499,100 L499,0.5" id="Line-4" stroke-linecap="round"></path>
+            <rect id="Rectangle" x="125" y="125" width="500" height="500" rx="28"></rect>
+            <rect id="Rectangle" x="276" y="276" width="198" height="198" rx="28"></rect>
+        </g>
+    </g>
+</svg>

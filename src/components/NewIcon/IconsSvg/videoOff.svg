@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="1240px" viewBox="0 0 1241 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>videoOff</title>
+    <desc>Created with Sketch.</desc>
+    <g id="videoOff" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.000000, 0.000000)">
+        <g id="Group" transform="translate(256.000000, 378.000000)" stroke="#979797" stroke-width="50">
+            <rect id="Rectangle" x="25" y="25" width="526" height="434" rx="46"></rect>
+            <polyline id="Shape" stroke-linejoin="round" transform="translate(636.500000, 242.000000) rotate(-90.000000) translate(-636.500000, -242.000000) " points="692.490907 151 799 333 474 333 574.871143 160.633983"></polyline>
+        </g>
+        <path d="M620,1070 L620,170" id="Path-21" stroke="#979797" stroke-width="50" stroke-linecap="round" transform="translate(620.000000, 620.000000) rotate(135.000000) translate(-620.000000, -620.000000) "></path>
+    </g>
+</svg>

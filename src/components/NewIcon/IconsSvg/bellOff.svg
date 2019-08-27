@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>bellOff</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bellOff" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(170.000000, 253.000000)">
+            <path d="M45.6830708,190.773 L824.049212,642.319001" id="Path-4" stroke="#979797" stroke-width="50" stroke-linecap="round" transform="translate(435.183071, 416.773000) rotate(14.881109) translate(-435.183071, -416.773000) "></path>
+            <g id="Bell" transform="translate(146.000000, 0.000000)">
+                <path d="M97.9342105,586 L508.934211,586 L508.934211,283.196507 C508.934211,169.869605 416.928727,78 303.434211,78 C189.939694,78 97.9342105,169.869605 97.9342105,283.196507 L97.9342105,586 Z" id="Combined-Shape" stroke="#979797" stroke-width="50"></path>
+                <path d="M49.2144303,559 L558.653991,559 C585.31842,559 606.934211,572.732804 606.934211,589.673077 L606.934211,614 L0.934210526,614 L0.934210526,589.673077 C0.934210526,572.732804 22.5500012,559 49.2144303,559 Z" id="Rectangle" fill="#979797" fill-rule="nonzero"></path>
+                <path d="M224.934211,657 L382.934211,657 L382.934211,657 C382.934211,700.07821 348.062867,735 305.046887,735 L302.821534,735 C259.805554,735 224.934211,700.07821 224.934211,657 Z" id="Rectangle" fill="#979797" fill-rule="nonzero"></path>
+                <path d="M260,0 L347,0 L347,34.5428571 C347,58.5435744 327.524386,78 303.5,78 L303.5,78 C279.475614,78 260,58.5435744 260,34.5428571 L260,0 Z" id="Rectangle" fill="#979797" fill-rule="nonzero" transform="translate(303.500000, 39.000000) scale(-1, 1) rotate(-180.000000) translate(-303.500000, -39.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

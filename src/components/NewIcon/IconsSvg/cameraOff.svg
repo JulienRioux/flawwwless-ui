@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>cameraOff</title>
+    <desc>Created with Sketch.</desc>
+    <g id="cameraOff" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(225.000000, 308.000000)" stroke="#979797" stroke-width="50">
+            <path d="M59,138 C40.2223185,138 25,153.222319 25,172 L25,566 C25,584.777681 40.2223185,600 59,600 L730,600 C748.777681,600 764,584.777681 764,566 L764,172 C764,153.222319 748.777681,138 730,138 L593.341472,138 C558.711824,138 527.631252,116.748542 515.066086,84.4789112 L500.341423,46.6632979 C495.255522,33.6017805 482.675291,25 468.658528,25 L329.676021,25 C315.563501,25 302.918122,33.7180284 297.898985,46.9078537 L283.83195,83.8747144 C271.431729,116.461342 240.190206,138 205.323979,138 L59,138 Z" id="Rectangle"></path>
+            <circle id="Oval" cx="394.5" cy="354.5" r="158.5"></circle>
+        </g>
+        <path d="M903.75,1028.25 L336.25,307.75" id="Line-3" stroke="#979797" stroke-width="50" stroke-linecap="round"></path>
+    </g>
+</svg>

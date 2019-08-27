@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="1240px" viewBox="0 0 1241 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>truck</title>
+    <desc>Created with Sketch.</desc>
+    <g id="truck" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.000000, 0.000000)">
+        <g id="Group" transform="translate(248.000000, 292.000000)" stroke="#979797" stroke-width="50">
+            <circle id="Oval" cx="173" cy="581" r="75"></circle>
+            <circle id="Oval" cx="598" cy="581" r="75"></circle>
+            <rect id="Rectangle" x="25" y="25" width="473" height="398" rx="28"></rect>
+            <path d="M744,423 L515,423 C492.90861,423 475,405.09139 475,383 L475,277.655628 C475,266.408649 479.734946,255.681313 488.04463,248.10215 L554.546584,187.446522 C561.915189,180.725706 571.528704,177 581.501954,177 L744,177" id="Path" stroke-linejoin="round" transform="translate(609.500000, 300.000000) scale(-1, 1) translate(-609.500000, -300.000000) "></path>
+        </g>
+    </g>
+</svg>

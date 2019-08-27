@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>image</title>
+    <desc>Created with Sketch.</desc>
+    <g id="image" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(239.000000, 325.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group">
+                <circle id="Oval" cx="236.5" cy="162.5" r="46.5"></circle>
+                <rect id="Rectangle" x="25" y="25" width="711" height="541" rx="37"></rect>
+                <polyline id="Path-16" stroke-linejoin="round" points="40 555 529.605735 216 740 387"></polyline>
+                <polyline id="Path-16" stroke-linejoin="round" points="32 383.853013 160.060904 295 283 384"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

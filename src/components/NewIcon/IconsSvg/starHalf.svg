@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>starHalf</title>
+    <desc>Created with Sketch.</desc>
+    <g id="starHalf" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="StarHalf" transform="translate(252.000000, 270.000000)">
+            <polygon id="Star" stroke="#979797" stroke-width="50" stroke-linejoin="round" points="368.370166 541.436464 141.049902 699.619832 221.2454 434.544065 0.558253384 267.230996 277.442061 261.588531 368.370166 0 459.298271 261.588531 736.182079 267.230996 515.494931 434.544065 595.690429 699.619832"></polygon>
+            <path d="M368.370166,511.464088 L409.592692,540.328412 L379.622458,579.31797 L346.879415,556.391045 L141.049902,699.619832 L221.2454,434.544065 L0.558253384,267.230996 L277.442061,261.588531 L368.370166,6.82121026e-13 C368.370166,299.859112 368.370166,457.790795 368.370166,473.795046 L368.370166,511.464088 Z" id="Combined-Shape" fill="#979797" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

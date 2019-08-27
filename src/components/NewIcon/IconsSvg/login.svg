@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>login</title>
+    <desc>Created with Sketch.</desc>
+    <g id="login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group-2" transform="translate(337.447876, 309.266409)" stroke="#979797" stroke-width="50">
+            <path d="M772.052124,208.233591 L772.052124,361.983591 C772.052124,390.288184 745.636924,413.233591 713.052124,413.233591 L210.052124,413.233591 C177.467323,413.233591 151.052124,390.288184 151.052124,361.983591 L151.052124,208.233591" id="Shape" stroke-linejoin="round" transform="translate(461.552124, 310.733591) rotate(270.000000) translate(-461.552124, -310.733591) "></path>
+            <g id="Group" transform="translate(180.000000, 311.000000) scale(-1, 1) translate(-180.000000, -311.000000) translate(0.000000, 144.000000)">
+                <polyline id="Path" stroke-linejoin="round" transform="translate(274.500000, 167.401544) scale(1, -1) rotate(-270.000000) translate(-274.500000, -167.401544) " points="108 251.953668 274.5 82.8494208 441 251.953668"></polyline>
+                <path d="M159.453668,326.803089 L159.453668,8" id="Line" transform="translate(159.453668, 167.401544) rotate(270.000000) translate(-159.453668, -167.401544) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

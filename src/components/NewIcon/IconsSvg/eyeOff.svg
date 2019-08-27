@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>eyeOff</title>
+    <desc>Created with Sketch.</desc>
+    <g id="eyeOff" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(243.000000, 359.000000)" stroke="#979797" stroke-width="50">
+            <path d="M377,522 C515.807567,522 641.474234,435 754,261 C641.474234,87 515.807567,0 377,0 C238.192433,0 112.525766,87 0,261 C112.525766,435 238.192433,522 377,522 Z" id="Oval" stroke-linejoin="round"></path>
+            <circle id="Oval" cx="377" cy="261" r="99"></circle>
+        </g>
+        <path d="M997,881 L243,359" id="Path-11" stroke="#979797" stroke-width="50" stroke-linecap="round"></path>
+    </g>
+</svg>

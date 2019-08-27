@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="1240px" viewBox="0 0 1241 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>crop</title>
+    <desc>Created with Sketch.</desc>
+    <g id="crop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 0.000000)" stroke-linecap="round">
+        <g id="Group" transform="translate(263.000000, 263.000000)" stroke="#979797" stroke-width="50">
+            <path d="M715,551 L224.090573,551 C190.903466,551 164,524.096534 164,490.909427 L164,0" id="Rectangle"></path>
+            <path d="M551,714 L60.090573,714 C26.9034659,714 0,687.096534 0,653.909427 L0,163" id="Rectangle" transform="translate(275.500000, 438.500000) scale(-1, -1) translate(-275.500000, -438.500000) "></path>
+        </g>
+    </g>
+</svg>

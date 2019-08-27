@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>trash</title>
+    <desc>Created with Sketch.</desc>
+    <g id="trash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(325.000000, 280.000000)" stroke="#979797" stroke-width="50">
+            <path d="M526,119 L526,579 C526,635.333044 483.469765,681 431.006061,681 L159.993939,681 C107.530235,681 65,635.333044 65,579 L65,119 C65,108.50659 73.5065898,100 84,100 L507,100 C517.49341,100 526,108.50659 526,119 Z" id="Path"></path>
+            <path d="M0,100 L590,100" id="Path-14" stroke-linecap="round"></path>
+            <path d="M396,100 C396,44.771525 351.228475,0 296,0 C240.771525,0 196,44.771525 196,100" id="Shape"></path>
+        </g>
+    </g>
+</svg>

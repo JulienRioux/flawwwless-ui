@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>tag</title>
+    <desc>Created with Sketch.</desc>
+    <g id="tag" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(539.000000, 620.000000) rotate(-45.000000) translate(-539.000000, -620.000000) translate(313.000000, 280.000000)">
+            <path d="M236.373285,43.4388591 C230.670574,38.3120794 222.019289,38.3120794 216.316578,43.4388591 L30.8165783,210.204762 C27.6521783,213.049582 25.8449314,217.104513 25.8449314,221.359678 L25.8449314,612.805826 C25.8449314,636.001786 44.6489719,654.805826 67.8449314,654.805826 L384.844931,654.805826 C408.040891,654.805826 426.844931,636.001786 426.844931,612.805826 L426.844931,221.359678 C426.844931,217.104513 425.037685,213.049582 421.873285,210.204762 L236.373285,43.4388591 Z" id="Rectangle" stroke="#979797" stroke-width="50"></path>
+            <circle id="Oval" fill="#979797" cx="226.344931" cy="197.470256" r="35.5"></circle>
+        </g>
+    </g>
+</svg>

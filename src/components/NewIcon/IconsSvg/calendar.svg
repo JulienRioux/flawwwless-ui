@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>calendar</title>
+    <desc>Created with Sketch.</desc>
+    <g id="calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(296.000000, 286.000000)" stroke="#979797" stroke-width="50">
+            <path d="M196.5,0 L196.5,105.624113" id="Line-2" stroke-linecap="round"></path>
+            <path d="M452.5,0 L452.5,105.624113" id="Line-2" stroke-linecap="round"></path>
+            <rect id="Rectangle" x="25" y="66" width="598" height="577" rx="68"></rect>
+            <path d="M30.5,246.5 L612.5,246.5" id="Line" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

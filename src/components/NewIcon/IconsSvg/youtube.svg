@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>youtube</title>
+    <desc>Created with Sketch.</desc>
+    <g id="youtube" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(236.000000, 351.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group" transform="translate(291.000000, 145.000000)" stroke-linejoin="round">
+                <polygon id="Triangle" transform="translate(93.000000, 123.500000) rotate(90.000000) translate(-93.000000, -123.500000) " points="93 31 216 216 -30 216"></polygon>
+            </g>
+            <path d="M118.17424,32.0323286 C66.1315516,34.0865336 24.9999993,76.8736409 25,128.956854 L25,406.670865 C25,459.47775 67.2417387,502.582804 120.037818,503.651017 C230.400004,505.883958 318.398994,507 384,507 C449.601006,507 537.599998,505.883958 647.962184,503.651017 C700.758262,502.582802 743,459.477749 743,406.670866 L743,128.956854 C743,76.8736394 701.868447,34.0865322 649.825759,32.0323285 C531.023952,27.3430382 442.372559,25 384,25 C325.627441,25 236.976047,27.3430382 118.17424,32.0323286 Z" id="Rectangle"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>sheetMinus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="sheetMinus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(361.000000, 284.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group">
+                <path d="M517,184.798218 L352.82508,0 L4.69995726,0 C2.10424254,0 0,2.10392792 0,4.69925453 L0,667.300745 C0,669.896072 2.10424254,672 4.69995726,672 L512.300043,672 C514.895757,672 517,669.896072 517,667.300745 L517,184.798218 Z" id="Rectangle"></path>
+                <path d="M517,210.293706 L372.475,210.293706 C349.113355,210.293706 330.175,191.358169 330.175,168 L330.175,0 L4.7,0 C2.10426168,0 0,2.10394859 0,4.6993007 L0,667.300699 C0,669.896051 2.10426168,672 4.7,672 L512.3,672 C514.895738,672 517,669.896051 517,667.300699 L517,210.293706 Z" id="Rectangle"></path>
+            </g>
+            <path d="M161,413 L356,413" id="Line" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

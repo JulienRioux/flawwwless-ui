@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>sunrise</title>
+    <desc>Created with Sketch.</desc>
+    <g id="sunrise" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(619.646447, 684.033748) rotate(135.000000) translate(-619.646447, -684.033748) translate(226.646447, 291.033748)" stroke="#979797" stroke-width="50">
+            <path d="M426,183 C327.14103,183 247,263.14103 247,362 C247,460.85897 327.14103,541 426,541 L426,541 C524.85897,541 605,460.85897 605,362" id="Path"></path>
+            <path d="M426,741 L426,652" id="Path-12" stroke-linecap="round"></path>
+            <path d="M187.705015,165.705015 L187.705015,76.7050147" id="Path-12" stroke-linecap="round" transform="translate(187.705015, 121.205015) rotate(-45.000000) translate(-187.705015, -121.205015) "></path>
+            <path d="M664.294985,642.294985 L664.294985,553.294985" id="Path-12" stroke-linecap="round" transform="translate(664.294985, 597.794985) rotate(-45.000000) translate(-664.294985, -597.794985) "></path>
+            <path d="M89,404 L89,315" id="Path-12" stroke-linecap="round" transform="translate(89.000000, 359.500000) rotate(-90.000000) translate(-89.000000, -359.500000) "></path>
+            <path d="M145.632161,743.867839 L145.632161,535.867839" id="Path-12" stroke-linecap="round" transform="translate(145.632161, 639.867839) rotate(-135.000000) translate(-145.632161, -639.867839) "></path>
+            <polyline id="Path" stroke-linecap="round" stroke-linejoin="round" transform="translate(94.235591, 691.788548) scale(-1, 1) rotate(135.000000) translate(-94.235591, -691.788548) " points="6.60621258 736.288548 94.2355906 647.288548 181.864969 736.288548"></polyline>
+            <path d="M134.302561,270.404546 L897.302561,270.404546" id="Path-13" stroke-linecap="round" transform="translate(515.802561, 270.404546) rotate(-135.000000) translate(-515.802561, -270.404546) "></path>
+        </g>
+    </g>
+</svg>

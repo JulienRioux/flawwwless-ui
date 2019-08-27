@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>list</title>
+    <desc>Created with Sketch.</desc>
+    <g id="list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group-2" transform="translate(313.000000, 417.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group" transform="translate(152.000000, 0.000000)">
+                <path d="M0.355709877,271.5 L460.64429,271.5" id="Line"></path>
+                <path d="M1.35570988,406.5 L461.64429,406.5" id="Line"></path>
+                <path d="M1.35570988,135.5 L461.64429,135.5" id="Line"></path>
+                <path d="M1.35570988,0.5 L461.64429,0.5" id="Line"></path>
+            </g>
+            <g id="Group">
+                <path d="M0.000771604938,271.5 L0.999228395,271.5" id="Line"></path>
+                <path d="M0.000771604938,406.5 L0.999228395,406.5" id="Line"></path>
+                <path d="M0.000771604938,135.5 L0.999228395,135.5" id="Line"></path>
+                <path d="M0.000771604938,0.5 L0.999228395,0.5" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>

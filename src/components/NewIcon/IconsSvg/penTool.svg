@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>penTool</title>
+    <desc>Created with Sketch.</desc>
+    <g id="penTool" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(370.000000, 253.000000)" stroke="#979797" stroke-width="50">
+            <circle id="Oval" cx="250" cy="373" r="61"></circle>
+            <rect id="Rectangle" x="108" y="594" width="292" height="115" rx="37"></rect>
+            <polyline id="Path" stroke-linecap="square" stroke-linejoin="round" points="128.621749 569.121343 0 375.522686 253.682396 -1.13686838e-13 501 375.522686 378.743042 569.121343"></polyline>
+            <path d="M250,9 L250,300" id="Path-5"></path>
+        </g>
+    </g>
+</svg>

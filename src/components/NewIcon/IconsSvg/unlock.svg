@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>unlock</title>
+    <desc>Created with Sketch.</desc>
+    <g id="unlock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unlock" transform="translate(377.000000, 291.000000)" stroke="#979797" stroke-width="50">
+            <path d="M46.5,314 L439.5,314 C465.181241,314 486,329.973472 486,349.677749 L486,578.322251 C486,598.026528 465.181241,614 439.5,614 L46.5,614 C20.818759,614 0,598.026528 0,578.322251 L0,349.677749 C0,329.973472 20.818759,314 46.5,314 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+            <path d="M122,314 C122,202.250931 122,191.646151 122,168.185659 C122,54.196017 182.325022,0 242.650044,0 C302.975066,0 363.300088,42.013562 363.300088,168.185659" id="Path-5" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

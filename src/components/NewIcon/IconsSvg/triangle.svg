@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>triangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="triangle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M653.970767,356.644895 L978.004885,877.881596 C989.668258,896.643132 983.914059,921.307394 965.152523,932.970767 C958.813471,936.911527 951.498244,939 944.034118,939 L295.965882,939 C273.874492,939 255.965882,921.09139 255.965882,899 C255.965882,891.535875 258.054354,884.220647 261.995115,877.881596 L586.029233,356.644895 C597.692606,337.883359 622.356868,332.12916 641.118404,343.792533 C646.332012,347.033645 650.729655,351.431288 653.970767,356.644895 Z" id="Triangle" stroke="#979797" stroke-width="50"></path>
+    </g>
+</svg>

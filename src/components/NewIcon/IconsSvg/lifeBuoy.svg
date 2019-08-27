@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>lifeBuoy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="lifeBuoy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(125.000000, 125.000000)" stroke="#979797" stroke-width="50">
+            <circle id="Oval" transform="translate(495.000000, 495.000000) rotate(45.000000) translate(-495.000000, -495.000000) " cx="495" cy="495" r="350"></circle>
+            <path d="M316.809091,575.190909 L316.809091,771.190909" id="Line" stroke-linecap="round" transform="translate(316.809091, 673.190909) rotate(45.000000) translate(-316.809091, -673.190909) "></path>
+            <path d="M678.140656,220.859344 L678.140656,402.859344" id="Line" stroke-linecap="round" transform="translate(678.140656, 311.859344) rotate(45.000000) translate(-678.140656, -311.859344) "></path>
+            <path d="M670.008928,567.508928 L670.008928,772.508928" id="Line" stroke-linecap="round" transform="translate(670.008928, 670.008928) rotate(-45.000000) translate(-670.008928, -670.008928) "></path>
+            <path d="M320.344625,217.344625 L320.344625,423.344625" id="Line" stroke-linecap="round" transform="translate(320.344625, 320.344625) rotate(-45.000000) translate(-320.344625, -320.344625) "></path>
+            <circle id="Oval" cx="495.5" cy="495.5" r="145.5"></circle>
+        </g>
+    </g>
+</svg>

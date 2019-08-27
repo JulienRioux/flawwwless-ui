@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>wind</title>
+    <desc>Created with Sketch.</desc>
+    <g id="wind" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group" transform="translate(287.000000, 340.000000)" stroke="#979797" stroke-width="50">
+            <path d="M0,149.781022 L321,149.781022 C369.666667,152.447689 394,123.114355 394,61.7810219 C394,0.447688564 353,-15.2189781 271,14.7810219" id="Path-24"></path>
+            <path d="M0,560.72871 L407,560.562044 C455.666667,563.22871 480,533.895377 480,472.562044 C480,411.22871 439,395.562044 357,425.562044" id="Path-24" transform="translate(240.000000, 485.754866) scale(1, -1) translate(-240.000000, -485.754866) "></path>
+            <path d="M4.54747351e-13,280.781022 L578.052889,280.583175 C635.824148,283.748724 664.709777,248.927691 664.709777,176.120078 C664.709777,103.312464 616.03947,84.7148674 518.698857,120.327287" id="Path-24"></path>
+        </g>
+    </g>
+</svg>

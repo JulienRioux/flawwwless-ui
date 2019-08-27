@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>upload</title>
+    <desc>Created with Sketch.</desc>
+    <g id="upload" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group-2" transform="translate(309.000000, 338.000000)" stroke="#979797" stroke-width="50">
+            <path d="M621,359 L621,512.75 C621,541.054593 594.5848,564 562,564 L59,564 C26.4151998,564 0,541.054593 0,512.75 L0,359" id="Shape" stroke-linejoin="round"></path>
+            <g id="Group" transform="translate(309.832046, 179.500000) scale(1, -1) translate(-309.832046, -179.500000) translate(143.332046, -0.000000)">
+                <polyline id="Path" stroke-linejoin="round" transform="translate(166.500000, 274.447876) scale(1, -1) translate(-166.500000, -274.447876) " points="-1.13686838e-13 359 166.5 189.895753 333 359"></polyline>
+                <path d="M166.5,318.803089 L166.5,1.64845915e-12" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>

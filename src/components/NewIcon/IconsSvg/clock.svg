@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>clock</title>
+    <desc>Created with Sketch.</desc>
+    <g id="clock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(270.000000, 270.000000)" stroke="#979797" stroke-width="50">
+            <circle id="Oval" cx="350" cy="350" r="350"></circle>
+            <polyline id="Path-7" stroke-linecap="round" stroke-linejoin="round" points="473 417 350 350 350 137"></polyline>
+        </g>
+    </g>
+</svg>

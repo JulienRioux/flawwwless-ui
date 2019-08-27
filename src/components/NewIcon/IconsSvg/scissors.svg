@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>scissors</title>
+    <desc>Created with Sketch.</desc>
+    <g id="scissors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(284.000000, 284.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group" transform="translate(336.000000, 336.000000) rotate(-45.000000) translate(-336.000000, -336.000000) translate(-39.000000, 236.000000)">
+                <circle id="Oval" cx="100" cy="100" r="100"></circle>
+                <path d="M200,100 L750,100" id="Line-2" stroke-linecap="round"></path>
+            </g>
+            <g id="Group" transform="translate(336.000000, 336.000000) scale(1, -1) rotate(-45.000000) translate(-336.000000, -336.000000) translate(-39.000000, 236.000000)">
+                <circle id="Oval" cx="100" cy="100" r="100"></circle>
+                <path d="M200,100 L750,100" id="Line-2" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

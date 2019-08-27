@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>arrowDown</title>
+    <desc>Created with Sketch.</desc>
+    <g id="arrowDown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group" transform="translate(409.000000, 364.000000)" stroke="#979797" stroke-width="50">
+            <polyline id="Path" stroke-linejoin="round" transform="translate(210.866089, 406.000000) scale(1, -1) translate(-210.866089, -406.000000) " points="0.366089404 513 210.866089 299 421.366089 513"></polyline>
+            <path d="M212,460 L210.866089,0" id="Line"></path>
+        </g>
+    </g>
+</svg>

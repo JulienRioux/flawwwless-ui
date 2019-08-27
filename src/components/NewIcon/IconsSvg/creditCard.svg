@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>creditCard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="creditCard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(197.000000, 355.000000)" stroke="#979797">
+            <rect id="Rectangle" stroke-width="50" x="25" y="25" width="795" height="480" rx="59"></rect>
+            <path d="M35,140 L810,140" id="Path-10" stroke-width="92"></path>
+            <path d="M101,394 L442,394" id="Path-10" stroke-width="50" stroke-linecap="round"></path>
+            <path d="M611,394 L530,394" id="Path-10" stroke-width="50" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

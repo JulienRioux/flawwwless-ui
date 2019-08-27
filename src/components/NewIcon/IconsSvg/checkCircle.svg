@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>checkCircle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="checkCircle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group" transform="translate(270.000000, 270.000000)" stroke="#979797" stroke-width="50">
+            <path d="M504.75507,36.0185384 C458.094851,12.9792843 405.559221,0.0337482372 350,0.0337482372 C156.700338,0.0337482372 0,156.734086 0,350.033748 C0,543.333411 156.700338,700.033748 350,700.033748 L350,700.033748 C543.299662,700.033748 700,543.333411 700,350.033748 C700,329.809214 698.284602,309.985333 694.991366,290.699664" id="Path"></path>
+            <polyline id="Path-6" stroke-linejoin="round" transform="translate(433.820545, 226.213203) rotate(45.000000) translate(-433.820545, -226.213203) " points="359.320545 465.213203 508.320545 465.213203 508.320545 -12.7867966"></polyline>
+        </g>
+    </g>
+</svg>

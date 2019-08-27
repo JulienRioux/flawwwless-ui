@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>folder</title>
+    <desc>Created with Sketch.</desc>
+    <g id="folder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(194.000000, 332.000000)" stroke="#979797" stroke-width="50">
+            <path d="M59,25 C40.2223185,25 25,40.2223185 25,59 L25,518 C25,536.777681 40.2223185,552 59,552 L792,552 C810.777681,552 826,536.777681 826,518 L826,144 C826,125.222319 810.777681,110 792,110 L306.532648,110 L262.980049,43.8933769 C255.209648,32.0990178 242.031449,25 227.907496,25 L59,25 Z" id="Rectangle"></path>
+        </g>
+    </g>
+</svg>

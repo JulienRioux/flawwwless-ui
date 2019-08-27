@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>send</title>
+    <desc>Created with Sketch.</desc>
+    <g id="send" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(635.500000, 544.500000) rotate(45.000000) translate(-635.500000, -544.500000) translate(382.000000, 269.000000)" stroke="#979797" stroke-width="50">
+            <polygon id="Triangle" stroke-linejoin="round" points="253.5 0 507 551 254 441 0 551"></polygon>
+            <path d="M254,432 L254,40" id="Path-20"></path>
+        </g>
+    </g>
+</svg>

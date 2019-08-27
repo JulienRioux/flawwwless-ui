@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>messageCircle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="messageCircle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M482.540591,798.940292 C368.375367,765.490561 285,659.98196 285,535 C285,383.121694 408.121694,260 560,260 C711.878306,260 835,383.121694 835,535 C835,663.793728 746.461426,771.908165 626.929363,801.798225 L555.308052,980.386428 L482.540591,798.940292 Z" id="Combined-Shape" stroke="#979797" stroke-width="50" transform="translate(560.000000, 620.193214) rotate(45.000000) translate(-560.000000, -620.193214) "></path>
+    </g>
+</svg>

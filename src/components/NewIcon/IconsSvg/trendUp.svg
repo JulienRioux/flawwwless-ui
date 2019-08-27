@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>trendUp</title>
+    <desc>Created with Sketch.</desc>
+    <g id="trendUp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-3" transform="translate(620.500000, 620.500000) scale(1, -1) translate(-620.500000, -620.500000) translate(216.000000, 216.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group-2" transform="translate(404.351909, 404.539247) scale(-1, -1) rotate(45.000000) translate(-404.351909, -404.539247) translate(19.351909, 218.539247)">
+                <g id="Group" transform="translate(385.104816, 186.483696) scale(-1, 1) rotate(270.000000) translate(-385.104816, -186.483696) translate(199.604816, -198.016304)">
+                    <polyline id="Path" transform="translate(133.495864, 700.366723) scale(1, -1) translate(-133.495864, -700.366723) " points="0.102621232 768.34635 133.495864 632.387097 266.889107 768.34635"></polyline>
+                    <polyline id="Line" points="134.476697 734.356537 134.476697 331.864804 368.991885 325.28481 370.790568 0.467837016"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

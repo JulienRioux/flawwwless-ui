@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>instagram</title>
+    <desc>Created with Sketch.</desc>
+    <g id="instagram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(320.000000, 320.000000)" stroke="#979797">
+            <g id="logo-instagram-2" fill-rule="nonzero" stroke-width="50">
+                <g id="logo-instagram">
+                    <path d="M555.9375,44.0625 C584.4375,72.375 600,110.25 600,150 L600,450 C600,489.75 584.25,527.4375 555.9375,555.9375 C527.625,584.4375 489.75,600 450,600 L150,600 C110.25,600 72.5625,584.25 44.0625,555.9375 C15.5625,527.625 0,489.75 0,450 L0,150 C0,110.25 15.75,72.5625 44.0625,44.0625 C72.375,15.5625 110.25,0 150,0 L450,0 C489.75,0 527.4375,15.75 555.9375,44.0625 Z" id="Shape"></path>
+                    <path d="M300,180 C366.1875,180 420,233.8125 420,300 C420,366.1875 366.1875,420 300,420 C233.8125,420 180,366.1875 180,300 C180,233.8125 233.8125,180 300,180 L300,180 Z" id="Shape"></path>
+                </g>
+            </g>
+            <circle id="Oval" fill="#979797" cx="470" cy="128" r="27"></circle>
+        </g>
+    </g>
+</svg>

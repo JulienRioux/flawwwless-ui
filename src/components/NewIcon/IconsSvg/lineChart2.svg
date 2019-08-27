@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>lineChart2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="lineChart2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-2" transform="translate(264.000000, 294.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group" transform="translate(365.500000, 326.000000) scale(1, -1) rotate(90.000000) translate(-365.500000, -326.000000) translate(40.000000, 41.000000)">
+                <path d="M52.3826828,472.157086 C167.519746,506.28462 235.413289,502.066559 256.063311,459.502901 C287.038345,395.657414 118.440197,316.322616 173.999225,271.964943 C229.558254,227.60727 381.882771,334.894992 435.677691,291.798772 C489.47261,248.702553 378.344129,154.354738 395.031047,102.997686 C406.155658,68.7596511 474.22567,65.2913579 599.241082,92.5928059" id="Line" transform="translate(325.811882, 284.680960) rotate(-18.000000) translate(-325.811882, -284.680960) "></path>
+            </g>
+            <polyline id="Path-3" points="0 34 0 643 712 643"></polyline>
+        </g>
+    </g>
+</svg>

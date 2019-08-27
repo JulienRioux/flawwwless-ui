@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>umbrella</title>
+    <desc>Created with Sketch.</desc>
+    <g id="umbrella" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(270.000000, 286.000000)" stroke="#979797" stroke-width="50">
+            <path d="M700,319 C700,142.821165 543.299662,0 350,0 C156.700338,0 0,142.821165 0,319 L700,319 Z" id="Oval" stroke-linejoin="round"></path>
+            <path d="M350,350 L350,586 C350,641.333333 381.333333,669 444,669 C506.666667,669 538,636.666667 538,572" id="Path-18" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

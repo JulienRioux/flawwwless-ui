@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>bookmark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M429,296 C405.251756,296 386,315.251756 386,339 L386,935.419694 C386,937.025407 386.643612,938.564121 387.786863,939.691635 C390.146191,942.018486 393.94509,941.992159 396.271941,939.632831 L620,712.782131 L843.728059,939.632831 C844.855574,940.776083 846.394287,941.419694 848,941.419694 C851.313708,941.419694 854,938.733403 854,935.419694 L854,339 C854,315.251756 834.748244,296 811,296 L429,296 Z" id="Rectangle" stroke="#979797" stroke-width="50"></path>
+    </g>
+</svg>

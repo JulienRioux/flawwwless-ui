@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="1240px" viewBox="0 0 1241 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>stopCircle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="stopCircle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.000000, 0.000000)">
+        <g id="Group" transform="translate(270.000000, 270.000000)" stroke="#979797" stroke-width="50">
+            <circle id="Oval" cx="350" cy="350" r="350"></circle>
+            <rect id="Rectangle" x="250" y="250" width="200" height="200" rx="31"></rect>
+        </g>
+    </g>
+</svg>

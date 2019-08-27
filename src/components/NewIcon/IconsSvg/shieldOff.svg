@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>shieldOff</title>
+    <desc>Created with Sketch.</desc>
+    <g id="shieldOff" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M621,967 C800.333333,849.866442 890,726.866442 890,598 C890,560.254103 890,490.587436 890,389 L621,273 L351,389 C351,480.964882 351,550.631549 351,598 C351,726.866442 441,849.866442 621,967 Z" id="Oval" stroke="#979797" stroke-width="50" stroke-linejoin="round"></path>
+        <path d="M890,967 L374.080388,202.213785" id="Path-9" stroke="#979797" stroke-width="50" stroke-linecap="round"></path>
+    </g>
+</svg>

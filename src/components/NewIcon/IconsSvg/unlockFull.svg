@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="1240px" viewBox="0 0 1241 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>unlockFull</title>
+    <desc>Created with Sketch.</desc>
+    <g id="unlockFull" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.000000, 0.000000)">
+        <g id="Unlock" transform="translate(377.000000, 231.000000)">
+            <path d="M46.5,314 L439.5,314 C465.181241,314 486,334.818759 486,360.5 L486,658.5 C486,684.181241 465.181241,705 439.5,705 L46.5,705 C20.818759,705 0,684.181241 0,658.5 L0,360.5 C0,334.818759 20.818759,314 46.5,314 Z M221,500.056471 L221,583 C221,595.150264 230.849736,605 243,605 C255.150264,605 265,595.150264 265,583 L265,500.609948 C279.286351,492.936012 289,477.852378 289,460.5 C289,435.371044 268.628956,415 243.5,415 C218.371044,415 198,435.371044 198,460.5 C198,477.444413 207.26227,492.225507 221,500.056471 Z" id="Combined-Shape" fill="#979797" fill-rule="nonzero"></path>
+            <path d="M122,371 C122,259.250931 122,191.646151 122,168.185659 C122,54.196017 182.325022,0 242.650044,0 C302.975066,0 363.300088,42.013562 363.300088,168.185659" id="Path-5" stroke="#979797" stroke-width="50" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

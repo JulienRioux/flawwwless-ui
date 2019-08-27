@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="1240px" viewBox="0 0 1241 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>twitch</title>
+    <desc>Created with Sketch.</desc>
+    <g id="twitch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 0.000000)">
+        <g id="Group-9" transform="translate(318.000000, 266.000000)" stroke="#979797">
+            <g id="Group-8">
+                <path d="M0,545 L0,102.421574 C-4.6441367e-14,102.143579 0.0579543285,101.868637 0.170164397,101.614294 L44.4738002,1.19271959 C44.7936283,0.467775924 45.5112764,1.09541857e-14 46.3036358,0 L602,0 C603.104569,-2.02906125e-16 604,0.8954305 604,2 L604,409.1505 C604,409.693363 603.779325,410.212905 603.388646,410.589827 L462.581136,546.439327 C462.208332,546.799004 461.710515,547 461.192489,547 L294.854413,547 C294.308662,547 293.786614,547.223022 293.409324,547.617352 L142.44509,705.399325 C141.681475,706.197426 140.415453,706.225383 139.617352,705.461767 C139.223022,705.084477 139,704.562429 139,704.016678 L139,549 C139,547.895431 138.104569,547 137,547 L2,547 C0.8954305,547 1.3527075e-16,546.104569 0,545 Z" id="Path-16" stroke-width="50"></path>
+                <path d="M422,311 L422,191" id="Path-17" stroke-width="70" stroke-linecap="round"></path>
+            </g>
+            <path d="M245,311 L245,191" id="Path-17" stroke-width="70" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

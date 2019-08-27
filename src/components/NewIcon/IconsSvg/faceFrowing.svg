@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="1240px" viewBox="0 0 1241 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>faceFrowing</title>
+    <desc>Created with Sketch.</desc>
+    <g id="faceFrowing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.000000, 0.000000)">
+        <g id="Group-3" transform="translate(270.000000, 270.000000)" stroke="#979797" stroke-width="50">
+            <circle id="Oval" cx="350" cy="350" r="350"></circle>
+            <g id="Group-2" transform="translate(217.000000, 229.000000)">
+                <g id="Group" transform="translate(8.000000, 0.000000)" fill="#D8D8D8">
+                    <circle id="Oval" cx="25" cy="25" r="25"></circle>
+                    <circle id="Oval" cx="225" cy="25" r="25"></circle>
+                </g>
+                <path d="M0,266 C23.3333333,218.666667 67.6666667,195 133,195 C198.333333,195 242.666667,218.666667 266,266" id="Path-12" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

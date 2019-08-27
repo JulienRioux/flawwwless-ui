@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="1240px" viewBox="0 0 1241 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>toggleRight</title>
+    <desc>Created with Sketch.</desc>
+    <g id="toggleRight" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 0.000000)">
+        <g id="Group" transform="translate(620.000000, 620.000000) scale(-1, 1) translate(-620.000000, -620.000000) translate(220.000000, 395.000000)" stroke="#979797" stroke-width="50">
+            <rect id="Rectangle" x="25" y="25" width="750" height="400" rx="200"></rect>
+            <circle id="Oval" cx="220" cy="225" r="100"></circle>
+        </g>
+    </g>
+</svg>

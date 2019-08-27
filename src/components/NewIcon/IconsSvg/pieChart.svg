@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>pieChart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="pieChart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Group" transform="translate(219.000000, 248.000000)" stroke="#979797" stroke-width="50">
+            <path d="M350,773 C543.299662,773 700,616.299662 700,423 L345,423 L350,73 C156.700338,73 0,229.700338 0,423 C0,616.299662 156.700338,773 350,773 Z" id="Oval"></path>
+            <path d="M444,325 L773,325 C773,145.507456 627.776307,0 448.633803,0 L444,325 Z" id="Oval"></path>
+        </g>
+    </g>
+</svg>

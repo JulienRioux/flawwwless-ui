@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="1240px" viewBox="0 0 1241 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>infoCircle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="infoCircle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.000000, 0.000000)">
+        <g id="Group-2" transform="translate(270.000000, 270.000000)">
+            <g id="Group" stroke="#979797" stroke-width="50">
+                <circle id="Oval" cx="350" cy="350" r="350"></circle>
+            </g>
+            <path d="M319,530 L319,304 C319,298.477153 323.477153,294 329,294 L370,294 C375.522847,294 380,298.477153 380,304 L380,530 C380,535.522847 375.522847,540 370,540 L329,540 C323.477153,540 319,535.522847 319,530 Z M350.5,240 C338.570116,240 328.504427,236.273622 320.302632,228.820755 C312.100836,221.367887 308,211.92773 308,200.5 C308,188.575412 312.100836,179.011042 320.302632,171.806604 C328.504427,164.602165 338.570116,161 350.5,161 C362.429884,161 372.495573,164.602165 380.697368,171.806604 C388.899164,179.011042 393,188.575412 393,200.5 C393,211.92773 388.899164,221.367887 380.697368,228.820755 C372.495573,236.273622 362.429884,240 350.5,240 Z" id="i" fill="#979797" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

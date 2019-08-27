@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>codePen</title>
+    <desc>Created with Sketch.</desc>
+    <g id="codePen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(271.000000, 259.000000)" stroke="#979797" stroke-width="50">
+            <polygon id="Polygon" stroke-linejoin="round" points="349 0 697 241 349 482 1 241"></polygon>
+            <polygon id="Polygon" stroke-linejoin="round" points="349 241 697 482 349 723 1 482"></polygon>
+            <path d="M1,459 L1,265" id="Line" stroke-linecap="square"></path>
+            <path d="M349,700 L349,506" id="Line" stroke-linecap="square"></path>
+            <path d="M349,233 L349,39" id="Line" stroke-linecap="square"></path>
+            <path d="M697,458 L697,264" id="Line" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

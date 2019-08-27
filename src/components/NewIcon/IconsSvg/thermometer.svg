@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>thermometer</title>
+    <desc>Created with Sketch.</desc>
+    <g id="thermometer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M703.327155,767.823047 L695,760.370041 L695,330 C695,288.578644 661.421356,255 620,255 C578.578644,255 545,288.578644 545,330 L545,760.370041 L536.672845,767.823047 C510.318184,791.411107 495,824.941396 495,861 C495,930.035594 550.964406,986 620,986 C689.035594,986 745,930.035594 745,861 C745,824.941396 729.681816,791.411107 703.327155,767.823047 Z" id="Combined-Shape" stroke="#979797" stroke-width="50"></path>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>move</title>
+    <desc>Created with Sketch.</desc>
+    <g id="move" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group-2" transform="translate(289.000000, 310.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group" transform="translate(331.000000, 330.500000) rotate(180.000000) translate(-331.000000, -330.500000) translate(214.000000, 0.000000)">
+                <polyline id="Path" stroke-linejoin="round" transform="translate(116.691291, 601.500000) scale(1, -1) translate(-116.691291, -601.500000) " points="0.191290824 661 116.691291 542 233.191291 661"></polyline>
+                <polyline id="Path" stroke-linejoin="round" points="0.191290824 119 116.691291 0 233.191291 119"></polyline>
+                <path d="M117.941291,631 L116.691291,59" id="Line"></path>
+            </g>
+            <g id="Group" transform="translate(331.000000, 330.500000) rotate(90.000000) translate(-331.000000, -330.500000) translate(214.000000, 0.000000)">
+                <polyline id="Path" stroke-linejoin="round" transform="translate(116.691291, 601.500000) scale(1, -1) translate(-116.691291, -601.500000) " points="0.191290824 661 116.691291 542 233.191291 661"></polyline>
+                <polyline id="Path" stroke-linejoin="round" points="0.191290824 119 116.691291 0 233.191291 119"></polyline>
+                <path d="M117.941291,631 L116.691291,59" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>

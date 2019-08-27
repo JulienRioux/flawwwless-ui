@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>paperclip</title>
+    <desc>Created with Sketch.</desc>
+    <g id="paperclip" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M565.368039,407 L565.368039,810 C564.717514,852.666667 585.20904,874 626.842615,874 C668.47619,874 689.618241,852.666667 690.268765,810 L690.268765,391 C690.268765,280.333333 645.707829,225 556.585956,225 C467.464084,225 421.602098,280.333333 419,391 L419,810 C419.650525,946 486.979822,1014 620.987893,1014 C754.995964,1014 822,946 822,810 L822,391" id="Path-3" stroke="#979797" stroke-width="50" transform="translate(620.500000, 619.500000) rotate(45.000000) translate(-620.500000, -619.500000) "></path>
+    </g>
+</svg>

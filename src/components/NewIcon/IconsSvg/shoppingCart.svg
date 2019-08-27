@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>shoppingCart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="shoppingCart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cart-2" transform="translate(316.000000, 333.000000)">
+            <g id="Cart">
+                <g id="Group" stroke="#979797" stroke-width="50">
+                    <path d="M154.290078,60.7622652 L587.366319,60.7622652 C598.614281,60.7622652 607.732556,69.8801669 607.732556,81.1276686 C607.732556,82.5347889 607.586717,83.9381207 607.297375,85.315174 L559.165315,314.388118 C557.184386,323.815869 548.868253,330.566017 539.234259,330.566017 L201.924257,330.566017 C192.274344,330.566017 183.949055,323.794047 181.984524,314.346607 L134.350345,85.2736624 C132.060482,74.2617029 139.131503,63.4785213 150.143914,61.1887521 C151.507746,60.9051757 152.897074,60.7622652 154.290078,60.7622652 Z" id="Rectangle" fill-rule="nonzero"></path>
+                    <polyline id="Path-6" stroke-linecap="round" stroke-linejoin="round" points="153.81182 178.112963 114.346279 0 0 7.75529891e-17"></polyline>
+                    <polyline id="Path-6" stroke-linecap="round" stroke-linejoin="round" points="562.386187 421.193091 156.020385 421.193091 187.434231 322.895946"></polyline>
+                </g>
+                <g id="Group-2" transform="translate(186.751958, 473.444259)" fill="#979797" fill-rule="nonzero">
+                    <ellipse id="Oval" cx="51.0805815" cy="50.5223586" rx="50.3983086" ry="50.337129"></ellipse>
+                    <ellipse id="Oval" cx="307.653789" cy="50.5223586" rx="50.3983086" ry="50.337129"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

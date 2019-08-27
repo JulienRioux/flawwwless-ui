@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>layers</title>
+    <desc>Created with Sketch.</desc>
+    <g id="layers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Group" transform="translate(334.000000, 323.000000)" stroke="#979797" stroke-width="50">
+            <polygon id="Polygon" points="286.310496 0 571.810496 152.5 286.310496 305 0.810495627 152.5"></polygon>
+            <polyline id="Shape" stroke-linecap="round" points="556.208949 305 285.877272 450 15.5455944 305"></polyline>
+            <polyline id="Shape" stroke-linecap="round" points="556.208949 449 285.877272 594 15.5455944 449"></polyline>
+        </g>
+    </g>
+</svg>

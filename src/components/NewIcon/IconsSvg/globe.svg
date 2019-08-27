@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>globe</title>
+    <desc>Created with Sketch.</desc>
+    <g id="globe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Globe" transform="translate(302.000000, 303.000000)" stroke="#979797" stroke-width="50">
+            <circle id="Oval" cx="318.947761" cy="318.5" r="316.5"></circle>
+            <path d="M318.947761,635 C494.281095,635 494.281095,2 318.947761,2 C143.614428,2 143.614428,635 318.947761,635 Z" id="Oval"></path>
+            <path d="M320.447761,0 L316.447761,635" id="Path-7"></path>
+            <path d="M320.447761,0 L316.447761,636" id="Path-7" transform="translate(318.447761, 318.000000) rotate(90.000000) translate(-318.447761, -318.000000) "></path>
+            <path d="M76.4477612,511 C154.942261,469 234.894301,448 316.303885,448 C397.713468,448 480.09476,469 563.447761,511" id="Path-8"></path>
+            <path d="M72.4477612,173 C150.942261,131 230.894301,110 312.303885,110 C393.713468,110 476.09476,131 559.447761,173" id="Path-8" transform="translate(315.947761, 141.500000) scale(-1, 1) rotate(-180.000000) translate(-315.947761, -141.500000) "></path>
+        </g>
+    </g>
+</svg>

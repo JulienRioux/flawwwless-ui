@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>repeat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="repeat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Group-2" transform="translate(333.000000, 245.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group" transform="translate(286.500000, 563.000000) scale(-1, 1) rotate(270.000000) translate(-286.500000, -563.000000) translate(100.000000, 276.500000)">
+                <polyline id="Path" stroke-linejoin="round" transform="translate(163.000000, 489.491489) scale(1, -1) translate(-163.000000, -489.491489) " points="0.5 572.491489 163 406.491489 325.5 572.491489"></polyline>
+                <path d="M163.346761,531.491489 L161.848796,101.209132 C161.656527,45.9809912 206.271916,1.05387287 261.500056,0.861604089 C261.563403,0.861383555 261.626751,0.861223214 261.690098,0.861123067 L372.779202,0.685500577" id="Line"></path>
+            </g>
+            <g id="Group" transform="translate(287.000000, 186.500000) scale(1, -1) rotate(270.000000) translate(-287.000000, -186.500000) translate(100.500000, -100.000000)">
+                <polyline id="Path" stroke-linejoin="round" transform="translate(163.000000, 489.491489) scale(1, -1) translate(-163.000000, -489.491489) " points="0.5 572.491489 163 406.491489 325.5 572.491489"></polyline>
+                <path d="M163.346761,531.491489 L161.848796,101.209132 C161.656527,45.9809912 206.271916,1.05387287 261.500056,0.861604089 C261.563403,0.861383555 261.626751,0.861223214 261.690098,0.861123067 L372.779202,0.685500577" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1240px" height="1240px" viewBox="0 0 1240 1240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>userMinus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="userMinus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(352.000000, 321.000000)" stroke="#979797" stroke-width="50">
+            <g id="Group">
+                <path d="M534.097953,599 C534.097953,596.264081 534.097953,579.120575 534.097953,547.569481 C534.097953,452.814273 414.557982,376 267.097953,376 C119.637925,376 0.0979532164,452.814273 0.0979532164,547.569481 C0.0979532164,576.226356 0.0979532164,593.369863 0.0979532164,599" id="Oval" stroke-linecap="round"></path>
+                <circle id="Oval" cx="267.097953" cy="145" r="145"></circle>
+            </g>
+            <g id="Group-2" transform="translate(535.000000, 299.000000)" stroke-linecap="round">
+                <path d="M0,1 L184,1.8189894e-12" id="Path-20"></path>
+            </g>
+        </g>
+    </g>
+</svg>
