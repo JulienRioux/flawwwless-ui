@@ -1,6 +1,6 @@
 {
   "name": "flwww",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Flawwwless ui library for React.js.",
   "author": "JulienRioux",
   "license": "MIT",
@@ -65,6 +65,7 @@
     "hex-rgb": "^4.1.0",
     "node-sass": "^4.12.0",
     "react-github-button": "^0.1.11",
+    "react-inlinesvg": "^1.1.6",
     "react-remove-scroll": "^2.0.4",
     "react-router-dom": "^4.3.1",
     "react-scrolllock": "^4.0.1",

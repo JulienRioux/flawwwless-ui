@@ -25,6 +25,7 @@ import Avatars from "./components/Avatars";
 import Badges from "./components/Badges";
 import Statistics from "./components/Statistics";
 import Tags from "./components/Tags";
+import NewIcons from "./components/NewIcons";
 
 
 class App extends Component {
@@ -36,6 +37,10 @@ class App extends Component {
 				<Container>
 					<h1>Flawwwless ui</h1>
 				</Container>
+
+				<div style={{ margin: "8rem 0" }}>
+					<NewIcons />
+				</div>
 
 
 				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>Version 2 components (Beta)</h2>

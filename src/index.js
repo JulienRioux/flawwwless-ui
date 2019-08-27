@@ -26,6 +26,8 @@ import Badge from "./components/Badge";
 import Statistic from "./components/Statistic";
 import Tag from "./components/Tag";
 
+import NewIcon from "./components/NewIcon";
+
 import styles from "./styles.scss";
 
 
@@ -73,4 +75,5 @@ export {
 	Badge,
 	Statistic,
 	Tag,
+	NewIcon,
 };

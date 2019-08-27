@@ -13,7 +13,8 @@ INPUT:
 Add error props to textarea.
 Make autoFocus working properly
 
-
+RATING:
+Add a static mode => Where there is no animation on hover.
 
 
 CONTAINER:
