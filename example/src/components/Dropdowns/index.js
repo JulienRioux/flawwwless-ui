@@ -17,12 +17,33 @@ const Dropdowns = (props) => {
 
 			  <div>
 					<Dropdown elementList={ elementList }>
-					  <Button>Hover me!</Button>
+					  <Button>top-left</Button>
 					</Dropdown>
 
 					<span style={{ marginLeft: "30px" }}>
-						<Dropdown elementList={ elementList }>
-						  <div>Hover me</div>
+						<Dropdown
+							position="bottom-right"
+							elementList={ elementList }
+						>
+						  <Button>bottom-right</Button>
+						</Dropdown>
+					</span>
+
+					<span style={{ marginLeft: "30px" }}>
+						<Dropdown
+							position="top-left"
+							elementList={ elementList }
+						>
+						  <Button>top-left</Button>
+						</Dropdown>
+					</span>
+
+					<span style={{ marginLeft: "30px" }}>
+						<Dropdown
+							position="top-right"
+							elementList={ elementList }
+						>
+						  <Button>top-right</Button>
 						</Dropdown>
 					</span>
 

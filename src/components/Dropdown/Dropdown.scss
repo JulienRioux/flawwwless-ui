@@ -3,10 +3,10 @@
 	display: inline-block;
 }
 
-.dropdownWrapper:hover .dropdown{
-	visibility: visible;
-	opacity: 1;
-}
+// .dropdownWrapper:hover .dropdown{
+// 	visibility: visible;
+// 	opacity: 1;
+// }
 
 .dropdown{
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.11), 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -20,12 +20,11 @@
 	transition: .2s;
 	margin-top: 2px;
 	white-space: nowrap;
-	visibility: hidden;
-	opacity: 0;
 	position: absolute;
-	top: 100%;
 	background-color: #fff;
   z-index: 99999999;
+	animation: dropdownIn .2s;
+	overflow: hidden;
 }
 
 .dropElement{
@@ -50,4 +49,36 @@
 
 .dropElement:hover{
 	background: #0001;
+}
+
+.dropdownOverlay{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: none;
+	z-index: 999999;
+}
+
+.dropdownAnimOut{
+	animation: dropdownOut .2s forwards;
+}
+
+@keyframes dropdownIn {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@keyframes dropdownOut {
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
 }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styles from "./Input.scss";
-import Icon from "../FlwwwIcon";
+// import Icon from "../FlwwwIcon";
+import Icon from "../NewIcon";
 import uid from "uid";
 import { primaryColor } from "../../styles";
 
@@ -93,7 +94,7 @@ class Input extends Component {
 					className={ `${ className } ${ inputWithIcon } ${ styles.input } ${ errorClass }` }
 					style={{
 						...this.props.style,
-						paddingLeft: `${ `calc(${ fontSize } * 1.5)` }`,
+						paddingLeft: `${ `calc(${ fontSize } * 1.4 + 5px)` }`,
 					}}
 				/>
 
@@ -101,7 +102,6 @@ class Input extends Component {
 					icon && (
 						<span
 							style={{
-								paddingTop: `${ `calc(${ fontSize } * 0)` }`,
 								fontSize: fontSize,
 							}}
 							className={ styles.inputIcon }>

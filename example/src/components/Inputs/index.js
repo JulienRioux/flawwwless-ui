@@ -31,7 +31,32 @@ class Inputs extends Component {
 										onChange={ this.handleChange }
 										icon="search"
 										type="text"
-										placeholder="Search something" />
+										placeholder="Search something"
+										style={{ borderRadius: "2rem", padding: "5px 100px" }} />
+								</div>
+							</div>
+						</div>
+
+						<div style={{ margin: "1rem 0"}}>
+							<div
+								style={{ margin: ".5rem 0" }}
+								className="buttonBlock">
+								<div className="col-lg-4 col-md-8">
+									<Input
+										// value={ this.state.input1 }
+										name="input1"
+										onChange={ this.handleChange }
+										icon="mail"
+										type="text"
+										placeholder="Enter your email" />
+
+									<Input
+										// value={ this.state.input1 }
+										name="input1"
+										onChange={ this.handleChange }
+										icon="lock"
+										type="password"
+										placeholder="Enter your password" />
 								</div>
 							</div>
 						</div>

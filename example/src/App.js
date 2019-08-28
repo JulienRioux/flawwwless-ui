@@ -6,7 +6,7 @@ import { Container } from "flwww";
 import Buttons from "./components/Buttons";
 import Cards from "./components/Cards";
 import Modals from "./components/Modals";
-import Icons from "./components/Icons";
+// import Icons from "./components/Icons";
 import Messages from "./components/Messages";
 import Inputs from "./components/Inputs";
 import Tables from "./components/Tables";
@@ -26,6 +26,7 @@ import Badges from "./components/Badges";
 import Statistics from "./components/Statistics";
 import Tags from "./components/Tags";
 import NewIcons from "./components/NewIcons";
+import Switchs from "./components/Switchs";
 
 
 class App extends Component {
@@ -39,11 +40,19 @@ class App extends Component {
 				</Container>
 
 				<div style={{ margin: "8rem 0" }}>
-					<NewIcons />
+					<Switchs />
 				</div>
 
 
 				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>Version 2 components (Beta)</h2>
+
+					<div style={{ margin: "8rem 0" }}>
+						<Dropdowns />
+					</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<NewIcons />
+				</div>
 
 				<div style={{ margin: "8rem 0" }}>
 					<Tags />
@@ -63,10 +72,6 @@ class App extends Component {
 
 				<div style={{ margin: "8rem 0" }}>
 					<TopLoaders />
-				</div>
-
-				<div style={{ margin: "8rem 0" }}>
-					<Dropdowns />
 				</div>
 
 				<div style={{ margin: "8rem 0" }}>
@@ -116,9 +121,9 @@ class App extends Component {
 					<Modals />
 				</div>
 
-				<div style={{ margin: "8rem 0" }}>
+				{/*<div style={{ margin: "8rem 0" }}>
 					<Icons />
-				</div>
+				</div>*/}
 
 				<div style={{ margin: "8rem 0" }}>
 					<Menus />
@@ -133,11 +138,11 @@ class App extends Component {
 				</div>
 
 				<div style={{ margin: "8rem 0" }}>
-					<Inputs />
+					<Drawers />
 				</div>
 
 				<div style={{ margin: "8rem 0" }}>
-					<Drawers />
+					<Inputs />
 				</div>
 
       </div>
