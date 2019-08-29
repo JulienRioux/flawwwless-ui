@@ -23,7 +23,7 @@ class Ratings extends Component {
 						// size={ "20px" }
 						rating={  this.state.rating }
 						handleRatingChange={ this.handleRatingChange }
-						// isStatic
+						isStatic
 					/>
 				</Card>
 			</Container>

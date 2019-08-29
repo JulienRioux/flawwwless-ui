@@ -5,9 +5,12 @@
 .starButton svg{
 	opacity: .3;
 	// transition: .2s;
-	cursor: pointer;
 	-webkit-filter: brightness(0%);
   filter: brightness(0%);
+}
+
+.notStatic{
+	cursor: pointer;
 }
 
 .notStatic.starButton:hover svg{
