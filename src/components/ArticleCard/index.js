@@ -9,7 +9,6 @@ const ArticleCard = (props) => {
 	const { primaryColor } = props.context;
 
 	const titleClassName = props.titleClassName ? props.titleClassName  : "";
-	console.log("titleClassName", props.titleClassName);
 
 	return (
 		<div

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import styles from "./Button.scss";
-import Icon from "../FlwwwIcon";
+import Icon from "../NewIcon";
 import getBtnStyle from "./getBtnStyle";
 
 import ThemeContext from "../../context/themeContext";

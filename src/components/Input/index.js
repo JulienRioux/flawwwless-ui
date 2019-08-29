@@ -5,6 +5,7 @@ import styles from "./Input.scss";
 import Icon from "../NewIcon";
 import uid from "uid";
 import { primaryColor } from "../../styles";
+import GetContext from "../GetContext";
 
 import ThemeContext from "../../context/themeContext";
 
@@ -27,6 +28,8 @@ class Input extends Component {
 	}
 
 	componentDidMount(){
+		// get the primary color from the context
+		const { primaryColor } = this.props.context;
 		const element = document.getElementById(this.state.inputId);
 		// Get the necessary padding if the input have an icon
 		if(this.props.icon){
@@ -45,7 +48,7 @@ class Input extends Component {
 		// Add a box styling on focus
 		element.addEventListener("focus", (e) => {
 			// e.target.style.boxShadow = `0 0 0 3px ${ this.props.mainColor }40`;
-			element.style.borderColor = `${ this.props.mainColor }`;
+			element.style.borderColor = `${ primaryColor }`;
 		});
 		// Remove the styling when the user doesn't focus anymore
 		element.addEventListener("blur", (e) => {
@@ -57,7 +60,7 @@ class Input extends Component {
 		if(this.props.autoFocus){
 			// Make work the autoFocus properly
 			// element.style.boxShadow = `0 0 0 3px ${ this.props.mainColor }40`;
-			element.style.borderColor = `${ this.props.mainColor }`;
+			element.style.borderColor = `${ primaryColor }`;
 		}
 	}
 
@@ -117,27 +120,4 @@ class Input extends Component {
 }
 
 
-const InputWrapper = (props) => {
-	// Wrap the input to pass easily the right color depending on whether the developer is using a custom theme or not
-	return (
-		<ThemeContext.Consumer>
-			{ context => {
-				// Get the right style for the input
-				let mainColor = primaryColor;
-
-				// Check if there is an existing custom theming in the context
-				if(context){
-					mainColor = context.primaryColor;
-				}
-
-				return (
-					<Input
-						mainColor={ mainColor }
-						{ ...props } />
-				)
-			}}
-		</ThemeContext.Consumer>
-	)
-}
-
-export default InputWrapper;
+export default GetContext(Input);

@@ -64,7 +64,7 @@ const message = (text, type, time=2.5) => {
 
 	// Set a timeout to remove the message
 	const removeMess = setTimeout(() => {
-		const elem = document.querySelector(`.${ styles.messageWrapper }`);
+		const elem = document.querySelector(`.${ styles.messageWrapperDiv }`);
 		if(elem){
 			elem.parentNode.removeChild(elem);
 		}

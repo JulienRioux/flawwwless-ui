@@ -51,7 +51,9 @@ const ArticleCards = (props) => {
 				<Row>
 				  {
 						articles.map((article, i) => (
-							<Col grid="lg-6">
+							<Col
+								key={ i }
+								grid="lg-6">
 								<a
 								  href={ article.mainLink }
 									target="_blank"

@@ -98,7 +98,7 @@ class App extends Component {
 				<h2 style={{ textAlign: "center", marginTop: "12rem" }}>Version 1 components</h2>
 
 				<div style={{ margin: "4rem 0 8rem 0" }}>
-					<Testing />
+					{/*<Testing />*/}
 				</div>
 
 				<div style={{ margin: "8rem 0" }}>

@@ -17,7 +17,10 @@
 	opacity: 0;
 	animation: notifIn .2s forwards;
   overflow: hidden;
+	line-height: 1;
 }
+
+
 
 .badge{
 	height: 20px;
@@ -47,9 +50,11 @@
 
 @keyframes badgeTextAnim {
 	0%{
-		transform: translateY(30px);
+		opacity: 0;
+		transform: translateY(10px);
 	}
 	100%{
+		opacity: 1;
 		transform: translateY(0);
 	}
 }
@@ -57,7 +62,7 @@
 @keyframes notifIn {
 	0%{
 		opacity: 0;
-		transform: translate(0%, 0%) scale(0) translate(-20px, 20px);
+		transform: translate(-50%, 50%) scale(0);
 	}
 	100%{
 		opacity: 1;

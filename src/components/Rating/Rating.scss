@@ -2,24 +2,24 @@
 	display: flex;
 }
 
-.starButton{
+.starButton svg{
 	opacity: .3;
-	transition: .2s;
+	// transition: .2s;
 	cursor: pointer;
 	-webkit-filter: brightness(0%);
   filter: brightness(0%);
 }
 
-.starButton:hover{
+.notStatic.starButton:hover svg{
 	opacity: .5;
 }
 
-.containRating{
+.containRating svg{
 	-webkit-filter: brightness(100%);
   filter: brightness(100%);
 	opacity: 1;
 }
 
-.currentRating{
+.currentRating svg{
 	opacity: 1 !important;
 }

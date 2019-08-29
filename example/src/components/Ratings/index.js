@@ -19,10 +19,12 @@ class Ratings extends Component {
 				<Card>
 					<h1>Rating</h1>
 				  <Rating
-						// color={ "#fadb14" }
+						color={ "#fadb14" }
 						// size={ "20px" }
-						rating={ this.state.rating }
-						handleRatingChange={ this.handleRatingChange } />
+						rating={  this.state.rating }
+						handleRatingChange={ this.handleRatingChange }
+						// isStatic
+					/>
 				</Card>
 			</Container>
 		)

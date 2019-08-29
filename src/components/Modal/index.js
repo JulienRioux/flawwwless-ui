@@ -11,7 +11,7 @@ import ScrollLock from "react-scrolllock";
 class ModalPortal extends Component {
 	static propTypes = {
 		title: PropTypes.string,
-		isVisible: PropTypes.boolean,
+		// isVisible: PropTypes.boolean,
 		children: PropTypes.node.isRequired,
 		border: PropTypes.string,
 		extra: PropTypes.node,

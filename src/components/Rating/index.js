@@ -20,6 +20,8 @@ class Rating extends Component {
 		// Check if there is an color override
 		const starColor = color ? color : primaryColor;
 
+		const staticClass = this.props.isStatic ? "" : styles.notStatic;
+		
 		return(
 			<div
 			  style={{ color: starColor }}
@@ -32,7 +34,7 @@ class Rating extends Component {
 						return(
 							<div
 							  onClick={ () => this.props.handleRatingChange(score) }
-							  className={ `${ styles.starButton } ${ starClass } ${ currentRatingClass }` }
+							  className={ `${ styles.starButton } ${ starClass } ${ currentRatingClass } ${ staticClass }` }
 							  key={ score }>
 							  <Icon
 								  size={ this.props.size }
