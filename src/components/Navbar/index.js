@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styles from "./Navbar.css";
+import styles from "./NavBar.css";
 
 class Navbar extends Component {
 	static propTypes = {
