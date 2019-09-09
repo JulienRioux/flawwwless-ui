@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Icon from "../flwwwIcon";
+import Icon from "../FlwwwIcon";
 import styles from "./Rating.scss";
 import GetContext from "../GetContext";
 
