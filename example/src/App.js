@@ -40,15 +40,19 @@ class App extends Component {
 				</Container>
 
 				<div style={{ margin: "8rem 0" }}>
-					<Switchs />
+					<Modals />
 				</div>
 
 
-				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>Version 2 components (Beta)</h2>
+				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>Version 2.0 components</h2>
 
-					<div style={{ margin: "8rem 0" }}>
-						<Dropdowns />
-					</div>
+				<div style={{ margin: "8rem 0" }}>
+					<Switchs />
+				</div>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Dropdowns />
+				</div>
 
 				<div style={{ margin: "8rem 0" }}>
 					<NewIcons />
@@ -115,10 +119,6 @@ class App extends Component {
 
 				<div style={{ margin: "8rem 0" }}>
 					<Messages />
-				</div>
-
-				<div style={{ margin: "8rem 0" }}>
-					<Modals />
 				</div>
 
 				{/*<div style={{ margin: "8rem 0" }}>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import ReactDOM from "react-dom";
 import PropTypes from 'prop-types';
 import Button from "../Button";
@@ -55,7 +55,7 @@ class ModalPortal extends Component {
 	render(){
 		return (
 			this.state.isVisible ? (
-				<ScrollLock>
+				<div>
 					<InnerModal
 						title={ this.props.title }
 						onRef={ref => (this.child = ref)}
@@ -66,7 +66,7 @@ class ModalPortal extends Component {
 					</InnerModal>
 
 					<div className={ styles.modalBlockClick }></div>
-				</ScrollLock>
+				</div>
 			) : null
 		)
 	}

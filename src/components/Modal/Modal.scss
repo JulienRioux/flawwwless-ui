@@ -1,6 +1,6 @@
 .modal{
 	max-width: 600px;
-	margin: 1.75rem auto;
+	margin: 0 auto;
 	background: #fff;
 	z-index: 999999;
 	position: fixed;
@@ -22,6 +22,7 @@
 	top: 0;
 	left: 0;
 	right: 0;
+	bottom: 0;
 	background: #0006;
 	height: 100vh;
 	z-index: 999;

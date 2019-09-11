@@ -31,10 +31,26 @@ const RadialProgress = props => {
 	}
 
 	let { prcnt } = props;
+	// prcnt should be between 0 and 100%
+	if(prcnt < 0){
+		prcnt = 0;
+	} else if(prcnt > 100){
+		prcnt = 100;
+	}
 	prcnt = prcnt + "";
 
 	// Check if there is other color that override the default one
 	const { strokeColor } = props;
+
+	let xAxis = 20.6;
+	if(prcnt.length === 2){
+		// if prcnt is double digit
+		xAxis = 22.8;
+	}
+	else if(prcnt.length === 3){
+		// if prcnt === 100%
+		xAxis = 25.2;
+	}
 
 	return (
 		<div style={{ height: props.size, width: props.size }}>
@@ -45,16 +61,16 @@ const RadialProgress = props => {
 						a 15.9155 15.9155 0 0 1 0 -31.831"
 					fill="none"
 					stroke="#eee"
-					strokeWidth="2"
+					strokeWidth="2.5"
 				/>
 
 				{
-					prcnt && (
+					prcnt && prcnt > 0 && (
 						<path
 							className={ styles.progressAnim }
 							fill="none"
 							stroke={ strokeColor }
-							strokeWidth="2"
+							strokeWidth="2.5"
 							strokeLinecap={ props.square ? "square" : "round" }
 							strokeDasharray={ `${ prcnt }, 100` }
 							d="M18 2.0845
@@ -73,7 +89,7 @@ const RadialProgress = props => {
 
 					<text
 						style={ prcntCharStyle }
-						x={ prcnt.length > 1 ? 22.8 : 20.6 }
+						x={ xAxis }
 						y="17.7" >%</text>
 				</g>
 

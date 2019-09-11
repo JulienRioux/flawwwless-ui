@@ -5,7 +5,7 @@ import "./Avatar.css";
 const Avatars = (props) => {
 	return (
 		<Container>
-			<Card>
+			<Card style={{ overflow: "scroll" }}>
 
 
 				<h1>Avatar</h1>

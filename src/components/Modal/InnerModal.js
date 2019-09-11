@@ -64,14 +64,35 @@ class InnerModal extends Component {
 		const { border, children, isVisible } = this.props;
 		let { extra, title } = this.props;
 
+		// calculate the max height of the modal
+		const top = 20;
+		const maxHeight = `calc(100vh - ${ top + 20 }px)`;
+
+		// check if there is a specified modal width props
+		let modalWidth = "600px";
+		if(this.props.width){
+			modalWidth = this.props.width;
+		}
+
+
 		return(
 			<div>
 			  <div id="modalOverlay" onClick={ this.closeModal } className={ `${ styles.modalOverlay } ${ styles.hide }` }></div>
 
-				<div id="modal" className={ styles.modal }>
+				<div
+					style={{
+						maxWidth: modalWidth,
+						top: top,
+					}}
+					id="modal"
+					className={ styles.modal }>
 					<Card
 						title={ title }
-						border="none">
+						border="none"
+						style={{
+							overflow: "scroll",
+							maxHeight
+						}}>
 						<button onClick={ this.closeModal } className={ styles.closeModal }>
 							<Icon
 								type="close"

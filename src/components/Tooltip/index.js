@@ -18,10 +18,13 @@ class Tooltip extends Component {
 			position = styles.bottomTooltip;
 		}
 
+
 		return (
 			<div className={ styles.tooltipWrapper }>
 			  { this.props.children }
-				<div className={ `${ styles.tooltip } ${ position }` }>
+				<div
+					// style={{ transitionDelay: ".25s" }}
+					className={ `${ styles.tooltip } ${ position }` }>
 				  <span className={ `${ styles.tooltiptext } ${ tooltipStyle }` }>{ this.props.text }</span>
 				</div>
 			</div>
