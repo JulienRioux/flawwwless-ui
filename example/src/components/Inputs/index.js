@@ -103,7 +103,7 @@ class Inputs extends Component {
 										placeholder="Search something" />
 
 									<Input type="text" placeholder="This is a text input" />
-									<Input type="number" placeholder="This is a number input" />
+									<Input type="number" placeholder="This is a number input" noSpin={true} />
 									<Input type="search" placeholder="This is a search input" />
 									<Input type="password" placeholder="This is a password input" />
 

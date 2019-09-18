@@ -86,3 +86,10 @@
 .input{
 	-webkit-appearance: none;
 }
+
+.noSpin::-webkit-inner-spin-button, 
+.noSpin::-webkit-outer-spin-button {
+	-webkit-appearance: none !important;
+	margin: 0 !important;
+	-moz-appearance:textfield !important;
+}

@@ -65,10 +65,14 @@ class Input extends Component {
 	}
 
 	render(){
-		let { placeholder, type, className, icon, error } = this.props;
+		let { className, icon, error, noSpin, ...rest } = this.props;
 		const { fontSize, iconIsReady } = this.state;
-		// Add the classNAme to the icon
+		// Add the className to the icon
 		className = className ? className : "";
+
+		// add the spin box to the input
+		noSpin = noSpin ? styles.noSpin : "";
+
 		// Check if it's an input with icon and add style if its the case
 		const inputWithIcon = icon ? styles.inputWithIcon : "";
 
@@ -92,9 +96,9 @@ class Input extends Component {
 				}}
 				className={ styles.inputWrapper }>
 				<input
-					{ ...this.props }
+					{ ...rest }
 					id={ this.state.inputId }
-					className={ `${ className } ${ inputWithIcon } ${ styles.input } ${ errorClass }` }
+					className={ `${ className } ${ inputWithIcon } ${ styles.input } ${ errorClass } ${ noSpin }` }
 					style={{
 						...this.props.style,
 						paddingLeft: `${ `calc(${ fontSize } * 1.4 + 5px)` }`,
