@@ -2,21 +2,22 @@
 
 .inputWrapper{
 	position: relative;
+	line-height: 1;
 }
 
 .inputIcon{
 	position: absolute;
 	top: 0;
-  bottom: 0;
+  // bottom: 0;
 	left: 5px;
   // padding: 2.5px 4px 0;
 	// padding-left: 4px;
 	opacity: .3;
-	display: inline-flex;
-  align-items: center;
-  justify-content: center;
-	line-height: 0;
-	height: 100%;
+	// display: inline-flex;
+  // align-items: center;
+  // justify-content: center;
+	// line-height: 0;
+	// height: 100%;
 }
 
 // @mixin input-style($textColor, $shadowColor) {
@@ -85,4 +86,11 @@
 
 .input{
 	-webkit-appearance: none;
+}
+
+.noSpin::-webkit-inner-spin-button,
+.noSpin::-webkit-outer-spin-button {
+	-webkit-appearance: none !important;
+	margin: 0 !important;
+	-moz-appearance:textfield !important;
 }

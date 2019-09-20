@@ -41,6 +41,13 @@ class App extends Component {
 				</Container>
 
 				<div style={{ margin: "8rem 0" }}>
+					<Inputs />
+				</div>
+
+
+				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>New components in creation</h2>
+
+				<div style={{ margin: "8rem 0" }}>
 					<SimpleAuthCard />
 				</div>
 
@@ -144,10 +151,6 @@ class App extends Component {
 
 				<div style={{ margin: "8rem 0" }}>
 					<Drawers />
-				</div>
-
-				<div style={{ margin: "8rem 0" }}>
-					<Inputs />
 				</div>
 
       </div>
