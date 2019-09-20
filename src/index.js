@@ -26,6 +26,7 @@ import Badge from "./components/Badge";
 import Statistic from "./components/Statistic";
 import Tag from "./components/Tag";
 import Switch from "./components/Switch";
+import SimpleAuth from "./components/SimpleAuth";
 
 import Icon from "./components/NewIcon";
 
@@ -77,4 +78,5 @@ export {
 	Statistic,
 	Tag,
 	Switch,
+	SimpleAuth,
 };

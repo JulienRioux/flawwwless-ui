@@ -1,0 +1,139 @@
+.userFormCenter{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background-color: #fff;
+	/* padding: 4rem 0 2rem; */
+}
+
+.userFormDiv{
+	width: 600px;
+	padding: 0 2rem 2rem;
+	border-radius: 4px;
+	background-color: #fff;
+	margin: 0 10px;
+}
+
+.changeFormBtnDiv{
+	font-size: 15px;
+}
+
+.loginBtnsDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	padding-top: 10px;
+}
+
+.noAccount-btn{
+	color: #000;
+  transition: .2s;
+  font-size: .9rem;
+	background: none;
+	border: none;
+	cursor: pointer;
+	opacity: .4;
+	/* margin: 1.2rem 0 -1.2rem 0; */
+}
+
+.noAccount-btn:hover{
+	opacity: .8;
+}
+
+.authBtnDiv{
+	padding: 24px 0 30px;
+	display: flex;
+  justify-content: space-between;
+	align-items: flex-end;
+}
+
+.authTitle{
+  margin: 0;
+	font-weight: lighter;
+}
+
+
+.createAnAccount{
+	color: #006bff;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+}
+.createAnAccount:hover{
+	text-decoration: underline;
+}
+
+.createAnAccount:focus{
+	outline: none;
+}
+
+.formGroup label{
+	font-size: 13px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.formGroup{
+	margin-bottom: 10px;
+}
+
+.checkboxLabel{
+	font-size: .8rem;
+	text-align: left;
+	padding: .15rem 0 0 .2rem;
+}
+
+.form-check-div{
+	display: flex;
+}
+
+.legalLink{
+	color: #006bff;
+	cursor: pointer;
+}
+
+.createAnAccount{
+	color: #006bff;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+}
+.createAnAccount:hover{
+	text-decoration: underline;
+}
+
+.createAnAccount:focus{
+	outline: none;
+}
+
+.signupButtonsDiv{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 2rem 0 0rem;
+}
+
+.signupBtnDiv{
+
+}
+
+.signupCheckbox{
+	cursor: pointer;
+}
+
+
+.fadeIn {
+	animation: fadeIn .3s forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

@@ -27,6 +27,7 @@ import Statistics from "./components/Statistics";
 import Tags from "./components/Tags";
 import NewIcons from "./components/NewIcons";
 import Switchs from "./components/Switchs";
+import SimpleAuthCard from "./components/SimpleAuthCard";
 
 
 class App extends Component {
@@ -40,11 +41,15 @@ class App extends Component {
 				</Container>
 
 				<div style={{ margin: "8rem 0" }}>
-					<Modals />
+					<SimpleAuthCard />
 				</div>
 
 
 				<h2 style={{ textAlign: "center", marginTop: "4rem" }}>Version 2.0 components</h2>
+
+				<div style={{ margin: "8rem 0" }}>
+					<Modals />
+				</div>
 
 				<div style={{ margin: "8rem 0" }}>
 					<Switchs />
