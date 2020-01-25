@@ -90,7 +90,7 @@ class InnerModal extends Component {
 						title={ title }
 						border="none"
 						style={{
-							overflow: "scroll",
+							overflow: "auto",
 							maxHeight
 						}}>
 						<button onClick={ this.closeModal } className={ styles.closeModal }>
