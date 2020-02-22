@@ -25,7 +25,8 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "styled-components": ">=4.3.0"
   },
   "devDependencies": {
     "@svgr/rollup": "^2.4.1",
@@ -54,7 +55,8 @@
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^1.6.2",
-    "rollup-plugin-url": "^1.4.0"
+    "rollup-plugin-url": "^1.4.0",
+    "styled-components": "^4.3.0"
   },
   "files": [
     "dist"
@@ -69,7 +71,6 @@
     "react-remove-scroll": "^2.0.4",
     "react-router-dom": "^4.3.1",
     "react-scrolllock": "^4.0.1",
-    "styled-components": "^4.3.0",
     "uid": "^0.0.2",
     "uuid": "^3.3.2"
   }
