@@ -63,7 +63,7 @@
     "babel-polyfill": "^6.26.0",
     "colr": "^1.2.2",
     "hex-rgb": "^4.1.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react-github-button": "^0.1.11",
     "react-inlinesvg": "^1.1.6",
     "react-remove-scroll": "^2.0.4",
